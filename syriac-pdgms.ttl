@@ -225,644 +225,13 @@ syr:Syriac_Verb_to_be_added_to_datastore a aamas:Termcluster ;
 	rdfs:comment "" 
 	.
 
-aama:ID1b809955-7214-48a7-b891-1cb1a8744771 a aamas:Term ;
+aama:ID2a2b7411-5199-4362-9d28-a67c328cc02d a aamas:Term ;
 	aamas:lang aama:Syriac ;
 	aamas:memberOf syr:Syriac_Verb_to_be_added_to_datastore ;
 	syr:pos syr:Verb ;
 	syr:token "not attested" ;
 	syr:person syr:Not_in_datastore ;
 	syr:status syr:NA ;
-	.
-
-#MUTERMCLUSTER:  syriac-PObjCliticPerf
-
-syr:syriac-PObjCliticPerf a aamas:MuTermcluster ;
-	rdfs:label "syriac-PObjCliticPerf" ;
-	rdfs:comment "Thackston1999 p. 34-35;Syriac uses 3 object suffixes for the perfective. The ENVironments are as follows:ENV1 = Used when the suffix is post-consonantal (3ms%%3fs%%and 1cs perfective forms;3 plural suffix forms use the enclitic pronouns above (-ennon and -ennēn) and are not attached directly to the verb);ENV2 = Used for 3mp perfect%%the base of which becomes qatl- in the pǝʿal before the suffix (3 plural suffix forms use the enclitic pronouns above (-ennon and -ennēn) and are not attached directly to the verb);ENV3 = Used for the 3fp perfect%%the base of which becomes qatl- in the pǝʿal before the suffix except for the 2 plural forms%%where the base stays qtal- (3 plural suffix forms use the enclitic pronouns above (-ennon and -ennēn) and are not attached directly to the verb);ENV4 = Used for the the 2ms%%the base of which becomes qtaltā- in the pǝʿal before the suffix (3 plural suffix forms use the enclitic pronouns above (-ennon and -ennēn) and are not attached directly to the verb);ENV5 = Used for the the 2fs%%the base of which becomes qtalti- in the pǝʿal before the suffix (3 plural suffix forms use the enclitic pronouns above (-ennon and -ennēn) and are not attached directly to the verb);ENV6 = Used for the the 2mp and 2fp (3 plural suffix forms use the enclitic pronouns above (-ennon and -ennēn) and are not attached directly to the verb);" 
-	.
-
-aama:ID43096803-780d-43d4-99ee-eb5beb226f10 a aamas:Muterm ;
-	aamas:lang aama:Syriac ;	aamas:memberOf syr:syriac-PObjCliticPerf ;
-	syr:case syr:Object ;
-	aamas:morpheme aama:Syriac-PROOBJCLITICPERF ;
-	syr:pos syr:Pronoun ;
-	syr:proClass syr:ObjCliticPerf ;
-	syr:token-environment "ENV1" ;
-	syr:token "-an" ;
-	syr:person syr:Person1 ;
-	syr:number syr:Singular ;
-	syr:gender syr:Common ;
-	.
-
-aama:IDe8d8694b-c5f6-4d5d-b086-6d7e875731d4 a aamas:Muterm ;
-	aamas:lang aama:Syriac ;	aamas:memberOf syr:syriac-PObjCliticPerf ;
-	syr:case syr:Object ;
-	aamas:morpheme aama:Syriac-PROOBJCLITICPERF ;
-	syr:pos syr:Pronoun ;
-	syr:proClass syr:ObjCliticPerf ;
-	syr:token-environment "ENV1" ;
-	syr:token "⊤" ;
-	syr:person syr:Person2 ;
-	syr:number syr:Singular ;
-	syr:gender syr:Masc ;
-	.
-
-aama:IDcd5929c8-6119-4dd2-b733-ff2fcdc5ed06 a aamas:Muterm ;
-	aamas:lang aama:Syriac ;	aamas:memberOf syr:syriac-PObjCliticPerf ;
-	syr:case syr:Object ;
-	aamas:morpheme aama:Syriac-PROOBJCLITICPERF ;
-	syr:pos syr:Pronoun ;
-	syr:proClass syr:ObjCliticPerf ;
-	syr:token-environment "ENV1" ;
-	syr:token "-eḵ" ;
-	syr:person syr:Person2 ;
-	syr:number syr:Singular ;
-	syr:gender syr:Fem ;
-	.
-
-aama:ID2a9f6b43-9414-41e4-a842-60fea455b0a0 a aamas:Muterm ;
-	aamas:lang aama:Syriac ;	aamas:memberOf syr:syriac-PObjCliticPerf ;
-	syr:case syr:Object ;
-	aamas:morpheme aama:Syriac-PROOBJCLITICPERF ;
-	syr:pos syr:Pronoun ;
-	syr:proClass syr:ObjCliticPerf ;
-	syr:token-environment "ENV1" ;
-	syr:token "-eh" ;
-	syr:person syr:Person3 ;
-	syr:number syr:Singular ;
-	syr:gender syr:Masc ;
-	.
-
-aama:IDcab05785-eeee-47c3-a3bf-5aa8b86a8acf a aamas:Muterm ;
-	aamas:lang aama:Syriac ;	aamas:memberOf syr:syriac-PObjCliticPerf ;
-	syr:case syr:Object ;
-	aamas:morpheme aama:Syriac-PROOBJCLITICPERF ;
-	syr:pos syr:Pronoun ;
-	syr:proClass syr:ObjCliticPerf ;
-	syr:token-environment "ENV1" ;
-	syr:token "-āh" ;
-	syr:person syr:Person3 ;
-	syr:number syr:Singular ;
-	syr:gender syr:Fem ;
-	.
-
-aama:IDab69a2b5-fe79-489a-9797-d7ec4e082bad a aamas:Muterm ;
-	aamas:lang aama:Syriac ;	aamas:memberOf syr:syriac-PObjCliticPerf ;
-	syr:case syr:Object ;
-	aamas:morpheme aama:Syriac-PROOBJCLITICPERF ;
-	syr:pos syr:Pronoun ;
-	syr:proClass syr:ObjCliticPerf ;
-	syr:token-environment "ENV1" ;
-	syr:token "-an" ;
-	syr:person syr:Person1 ;
-	syr:number syr:Plural ;
-	syr:gender syr:Common ;
-	.
-
-aama:ID4c8087cf-8682-4dd8-b557-05b35164df3e a aamas:Muterm ;
-	aamas:lang aama:Syriac ;	aamas:memberOf syr:syriac-PObjCliticPerf ;
-	syr:case syr:Object ;
-	aamas:morpheme aama:Syriac-PROOBJCLITICPERF ;
-	syr:pos syr:Pronoun ;
-	syr:proClass syr:ObjCliticPerf ;
-	syr:token-environment "ENV1" ;
-	syr:token "-ḵon" ;
-	syr:person syr:Person2 ;
-	syr:number syr:Plural ;
-	syr:gender syr:Masc ;
-	.
-
-aama:IDbdc23f06-ba95-49da-b238-93d9772378be a aamas:Muterm ;
-	aamas:lang aama:Syriac ;	aamas:memberOf syr:syriac-PObjCliticPerf ;
-	syr:case syr:Object ;
-	aamas:morpheme aama:Syriac-PROOBJCLITICPERF ;
-	syr:pos syr:Pronoun ;
-	syr:proClass syr:ObjCliticPerf ;
-	syr:token-environment "ENV1" ;
-	syr:token "-ḵēn" ;
-	syr:person syr:Person2 ;
-	syr:number syr:Plural ;
-	syr:gender syr:Fem ;
-	.
-
-aama:IDaf0bd73f-4cb2-49cd-b540-3a9a1b3173c2 a aamas:Muterm ;
-	aamas:lang aama:Syriac ;	aamas:memberOf syr:syriac-PObjCliticPerf ;
-	syr:case syr:Object ;
-	aamas:morpheme aama:Syriac-PROOBJCLITICPERF ;
-	syr:pos syr:Pronoun ;
-	syr:proClass syr:ObjCliticPerf ;
-	syr:token-environment "ENV1" ;
-	syr:token "⊤" ;
-	syr:person syr:Person3 ;
-	syr:number syr:Plural ;
-	syr:gender syr:Masc ;
-	.
-
-aama:ID97aad090-4018-4541-b4ae-2d98c3eb0da2 a aamas:Muterm ;
-	aamas:lang aama:Syriac ;	aamas:memberOf syr:syriac-PObjCliticPerf ;
-	syr:case syr:Object ;
-	aamas:morpheme aama:Syriac-PROOBJCLITICPERF ;
-	syr:pos syr:Pronoun ;
-	syr:proClass syr:ObjCliticPerf ;
-	syr:token-environment "ENV1" ;
-	syr:token "⊤" ;
-	syr:person syr:Person3 ;
-	syr:number syr:Plural ;
-	syr:gender syr:Fem ;
-	.
-
-aama:IDf5d60ed8-e816-4b42-8842-62c44ad07944 a aamas:Muterm ;
-	aamas:lang aama:Syriac ;	aamas:memberOf syr:syriac-PObjCliticPerf ;
-	syr:case syr:Object ;
-	aamas:morpheme aama:Syriac-PROOBJCLITICPERF ;
-	syr:pos syr:Pronoun ;
-	syr:proClass syr:ObjCliticPerf ;
-	syr:token-environment "ENV2" ;
-	syr:token "-un" ;
-	syr:person syr:Person1 ;
-	syr:number syr:Singular ;
-	syr:gender syr:Common ;
-	.
-
-aama:ID122456d5-85fe-4bdf-ba0e-db1e85de69c0 a aamas:Muterm ;
-	aamas:lang aama:Syriac ;	aamas:memberOf syr:syriac-PObjCliticPerf ;
-	syr:case syr:Object ;
-	aamas:morpheme aama:Syriac-PROOBJCLITICPERF ;
-	syr:pos syr:Pronoun ;
-	syr:proClass syr:ObjCliticPerf ;
-	syr:token-environment "ENV2" ;
-	syr:token "-uk" ;
-	syr:person syr:Person2 ;
-	syr:number syr:Singular ;
-	syr:gender syr:Masc ;
-	.
-
-aama:ID3e937e11-8adf-4d1e-a980-6337d56bb4e3 a aamas:Muterm ;
-	aamas:lang aama:Syriac ;	aamas:memberOf syr:syriac-PObjCliticPerf ;
-	syr:case syr:Object ;
-	aamas:morpheme aama:Syriac-PROOBJCLITICPERF ;
-	syr:pos syr:Pronoun ;
-	syr:proClass syr:ObjCliticPerf ;
-	syr:token-environment "ENV2" ;
-	syr:token "-uk" ;
-	syr:person syr:Person2 ;
-	syr:number syr:Singular ;
-	syr:gender syr:Fem ;
-	.
-
-aama:ID64bc07f3-9aaf-4cf6-b91b-22301bec642f a aamas:Muterm ;
-	aamas:lang aama:Syriac ;	aamas:memberOf syr:syriac-PObjCliticPerf ;
-	syr:case syr:Object ;
-	aamas:morpheme aama:Syriac-PROOBJCLITICPERF ;
-	syr:pos syr:Pronoun ;
-	syr:proClass syr:ObjCliticPerf ;
-	syr:token-environment "ENV2" ;
-	syr:token "-u" ;
-	syr:person syr:Person3 ;
-	syr:number syr:Singular ;
-	syr:gender syr:Masc ;
-	.
-
-aama:IDec606881-d569-4f1f-bfb1-3e035c5ff8f2 a aamas:Muterm ;
-	aamas:lang aama:Syriac ;	aamas:memberOf syr:syriac-PObjCliticPerf ;
-	syr:case syr:Object ;
-	aamas:morpheme aama:Syriac-PROOBJCLITICPERF ;
-	syr:pos syr:Pronoun ;
-	syr:proClass syr:ObjCliticPerf ;
-	syr:token-environment "ENV2" ;
-	syr:token "-uh" ;
-	syr:person syr:Person3 ;
-	syr:number syr:Singular ;
-	syr:gender syr:Fem ;
-	.
-
-aama:IDc4844942-4823-4bad-9dee-2918fedd4dc0 a aamas:Muterm ;
-	aamas:lang aama:Syriac ;	aamas:memberOf syr:syriac-PObjCliticPerf ;
-	syr:case syr:Object ;
-	aamas:morpheme aama:Syriac-PROOBJCLITICPERF ;
-	syr:pos syr:Pronoun ;
-	syr:proClass syr:ObjCliticPerf ;
-	syr:token-environment "ENV2" ;
-	syr:token "-un" ;
-	syr:person syr:Person1 ;
-	syr:number syr:Plural ;
-	syr:gender syr:Common ;
-	.
-
-aama:ID71d4b6be-0f2f-4a9c-acd4-bb6a25a92fdb a aamas:Muterm ;
-	aamas:lang aama:Syriac ;	aamas:memberOf syr:syriac-PObjCliticPerf ;
-	syr:case syr:Object ;
-	aamas:morpheme aama:Syriac-PROOBJCLITICPERF ;
-	syr:pos syr:Pronoun ;
-	syr:proClass syr:ObjCliticPerf ;
-	syr:token-environment "ENV2" ;
-	syr:token "-uḵon" ;
-	syr:person syr:Person2 ;
-	syr:number syr:Plural ;
-	syr:gender syr:Masc ;
-	.
-
-aama:ID04a6650b-79a8-42f1-bd08-05731c6ad66f a aamas:Muterm ;
-	aamas:lang aama:Syriac ;	aamas:memberOf syr:syriac-PObjCliticPerf ;
-	syr:case syr:Object ;
-	aamas:morpheme aama:Syriac-PROOBJCLITICPERF ;
-	syr:pos syr:Pronoun ;
-	syr:proClass syr:ObjCliticPerf ;
-	syr:token-environment "ENV2" ;
-	syr:token "-uḵēn" ;
-	syr:person syr:Person2 ;
-	syr:number syr:Plural ;
-	syr:gender syr:Fem ;
-	.
-
-aama:IDcfdfdb01-6150-48cc-932a-5c43b76fbb46 a aamas:Muterm ;
-	aamas:lang aama:Syriac ;	aamas:memberOf syr:syriac-PObjCliticPerf ;
-	syr:case syr:Object ;
-	aamas:morpheme aama:Syriac-PROOBJCLITICPERF ;
-	syr:pos syr:Pronoun ;
-	syr:proClass syr:ObjCliticPerf ;
-	syr:token-environment "ENV2" ;
-	syr:token "⊤" ;
-	syr:person syr:Person3 ;
-	syr:number syr:Plural ;
-	syr:gender syr:Masc ;
-	.
-
-aama:ID735b0b28-c3b6-44cf-894e-fca69aeec2f4 a aamas:Muterm ;
-	aamas:lang aama:Syriac ;	aamas:memberOf syr:syriac-PObjCliticPerf ;
-	syr:case syr:Object ;
-	aamas:morpheme aama:Syriac-PROOBJCLITICPERF ;
-	syr:pos syr:Pronoun ;
-	syr:proClass syr:ObjCliticPerf ;
-	syr:token-environment "ENV2" ;
-	syr:token "⊤" ;
-	syr:person syr:Person3 ;
-	syr:number syr:Plural ;
-	syr:gender syr:Fem ;
-	.
-
-aama:ID6b1895f0-6a46-46e2-a16f-9d924a166ca0 a aamas:Muterm ;
-	aamas:lang aama:Syriac ;	aamas:memberOf syr:syriac-PObjCliticPerf ;
-	syr:case syr:Object ;
-	aamas:morpheme aama:Syriac-PROOBJCLITICPERF ;
-	syr:pos syr:Pronoun ;
-	syr:proClass syr:ObjCliticPerf ;
-	syr:token-environment "ENV3" ;
-	syr:token "-ān" ;
-	syr:person syr:Person1 ;
-	syr:number syr:Singular ;
-	syr:gender syr:Common ;
-	.
-
-aama:ID73dc978a-847d-4c87-8f6d-2248d55bc2fa a aamas:Muterm ;
-	aamas:lang aama:Syriac ;	aamas:memberOf syr:syriac-PObjCliticPerf ;
-	syr:case syr:Object ;
-	aamas:morpheme aama:Syriac-PROOBJCLITICPERF ;
-	syr:pos syr:Pronoun ;
-	syr:proClass syr:ObjCliticPerf ;
-	syr:token-environment "ENV3" ;
-	syr:token "-āk" ;
-	syr:person syr:Person2 ;
-	syr:number syr:Singular ;
-	syr:gender syr:Masc ;
-	.
-
-aama:ID72a073ce-30aa-48f1-bb7d-daf061c9e7ac a aamas:Muterm ;
-	aamas:lang aama:Syriac ;	aamas:memberOf syr:syriac-PObjCliticPerf ;
-	syr:case syr:Object ;
-	aamas:morpheme aama:Syriac-PROOBJCLITICPERF ;
-	syr:pos syr:Pronoun ;
-	syr:proClass syr:ObjCliticPerf ;
-	syr:token-environment "ENV3" ;
-	syr:token "-ek" ;
-	syr:person syr:Person2 ;
-	syr:number syr:Singular ;
-	syr:gender syr:Fem ;
-	.
-
-aama:ID27553d0b-39d6-441b-b3aa-994eb00d2a8a a aamas:Muterm ;
-	aamas:lang aama:Syriac ;	aamas:memberOf syr:syriac-PObjCliticPerf ;
-	syr:case syr:Object ;
-	aamas:morpheme aama:Syriac-PROOBJCLITICPERF ;
-	syr:pos syr:Pronoun ;
-	syr:proClass syr:ObjCliticPerf ;
-	syr:token-environment "ENV3" ;
-	syr:token "-āy" ;
-	syr:person syr:Person3 ;
-	syr:number syr:Singular ;
-	syr:gender syr:Masc ;
-	.
-
-aama:ID3a46bf5d-b039-4d2b-97e1-17c94efa5b7a a aamas:Muterm ;
-	aamas:lang aama:Syriac ;	aamas:memberOf syr:syriac-PObjCliticPerf ;
-	syr:case syr:Object ;
-	aamas:morpheme aama:Syriac-PROOBJCLITICPERF ;
-	syr:pos syr:Pronoun ;
-	syr:proClass syr:ObjCliticPerf ;
-	syr:token-environment "ENV3" ;
-	syr:token "-āh" ;
-	syr:person syr:Person3 ;
-	syr:number syr:Singular ;
-	syr:gender syr:Fem ;
-	.
-
-aama:IDbedd1e78-9872-4246-8403-f2b98a12078e a aamas:Muterm ;
-	aamas:lang aama:Syriac ;	aamas:memberOf syr:syriac-PObjCliticPerf ;
-	syr:case syr:Object ;
-	aamas:morpheme aama:Syriac-PROOBJCLITICPERF ;
-	syr:pos syr:Pronoun ;
-	syr:proClass syr:ObjCliticPerf ;
-	syr:token-environment "ENV3" ;
-	syr:token "-ān" ;
-	syr:person syr:Person1 ;
-	syr:number syr:Plural ;
-	syr:gender syr:Common ;
-	.
-
-aama:IDf322c33d-e3cd-4d8a-ad65-5bd2ee6e2c1a a aamas:Muterm ;
-	aamas:lang aama:Syriac ;	aamas:memberOf syr:syriac-PObjCliticPerf ;
-	syr:case syr:Object ;
-	aamas:morpheme aama:Syriac-PROOBJCLITICPERF ;
-	syr:pos syr:Pronoun ;
-	syr:proClass syr:ObjCliticPerf ;
-	syr:token-environment "ENV3" ;
-	syr:token "-ḵon" ;
-	syr:person syr:Person2 ;
-	syr:number syr:Plural ;
-	syr:gender syr:Masc ;
-	.
-
-aama:ID19dc6c2a-1569-48d6-9697-e37efdd05ca1 a aamas:Muterm ;
-	aamas:lang aama:Syriac ;	aamas:memberOf syr:syriac-PObjCliticPerf ;
-	syr:case syr:Object ;
-	aamas:morpheme aama:Syriac-PROOBJCLITICPERF ;
-	syr:pos syr:Pronoun ;
-	syr:proClass syr:ObjCliticPerf ;
-	syr:token-environment "ENV3" ;
-	syr:token "-ḵēn" ;
-	syr:person syr:Person2 ;
-	syr:number syr:Plural ;
-	syr:gender syr:Fem ;
-	.
-
-aama:IDa2eca249-a5b9-47df-b8e5-c2dbcd7be3d9 a aamas:Muterm ;
-	aamas:lang aama:Syriac ;	aamas:memberOf syr:syriac-PObjCliticPerf ;
-	syr:case syr:Object ;
-	aamas:morpheme aama:Syriac-PROOBJCLITICPERF ;
-	syr:pos syr:Pronoun ;
-	syr:proClass syr:ObjCliticPerf ;
-	syr:token-environment "ENV3" ;
-	syr:token "⊤" ;
-	syr:person syr:Person3 ;
-	syr:number syr:Plural ;
-	syr:gender syr:Masc ;
-	.
-
-aama:ID9b31e584-5947-401b-9646-132e81869f7b a aamas:Muterm ;
-	aamas:lang aama:Syriac ;	aamas:memberOf syr:syriac-PObjCliticPerf ;
-	syr:case syr:Object ;
-	aamas:morpheme aama:Syriac-PROOBJCLITICPERF ;
-	syr:pos syr:Pronoun ;
-	syr:proClass syr:ObjCliticPerf ;
-	syr:token-environment "ENV3" ;
-	syr:token "⊤" ;
-	syr:person syr:Person3 ;
-	syr:number syr:Plural ;
-	syr:gender syr:Fem ;
-	.
-
-aama:ID9afc00b1-b395-457a-9ff1-021f80185fd1 a aamas:Muterm ;
-	aamas:lang aama:Syriac ;	aamas:memberOf syr:syriac-PObjCliticPerf ;
-	syr:case syr:Object ;
-	aamas:morpheme aama:Syriac-PROOBJCLITICPERF ;
-	syr:pos syr:Pronoun ;
-	syr:proClass syr:ObjCliticPerf ;
-	syr:token-environment "ENV4" ;
-	syr:token "-n" ;
-	syr:person syr:Person1 ;
-	syr:number syr:Singular ;
-	syr:gender syr:Common ;
-	.
-
-aama:ID3654fffa-81ab-45b8-bd32-f35897826411 a aamas:Muterm ;
-	aamas:lang aama:Syriac ;	aamas:memberOf syr:syriac-PObjCliticPerf ;
-	syr:case syr:Object ;
-	aamas:morpheme aama:Syriac-PROOBJCLITICPERF ;
-	syr:pos syr:Pronoun ;
-	syr:proClass syr:ObjCliticPerf ;
-	syr:token-environment "ENV4" ;
-	syr:token "-y" ;
-	syr:person syr:Person3 ;
-	syr:number syr:Singular ;
-	syr:gender syr:Masc ;
-	.
-
-aama:IDa7c06569-4fa7-45db-8e68-3e02ad633fcb a aamas:Muterm ;
-	aamas:lang aama:Syriac ;	aamas:memberOf syr:syriac-PObjCliticPerf ;
-	syr:case syr:Object ;
-	aamas:morpheme aama:Syriac-PROOBJCLITICPERF ;
-	syr:pos syr:Pronoun ;
-	syr:proClass syr:ObjCliticPerf ;
-	syr:token-environment "ENV4" ;
-	syr:token "-h" ;
-	syr:person syr:Person3 ;
-	syr:number syr:Singular ;
-	syr:gender syr:Fem ;
-	.
-
-aama:ID6a583975-72f2-41cd-b0c9-d5270d6d4e72 a aamas:Muterm ;
-	aamas:lang aama:Syriac ;	aamas:memberOf syr:syriac-PObjCliticPerf ;
-	syr:case syr:Object ;
-	aamas:morpheme aama:Syriac-PROOBJCLITICPERF ;
-	syr:pos syr:Pronoun ;
-	syr:proClass syr:ObjCliticPerf ;
-	syr:token-environment "ENV4" ;
-	syr:token "-n" ;
-	syr:person syr:Person1 ;
-	syr:number syr:Plural ;
-	syr:gender syr:Common ;
-	.
-
-aama:ID5b584738-ce9c-4508-a893-9c8f1e798c05 a aamas:Muterm ;
-	aamas:lang aama:Syriac ;	aamas:memberOf syr:syriac-PObjCliticPerf ;
-	syr:case syr:Object ;
-	aamas:morpheme aama:Syriac-PROOBJCLITICPERF ;
-	syr:pos syr:Pronoun ;
-	syr:proClass syr:ObjCliticPerf ;
-	syr:token-environment "ENV4" ;
-	syr:token "⊤" ;
-	syr:person syr:Person3 ;
-	syr:number syr:Plural ;
-	syr:gender syr:Masc ;
-	.
-
-aama:IDa5ca513c-8e4b-456c-9095-a5d56a2d1e14 a aamas:Muterm ;
-	aamas:lang aama:Syriac ;	aamas:memberOf syr:syriac-PObjCliticPerf ;
-	syr:case syr:Object ;
-	aamas:morpheme aama:Syriac-PROOBJCLITICPERF ;
-	syr:pos syr:Pronoun ;
-	syr:proClass syr:ObjCliticPerf ;
-	syr:token-environment "ENV4" ;
-	syr:token "⊤" ;
-	syr:person syr:Person3 ;
-	syr:number syr:Plural ;
-	syr:gender syr:Fem ;
-	.
-
-aama:ID144b5e96-1ed7-4da4-aa63-90ef25d4ca81 a aamas:Muterm ;
-	aamas:lang aama:Syriac ;	aamas:memberOf syr:syriac-PObjCliticPerf ;
-	syr:case syr:Object ;
-	aamas:morpheme aama:Syriac-PROOBJCLITICPERF ;
-	syr:pos syr:Pronoun ;
-	syr:proClass syr:ObjCliticPerf ;
-	syr:token-environment "ENV5" ;
-	syr:token "-n" ;
-	syr:person syr:Person1 ;
-	syr:number syr:Singular ;
-	syr:gender syr:Common ;
-	.
-
-aama:ID0684b903-d6d1-42a4-be40-5b9152d59944 a aamas:Muterm ;
-	aamas:lang aama:Syriac ;	aamas:memberOf syr:syriac-PObjCliticPerf ;
-	syr:case syr:Object ;
-	aamas:morpheme aama:Syriac-PROOBJCLITICPERF ;
-	syr:pos syr:Pronoun ;
-	syr:proClass syr:ObjCliticPerf ;
-	syr:token-environment "ENV5" ;
-	syr:token "-w" ;
-	syr:person syr:Person3 ;
-	syr:number syr:Singular ;
-	syr:gender syr:Masc ;
-	.
-
-aama:ID78a9e1d5-f1c8-4f0f-aded-3c2dcf71e1d7 a aamas:Muterm ;
-	aamas:lang aama:Syriac ;	aamas:memberOf syr:syriac-PObjCliticPerf ;
-	syr:case syr:Object ;
-	aamas:morpheme aama:Syriac-PROOBJCLITICPERF ;
-	syr:pos syr:Pronoun ;
-	syr:proClass syr:ObjCliticPerf ;
-	syr:token-environment "ENV5" ;
-	syr:token "-h" ;
-	syr:person syr:Person3 ;
-	syr:number syr:Singular ;
-	syr:gender syr:Fem ;
-	.
-
-aama:ID51a2b028-12ab-4267-a23a-da1814abecd7 a aamas:Muterm ;
-	aamas:lang aama:Syriac ;	aamas:memberOf syr:syriac-PObjCliticPerf ;
-	syr:case syr:Object ;
-	aamas:morpheme aama:Syriac-PROOBJCLITICPERF ;
-	syr:pos syr:Pronoun ;
-	syr:proClass syr:ObjCliticPerf ;
-	syr:token-environment "ENV5" ;
-	syr:token "-n" ;
-	syr:person syr:Person1 ;
-	syr:number syr:Plural ;
-	syr:gender syr:Common ;
-	.
-
-aama:IDafdbe60e-bfe4-4e57-9966-480863a6a7a0 a aamas:Muterm ;
-	aamas:lang aama:Syriac ;	aamas:memberOf syr:syriac-PObjCliticPerf ;
-	syr:case syr:Object ;
-	aamas:morpheme aama:Syriac-PROOBJCLITICPERF ;
-	syr:pos syr:Pronoun ;
-	syr:proClass syr:ObjCliticPerf ;
-	syr:token-environment "ENV5" ;
-	syr:token "⊤" ;
-	syr:person syr:Person3 ;
-	syr:number syr:Plural ;
-	syr:gender syr:Masc ;
-	.
-
-aama:IDa824347c-da59-4fa6-92e9-a2ae43c01aef a aamas:Muterm ;
-	aamas:lang aama:Syriac ;	aamas:memberOf syr:syriac-PObjCliticPerf ;
-	syr:case syr:Object ;
-	aamas:morpheme aama:Syriac-PROOBJCLITICPERF ;
-	syr:pos syr:Pronoun ;
-	syr:proClass syr:ObjCliticPerf ;
-	syr:token-environment "ENV5" ;
-	syr:token "⊤" ;
-	syr:person syr:Person3 ;
-	syr:number syr:Plural ;
-	syr:gender syr:Fem ;
-	.
-
-aama:ID0a1ffd31-84cc-45a3-b428-85a0526e8015 a aamas:Muterm ;
-	aamas:lang aama:Syriac ;	aamas:memberOf syr:syriac-PObjCliticPerf ;
-	syr:case syr:Object ;
-	aamas:morpheme aama:Syriac-PROOBJCLITICPERF ;
-	syr:pos syr:Pronoun ;
-	syr:proClass syr:ObjCliticPerf ;
-	syr:token-environment "ENV6" ;
-	syr:token "-ān" ;
-	syr:person syr:Person1 ;
-	syr:number syr:Singular ;
-	syr:gender syr:Common ;
-	.
-
-aama:IDba766b33-436d-457a-94b5-195b351f956a a aamas:Muterm ;
-	aamas:lang aama:Syriac ;	aamas:memberOf syr:syriac-PObjCliticPerf ;
-	syr:case syr:Object ;
-	aamas:morpheme aama:Syriac-PROOBJCLITICPERF ;
-	syr:pos syr:Pronoun ;
-	syr:proClass syr:ObjCliticPerf ;
-	syr:token-environment "ENV6" ;
-	syr:token "-āy" ;
-	syr:person syr:Person3 ;
-	syr:number syr:Singular ;
-	syr:gender syr:Masc ;
-	.
-
-aama:ID336a37cb-d7bf-4430-8b6d-cc9f8b53fa6f a aamas:Muterm ;
-	aamas:lang aama:Syriac ;	aamas:memberOf syr:syriac-PObjCliticPerf ;
-	syr:case syr:Object ;
-	aamas:morpheme aama:Syriac-PROOBJCLITICPERF ;
-	syr:pos syr:Pronoun ;
-	syr:proClass syr:ObjCliticPerf ;
-	syr:token-environment "ENV6" ;
-	syr:token "-āh" ;
-	syr:person syr:Person3 ;
-	syr:number syr:Singular ;
-	syr:gender syr:Fem ;
-	.
-
-aama:ID37de8441-4aad-48f2-827b-2d3cd0f7e339 a aamas:Muterm ;
-	aamas:lang aama:Syriac ;	aamas:memberOf syr:syriac-PObjCliticPerf ;
-	syr:case syr:Object ;
-	aamas:morpheme aama:Syriac-PROOBJCLITICPERF ;
-	syr:pos syr:Pronoun ;
-	syr:proClass syr:ObjCliticPerf ;
-	syr:token-environment "ENV6" ;
-	syr:token "-ān" ;
-	syr:person syr:Person1 ;
-	syr:number syr:Plural ;
-	syr:gender syr:Common ;
-	.
-
-aama:IDd6677fc3-fd0c-46e4-9683-6bf9c362d0c3 a aamas:Muterm ;
-	aamas:lang aama:Syriac ;	aamas:memberOf syr:syriac-PObjCliticPerf ;
-	syr:case syr:Object ;
-	aamas:morpheme aama:Syriac-PROOBJCLITICPERF ;
-	syr:pos syr:Pronoun ;
-	syr:proClass syr:ObjCliticPerf ;
-	syr:token-environment "ENV6" ;
-	syr:token "⊤" ;
-	syr:person syr:Person3 ;
-	syr:number syr:Plural ;
-	syr:gender syr:Masc ;
-	.
-
-aama:ID8934d2b1-a0d6-4257-bcf3-d40c3bcc6a90 a aamas:Muterm ;
-	aamas:lang aama:Syriac ;	aamas:memberOf syr:syriac-PObjCliticPerf ;
-	syr:case syr:Object ;
-	aamas:morpheme aama:Syriac-PROOBJCLITICPERF ;
-	syr:pos syr:Pronoun ;
-	syr:proClass syr:ObjCliticPerf ;
-	syr:token-environment "ENV6" ;
-	syr:token "⊤" ;
-	syr:person syr:Person3 ;
-	syr:number syr:Plural ;
-	syr:gender syr:Fem ;
 	.
 
 #MUTERMCLUSTER:  syriac-PPossClitic
@@ -872,7 +241,7 @@ syr:syriac-PPossClitic a aamas:MuTermcluster ;
 	rdfs:comment "Thackston1999 p. 14;Syriac uses the following set of pronominal enclitics on 1) singular nouns and some prepositions%%2) plural nouns and other prepositisions. The forms with singular nouns are also used as infintival objects%%though the 1cs suffix becomes –an%%the pǝʿal infinitive meqtal becomes meqtǝl- except for infinitives with the 2 plural suffixes which remain meqtal%%and the III-weak where meḥzā becomes meḥzǝy- expect for infinitives with the 2 plural suffixes which remain meḥzā:" 
 	.
 
-aama:IDc4f2b8b9-b83b-4a18-b879-6c49b69f4be6 a aamas:Muterm ;
+aama:ID20fcad89-0d20-49bd-94f9-9ea93662a337 a aamas:Muterm ;
 	aamas:lang aama:Syriac ;	aamas:memberOf syr:syriac-PPossClitic ;
 	syr:case syr:Genitive ;
 	aamas:morpheme aama:Syriac-PROPOSSCLITIC ;
@@ -885,7 +254,7 @@ aama:IDc4f2b8b9-b83b-4a18-b879-6c49b69f4be6 a aamas:Muterm ;
 	syr:gender syr:Common ;
 	.
 
-aama:IDa7524b04-84ea-4999-bb9a-6ca0baec333a a aamas:Muterm ;
+aama:ID8ea9303c-64aa-4b04-b6b0-845c8825b700 a aamas:Muterm ;
 	aamas:lang aama:Syriac ;	aamas:memberOf syr:syriac-PPossClitic ;
 	syr:case syr:Genitive ;
 	aamas:morpheme aama:Syriac-PROPOSSCLITIC ;
@@ -898,7 +267,7 @@ aama:IDa7524b04-84ea-4999-bb9a-6ca0baec333a a aamas:Muterm ;
 	syr:gender syr:Masc ;
 	.
 
-aama:ID54b279d4-9995-4a42-8cc8-4beb1db92de2 a aamas:Muterm ;
+aama:IDb47e370f-4363-461c-bbcc-ff6f191fa32b a aamas:Muterm ;
 	aamas:lang aama:Syriac ;	aamas:memberOf syr:syriac-PPossClitic ;
 	syr:case syr:Genitive ;
 	aamas:morpheme aama:Syriac-PROPOSSCLITIC ;
@@ -911,7 +280,7 @@ aama:ID54b279d4-9995-4a42-8cc8-4beb1db92de2 a aamas:Muterm ;
 	syr:gender syr:Fem ;
 	.
 
-aama:ID1b2d53fc-98f2-4bf1-a6bf-33b5db872b58 a aamas:Muterm ;
+aama:IDf764519a-a525-42b2-b3c9-dfe41aa37e09 a aamas:Muterm ;
 	aamas:lang aama:Syriac ;	aamas:memberOf syr:syriac-PPossClitic ;
 	syr:case syr:Genitive ;
 	aamas:morpheme aama:Syriac-PROPOSSCLITIC ;
@@ -924,7 +293,7 @@ aama:ID1b2d53fc-98f2-4bf1-a6bf-33b5db872b58 a aamas:Muterm ;
 	syr:gender syr:Masc ;
 	.
 
-aama:ID1f760424-e893-4712-abf8-70660369ac31 a aamas:Muterm ;
+aama:ID749cfb97-4e86-4595-b7c2-07729749c5d1 a aamas:Muterm ;
 	aamas:lang aama:Syriac ;	aamas:memberOf syr:syriac-PPossClitic ;
 	syr:case syr:Genitive ;
 	aamas:morpheme aama:Syriac-PROPOSSCLITIC ;
@@ -937,7 +306,7 @@ aama:ID1f760424-e893-4712-abf8-70660369ac31 a aamas:Muterm ;
 	syr:gender syr:Fem ;
 	.
 
-aama:IDe07bbdc8-1baa-4adf-85d5-faa2145cdaf9 a aamas:Muterm ;
+aama:ID05ad309b-cfeb-4978-95e8-a999cc00a957 a aamas:Muterm ;
 	aamas:lang aama:Syriac ;	aamas:memberOf syr:syriac-PPossClitic ;
 	syr:case syr:Genitive ;
 	aamas:morpheme aama:Syriac-PROPOSSCLITIC ;
@@ -950,7 +319,7 @@ aama:IDe07bbdc8-1baa-4adf-85d5-faa2145cdaf9 a aamas:Muterm ;
 	syr:gender syr:Common ;
 	.
 
-aama:ID3381b67f-d562-49df-abf7-e7c194e45a3a a aamas:Muterm ;
+aama:ID20ababd3-893d-45f1-ac0d-25fbc5dfa540 a aamas:Muterm ;
 	aamas:lang aama:Syriac ;	aamas:memberOf syr:syriac-PPossClitic ;
 	syr:case syr:Genitive ;
 	aamas:morpheme aama:Syriac-PROPOSSCLITIC ;
@@ -963,7 +332,7 @@ aama:ID3381b67f-d562-49df-abf7-e7c194e45a3a a aamas:Muterm ;
 	syr:gender syr:Masc ;
 	.
 
-aama:ID2c26cd55-a989-4b6c-8095-8ce7c6743bcf a aamas:Muterm ;
+aama:IDc8174709-ef51-483b-81f0-16ac0cdbfe05 a aamas:Muterm ;
 	aamas:lang aama:Syriac ;	aamas:memberOf syr:syriac-PPossClitic ;
 	syr:case syr:Genitive ;
 	aamas:morpheme aama:Syriac-PROPOSSCLITIC ;
@@ -976,7 +345,7 @@ aama:ID2c26cd55-a989-4b6c-8095-8ce7c6743bcf a aamas:Muterm ;
 	syr:gender syr:Fem ;
 	.
 
-aama:ID2798e066-d0aa-4656-9c1c-649d5f4b7cf2 a aamas:Muterm ;
+aama:IDb47e1f21-b40c-4629-b31a-e14c6ff54624 a aamas:Muterm ;
 	aamas:lang aama:Syriac ;	aamas:memberOf syr:syriac-PPossClitic ;
 	syr:case syr:Genitive ;
 	aamas:morpheme aama:Syriac-PROPOSSCLITIC ;
@@ -989,7 +358,7 @@ aama:ID2798e066-d0aa-4656-9c1c-649d5f4b7cf2 a aamas:Muterm ;
 	syr:gender syr:Masc ;
 	.
 
-aama:IDbd9d6f81-173f-420a-9090-8e01cd395939 a aamas:Muterm ;
+aama:IDb08cfe04-23e9-4c0e-9fe1-7bd90f739747 a aamas:Muterm ;
 	aamas:lang aama:Syriac ;	aamas:memberOf syr:syriac-PPossClitic ;
 	syr:case syr:Genitive ;
 	aamas:morpheme aama:Syriac-PROPOSSCLITIC ;
@@ -1002,7 +371,7 @@ aama:IDbd9d6f81-173f-420a-9090-8e01cd395939 a aamas:Muterm ;
 	syr:gender syr:Fem ;
 	.
 
-aama:ID8aa3f538-210e-4cd4-b88a-4bee177b66a5 a aamas:Muterm ;
+aama:ID819fefc7-5e4f-48ac-b5e8-07b2bdc261b5 a aamas:Muterm ;
 	aamas:lang aama:Syriac ;	aamas:memberOf syr:syriac-PPossClitic ;
 	syr:case syr:Genitive ;
 	aamas:morpheme aama:Syriac-PROPOSSCLITIC ;
@@ -1015,7 +384,7 @@ aama:ID8aa3f538-210e-4cd4-b88a-4bee177b66a5 a aamas:Muterm ;
 	syr:gender syr:Common ;
 	.
 
-aama:ID3067db25-a0b0-464a-a36b-dd6425e53902 a aamas:Muterm ;
+aama:IDb201e378-7a5c-4d34-9e67-9eb5de376b9e a aamas:Muterm ;
 	aamas:lang aama:Syriac ;	aamas:memberOf syr:syriac-PPossClitic ;
 	syr:case syr:Genitive ;
 	aamas:morpheme aama:Syriac-PROPOSSCLITIC ;
@@ -1028,7 +397,7 @@ aama:ID3067db25-a0b0-464a-a36b-dd6425e53902 a aamas:Muterm ;
 	syr:gender syr:Masc ;
 	.
 
-aama:ID909d6f32-1c85-4c94-acc6-2ec6179607fd a aamas:Muterm ;
+aama:ID3a126817-183e-414c-a809-01085f480a56 a aamas:Muterm ;
 	aamas:lang aama:Syriac ;	aamas:memberOf syr:syriac-PPossClitic ;
 	syr:case syr:Genitive ;
 	aamas:morpheme aama:Syriac-PROPOSSCLITIC ;
@@ -1041,7 +410,7 @@ aama:ID909d6f32-1c85-4c94-acc6-2ec6179607fd a aamas:Muterm ;
 	syr:gender syr:Fem ;
 	.
 
-aama:ID07de4655-5399-4f19-8345-4049f7fc7213 a aamas:Muterm ;
+aama:ID32321efb-94dc-49bc-be83-dafb7a390b3b a aamas:Muterm ;
 	aamas:lang aama:Syriac ;	aamas:memberOf syr:syriac-PPossClitic ;
 	syr:case syr:Genitive ;
 	aamas:morpheme aama:Syriac-PROPOSSCLITIC ;
@@ -1054,7 +423,7 @@ aama:ID07de4655-5399-4f19-8345-4049f7fc7213 a aamas:Muterm ;
 	syr:gender syr:Masc ;
 	.
 
-aama:ID52ef99cb-58a3-484c-bd60-32b8b6a574a9 a aamas:Muterm ;
+aama:ID62d7909e-b20f-4f10-9730-906d3b9dbcc0 a aamas:Muterm ;
 	aamas:lang aama:Syriac ;	aamas:memberOf syr:syriac-PPossClitic ;
 	syr:case syr:Genitive ;
 	aamas:morpheme aama:Syriac-PROPOSSCLITIC ;
@@ -1067,7 +436,7 @@ aama:ID52ef99cb-58a3-484c-bd60-32b8b6a574a9 a aamas:Muterm ;
 	syr:gender syr:Fem ;
 	.
 
-aama:ID41ae5e9a-6577-4792-a456-da3db1219cd5 a aamas:Muterm ;
+aama:ID3dae9760-8407-4783-b661-e933d84cccda a aamas:Muterm ;
 	aamas:lang aama:Syriac ;	aamas:memberOf syr:syriac-PPossClitic ;
 	syr:case syr:Genitive ;
 	aamas:morpheme aama:Syriac-PROPOSSCLITIC ;
@@ -1080,7 +449,7 @@ aama:ID41ae5e9a-6577-4792-a456-da3db1219cd5 a aamas:Muterm ;
 	syr:gender syr:Common ;
 	.
 
-aama:ID405c5a9e-37f1-46fb-8bf8-4f9b1939b565 a aamas:Muterm ;
+aama:IDa2f3de64-93d4-4401-bd22-83a97eb927de a aamas:Muterm ;
 	aamas:lang aama:Syriac ;	aamas:memberOf syr:syriac-PPossClitic ;
 	syr:case syr:Genitive ;
 	aamas:morpheme aama:Syriac-PROPOSSCLITIC ;
@@ -1093,7 +462,7 @@ aama:ID405c5a9e-37f1-46fb-8bf8-4f9b1939b565 a aamas:Muterm ;
 	syr:gender syr:Masc ;
 	.
 
-aama:ID2e052ff2-8f3f-401f-94b3-bf85639d1070 a aamas:Muterm ;
+aama:ID8fa373f1-6f40-4a99-b693-ab87f597f09a a aamas:Muterm ;
 	aamas:lang aama:Syriac ;	aamas:memberOf syr:syriac-PPossClitic ;
 	syr:case syr:Genitive ;
 	aamas:morpheme aama:Syriac-PROPOSSCLITIC ;
@@ -1106,7 +475,7 @@ aama:ID2e052ff2-8f3f-401f-94b3-bf85639d1070 a aamas:Muterm ;
 	syr:gender syr:Fem ;
 	.
 
-aama:ID7bb2b9ef-c3e6-4aba-8f4b-8593dbcbd8a5 a aamas:Muterm ;
+aama:IDa55f2ed2-8df5-4380-9ace-93f829529439 a aamas:Muterm ;
 	aamas:lang aama:Syriac ;	aamas:memberOf syr:syriac-PPossClitic ;
 	syr:case syr:Genitive ;
 	aamas:morpheme aama:Syriac-PROPOSSCLITIC ;
@@ -1119,7 +488,7 @@ aama:ID7bb2b9ef-c3e6-4aba-8f4b-8593dbcbd8a5 a aamas:Muterm ;
 	syr:gender syr:Masc ;
 	.
 
-aama:ID9a7a2e92-1a60-45e6-9584-cac63f570a9b a aamas:Muterm ;
+aama:IDf682e54e-4152-479b-95a2-4537befab796 a aamas:Muterm ;
 	aamas:lang aama:Syriac ;	aamas:memberOf syr:syriac-PPossClitic ;
 	syr:case syr:Genitive ;
 	aamas:morpheme aama:Syriac-PROPOSSCLITIC ;
@@ -1132,6 +501,429 @@ aama:ID9a7a2e92-1a60-45e6-9584-cac63f570a9b a aamas:Muterm ;
 	syr:gender syr:Masc ;
 	.
 
+#MUTERMCLUSTER:  syriac-PObjCliticImprtv
+
+syr:syriac-PObjCliticImprtv a aamas:MuTermcluster ;
+	rdfs:label "syriac-PObjCliticImprtv" ;
+	rdfs:comment "Thackston1999 p. 89;Syriac uses the following set of pronominal enclitics on imperatives. The environments are as follows:ENV1 = General suffixes with Masculine Singular Imperative forms (added to the form qtol-);ENV2 = General suffixes with Feminine Singular Imperative forms (added to the form qtoli-);ENV3 = General suffixes with Masculine Plural Imperative forms (added to the form qutlu-);ENV4 = General suffixes with Feminine Plural Imperative forms (added to the form qtol-);ENV5 = CCY (III-weak) forms of imperatives:suffixes with Masculine Singular Imperative forms (added to the form qri-);ENV6 = CCY (III-weak) forms of imperatives:suffixes with Feminine Singular Imperative forms (added to the form qrāʾi-);ENV7 = CCY (III-weak) forms of imperatives:suffixes Masculine Plural Imperative forms (added to the form qraʾu-);ENV8 = CCY (III-weak) forms of imperatives:suffixes with Feminine Plural Imperative forms (added to the form qrāyen-);" 
+	.
+
+aama:ID3938cf01-fc5b-4ed8-a710-b3a1aececdad a aamas:Muterm ;
+	aamas:lang aama:Syriac ;	aamas:memberOf syr:syriac-PObjCliticImprtv ;
+	syr:case syr:Accusative ;
+	aamas:morpheme aama:Syriac-PROOBJCLITICIMPRTV ;
+	syr:pos syr:Pronoun ;
+	syr:proClass syr:ObjCliticImprtv ;
+	syr:token-note "ENV1" ;
+	syr:token "-ayn" ;
+	syr:person syr:Person1 ;
+	syr:number syr:Singular ;
+	syr:gender syr:Common ;
+	.
+
+aama:ID8752f4ca-7b69-495e-b477-cdafb60fcb00 a aamas:Muterm ;
+	aamas:lang aama:Syriac ;	aamas:memberOf syr:syriac-PObjCliticImprtv ;
+	syr:case syr:Accusative ;
+	aamas:morpheme aama:Syriac-PROOBJCLITICIMPRTV ;
+	syr:pos syr:Pronoun ;
+	syr:proClass syr:ObjCliticImprtv ;
+	syr:token-note "ENV1" ;
+	syr:token "-āy" ;
+	syr:person syr:Person3 ;
+	syr:number syr:Singular ;
+	syr:gender syr:Masc ;
+	.
+
+aama:IDd28d3eba-795c-44c5-b759-559221d3e482 a aamas:Muterm ;
+	aamas:lang aama:Syriac ;	aamas:memberOf syr:syriac-PObjCliticImprtv ;
+	syr:case syr:Accusative ;
+	aamas:morpheme aama:Syriac-PROOBJCLITICIMPRTV ;
+	syr:pos syr:Pronoun ;
+	syr:proClass syr:ObjCliticImprtv ;
+	syr:token-note "ENV1" ;
+	syr:token "-ēh" ;
+	syr:person syr:Person3 ;
+	syr:number syr:Singular ;
+	syr:gender syr:Fem ;
+	.
+
+aama:IDcea75965-aaf0-4bea-9c44-87427cf70f07 a aamas:Muterm ;
+	aamas:lang aama:Syriac ;	aamas:memberOf syr:syriac-PObjCliticImprtv ;
+	syr:case syr:Accusative ;
+	aamas:morpheme aama:Syriac-PROOBJCLITICIMPRTV ;
+	syr:pos syr:Pronoun ;
+	syr:proClass syr:ObjCliticImprtv ;
+	syr:token-note "ENV1" ;
+	syr:token "-ayn" ;
+	syr:person syr:Person1 ;
+	syr:number syr:Plural ;
+	syr:gender syr:Common ;
+	.
+
+aama:ID314f1741-ca37-4e94-bbe6-00282d5cd684 a aamas:Muterm ;
+	aamas:lang aama:Syriac ;	aamas:memberOf syr:syriac-PObjCliticImprtv ;
+	syr:case syr:Accusative ;
+	aamas:morpheme aama:Syriac-PROOBJCLITICIMPRTV ;
+	syr:pos syr:Pronoun ;
+	syr:proClass syr:ObjCliticImprtv ;
+	syr:token-note "ENV2" ;
+	syr:token "-n" ;
+	syr:person syr:Person1 ;
+	syr:number syr:Singular ;
+	syr:gender syr:Common ;
+	.
+
+aama:ID1017cab4-1b5a-4e2b-bcb7-ee74102497ce a aamas:Muterm ;
+	aamas:lang aama:Syriac ;	aamas:memberOf syr:syriac-PObjCliticImprtv ;
+	syr:case syr:Accusative ;
+	aamas:morpheme aama:Syriac-PROOBJCLITICIMPRTV ;
+	syr:pos syr:Pronoun ;
+	syr:proClass syr:ObjCliticImprtv ;
+	syr:token-note "ENV2" ;
+	syr:token "-w" ;
+	syr:person syr:Person3 ;
+	syr:number syr:Singular ;
+	syr:gender syr:Masc ;
+	.
+
+aama:IDc92c47dc-1a8c-49dd-830e-8b21d4060651 a aamas:Muterm ;
+	aamas:lang aama:Syriac ;	aamas:memberOf syr:syriac-PObjCliticImprtv ;
+	syr:case syr:Accusative ;
+	aamas:morpheme aama:Syriac-PROOBJCLITICIMPRTV ;
+	syr:pos syr:Pronoun ;
+	syr:proClass syr:ObjCliticImprtv ;
+	syr:token-note "ENV2" ;
+	syr:token "-h" ;
+	syr:person syr:Person3 ;
+	syr:number syr:Singular ;
+	syr:gender syr:Fem ;
+	.
+
+aama:ID82030be0-2f00-4a59-ab85-c549e01d6526 a aamas:Muterm ;
+	aamas:lang aama:Syriac ;	aamas:memberOf syr:syriac-PObjCliticImprtv ;
+	syr:case syr:Accusative ;
+	aamas:morpheme aama:Syriac-PROOBJCLITICIMPRTV ;
+	syr:pos syr:Pronoun ;
+	syr:proClass syr:ObjCliticImprtv ;
+	syr:token-note "ENV2" ;
+	syr:token "-n" ;
+	syr:person syr:Person1 ;
+	syr:number syr:Plural ;
+	syr:gender syr:Common ;
+	.
+
+aama:ID910ecc01-1753-41ab-b5f9-ab6970895f01 a aamas:Muterm ;
+	aamas:lang aama:Syriac ;	aamas:memberOf syr:syriac-PObjCliticImprtv ;
+	syr:case syr:Accusative ;
+	aamas:morpheme aama:Syriac-PROOBJCLITICIMPRTV ;
+	syr:pos syr:Pronoun ;
+	syr:proClass syr:ObjCliticImprtv ;
+	syr:token-note "ENV3" ;
+	syr:token "-n ~ -nān" ;
+	syr:person syr:Person1 ;
+	syr:number syr:Singular ;
+	syr:gender syr:Common ;
+	.
+
+aama:ID49d3afac-053b-49bf-bf71-63580b778380 a aamas:Muterm ;
+	aamas:lang aama:Syriac ;	aamas:memberOf syr:syriac-PObjCliticImprtv ;
+	syr:case syr:Accusative ;
+	aamas:morpheme aama:Syriac-PROOBJCLITICIMPRTV ;
+	syr:pos syr:Pronoun ;
+	syr:proClass syr:ObjCliticImprtv ;
+	syr:token-note "ENV3" ;
+	syr:token "-Ø ~ -nāy" ;
+	syr:person syr:Person3 ;
+	syr:number syr:Singular ;
+	syr:gender syr:Masc ;
+	.
+
+aama:IDd179d629-c51b-41ad-95f6-615e332ac4ca a aamas:Muterm ;
+	aamas:lang aama:Syriac ;	aamas:memberOf syr:syriac-PObjCliticImprtv ;
+	syr:case syr:Accusative ;
+	aamas:morpheme aama:Syriac-PROOBJCLITICIMPRTV ;
+	syr:pos syr:Pronoun ;
+	syr:proClass syr:ObjCliticImprtv ;
+	syr:token-note "ENV3" ;
+	syr:token "-h ~ -nāh" ;
+	syr:person syr:Person3 ;
+	syr:number syr:Singular ;
+	syr:gender syr:Fem ;
+	.
+
+aama:ID3dfba9e1-5e5a-424a-84c6-7ae2454c06f8 a aamas:Muterm ;
+	aamas:lang aama:Syriac ;	aamas:memberOf syr:syriac-PObjCliticImprtv ;
+	syr:case syr:Accusative ;
+	aamas:morpheme aama:Syriac-PROOBJCLITICIMPRTV ;
+	syr:pos syr:Pronoun ;
+	syr:proClass syr:ObjCliticImprtv ;
+	syr:token-note "ENV3" ;
+	syr:token "-n ~ -nān" ;
+	syr:person syr:Person1 ;
+	syr:number syr:Plural ;
+	syr:gender syr:Common ;
+	.
+
+aama:IDeddc0201-4e62-4060-ad9b-690cd9fe2622 a aamas:Muterm ;
+	aamas:lang aama:Syriac ;	aamas:memberOf syr:syriac-PObjCliticImprtv ;
+	syr:case syr:Accusative ;
+	aamas:morpheme aama:Syriac-PROOBJCLITICIMPRTV ;
+	syr:pos syr:Pronoun ;
+	syr:proClass syr:ObjCliticImprtv ;
+	syr:token-note "ENV4" ;
+	syr:token "-ān ~ -ēnān" ;
+	syr:person syr:Person1 ;
+	syr:number syr:Singular ;
+	syr:gender syr:Common ;
+	.
+
+aama:ID3e0db8ba-9722-48da-9477-7c84570aade0 a aamas:Muterm ;
+	aamas:lang aama:Syriac ;	aamas:memberOf syr:syriac-PObjCliticImprtv ;
+	syr:case syr:Accusative ;
+	aamas:morpheme aama:Syriac-PROOBJCLITICIMPRTV ;
+	syr:pos syr:Pronoun ;
+	syr:proClass syr:ObjCliticImprtv ;
+	syr:token-note "ENV4" ;
+	syr:token "-āy ~ -ēnāy" ;
+	syr:person syr:Person3 ;
+	syr:number syr:Singular ;
+	syr:gender syr:Masc ;
+	.
+
+aama:ID83fb02e6-eab4-4a82-9ad6-bf87c6685969 a aamas:Muterm ;
+	aamas:lang aama:Syriac ;	aamas:memberOf syr:syriac-PObjCliticImprtv ;
+	syr:case syr:Accusative ;
+	aamas:morpheme aama:Syriac-PROOBJCLITICIMPRTV ;
+	syr:pos syr:Pronoun ;
+	syr:proClass syr:ObjCliticImprtv ;
+	syr:token-note "ENV4" ;
+	syr:token "-āh ~ -ēnāh" ;
+	syr:person syr:Person3 ;
+	syr:number syr:Singular ;
+	syr:gender syr:Fem ;
+	.
+
+aama:ID029894aa-d433-45dd-a56e-50c0ef5d2973 a aamas:Muterm ;
+	aamas:lang aama:Syriac ;	aamas:memberOf syr:syriac-PObjCliticImprtv ;
+	syr:case syr:Accusative ;
+	aamas:morpheme aama:Syriac-PROOBJCLITICIMPRTV ;
+	syr:pos syr:Pronoun ;
+	syr:proClass syr:ObjCliticImprtv ;
+	syr:token-note "ENV4" ;
+	syr:token "-ān ~ -ēnān" ;
+	syr:person syr:Person1 ;
+	syr:number syr:Plural ;
+	syr:gender syr:Common ;
+	.
+
+aama:ID9d69381a-aa3e-46ad-913b-210b378beada a aamas:Muterm ;
+	aamas:lang aama:Syriac ;	aamas:memberOf syr:syriac-PObjCliticImprtv ;
+	syr:case syr:Accusative ;
+	aamas:morpheme aama:Syriac-PROOBJCLITICIMPRTV ;
+	syr:pos syr:Pronoun ;
+	syr:proClass syr:ObjCliticImprtv ;
+	syr:token-note "ENV5" ;
+	syr:token "-n" ;
+	syr:person syr:Person1 ;
+	syr:number syr:Singular ;
+	syr:gender syr:Common ;
+	.
+
+aama:ID7c9247aa-6d8e-49db-ada4-a4b957817be3 a aamas:Muterm ;
+	aamas:lang aama:Syriac ;	aamas:memberOf syr:syriac-PObjCliticImprtv ;
+	syr:case syr:Accusative ;
+	aamas:morpheme aama:Syriac-PROOBJCLITICIMPRTV ;
+	syr:pos syr:Pronoun ;
+	syr:proClass syr:ObjCliticImprtv ;
+	syr:token-note "ENV5" ;
+	syr:token "-w" ;
+	syr:person syr:Person3 ;
+	syr:number syr:Singular ;
+	syr:gender syr:Masc ;
+	.
+
+aama:ID32ba9778-865d-46e4-a49b-6c06d4017cd4 a aamas:Muterm ;
+	aamas:lang aama:Syriac ;	aamas:memberOf syr:syriac-PObjCliticImprtv ;
+	syr:case syr:Accusative ;
+	aamas:morpheme aama:Syriac-PROOBJCLITICIMPRTV ;
+	syr:pos syr:Pronoun ;
+	syr:proClass syr:ObjCliticImprtv ;
+	syr:token-note "ENV5" ;
+	syr:token "-h" ;
+	syr:person syr:Person3 ;
+	syr:number syr:Singular ;
+	syr:gender syr:Fem ;
+	.
+
+aama:IDf08870f4-2ec5-422d-af1c-332a2ef925c6 a aamas:Muterm ;
+	aamas:lang aama:Syriac ;	aamas:memberOf syr:syriac-PObjCliticImprtv ;
+	syr:case syr:Accusative ;
+	aamas:morpheme aama:Syriac-PROOBJCLITICIMPRTV ;
+	syr:pos syr:Pronoun ;
+	syr:proClass syr:ObjCliticImprtv ;
+	syr:token-note "ENV5" ;
+	syr:token "-n" ;
+	syr:person syr:Person1 ;
+	syr:number syr:Plural ;
+	syr:gender syr:Common ;
+	.
+
+aama:ID328295b9-a800-4955-869c-ba9b02147411 a aamas:Muterm ;
+	aamas:lang aama:Syriac ;	aamas:memberOf syr:syriac-PObjCliticImprtv ;
+	syr:case syr:Accusative ;
+	aamas:morpheme aama:Syriac-PROOBJCLITICIMPRTV ;
+	syr:pos syr:Pronoun ;
+	syr:proClass syr:ObjCliticImprtv ;
+	syr:token-note "ENV6" ;
+	syr:token "-n" ;
+	syr:person syr:Person1 ;
+	syr:number syr:Singular ;
+	syr:gender syr:Common ;
+	.
+
+aama:ID33854b0c-9db4-4327-bf10-f5b5db34b508 a aamas:Muterm ;
+	aamas:lang aama:Syriac ;	aamas:memberOf syr:syriac-PObjCliticImprtv ;
+	syr:case syr:Accusative ;
+	aamas:morpheme aama:Syriac-PROOBJCLITICIMPRTV ;
+	syr:pos syr:Pronoun ;
+	syr:proClass syr:ObjCliticImprtv ;
+	syr:token-note "ENV6" ;
+	syr:token "-w" ;
+	syr:person syr:Person3 ;
+	syr:number syr:Singular ;
+	syr:gender syr:Masc ;
+	.
+
+aama:ID4b2f7016-3b65-48d1-b01a-28fe158e819c a aamas:Muterm ;
+	aamas:lang aama:Syriac ;	aamas:memberOf syr:syriac-PObjCliticImprtv ;
+	syr:case syr:Accusative ;
+	aamas:morpheme aama:Syriac-PROOBJCLITICIMPRTV ;
+	syr:pos syr:Pronoun ;
+	syr:proClass syr:ObjCliticImprtv ;
+	syr:token-note "ENV6" ;
+	syr:token "-h" ;
+	syr:person syr:Person3 ;
+	syr:number syr:Singular ;
+	syr:gender syr:Fem ;
+	.
+
+aama:IDbe02b173-8aea-466f-8bde-0e1d988dfe2a a aamas:Muterm ;
+	aamas:lang aama:Syriac ;	aamas:memberOf syr:syriac-PObjCliticImprtv ;
+	syr:case syr:Accusative ;
+	aamas:morpheme aama:Syriac-PROOBJCLITICIMPRTV ;
+	syr:pos syr:Pronoun ;
+	syr:proClass syr:ObjCliticImprtv ;
+	syr:token-note "ENV6" ;
+	syr:token "-n" ;
+	syr:person syr:Person1 ;
+	syr:number syr:Plural ;
+	syr:gender syr:Common ;
+	.
+
+aama:IDce04d456-44a8-4e8b-b8ee-dab94fa4baf4 a aamas:Muterm ;
+	aamas:lang aama:Syriac ;	aamas:memberOf syr:syriac-PObjCliticImprtv ;
+	syr:case syr:Accusative ;
+	aamas:morpheme aama:Syriac-PROOBJCLITICIMPRTV ;
+	syr:pos syr:Pronoun ;
+	syr:proClass syr:ObjCliticImprtv ;
+	syr:token-note "ENV7" ;
+	syr:token "-n" ;
+	syr:person syr:Person1 ;
+	syr:number syr:Singular ;
+	syr:gender syr:Common ;
+	.
+
+aama:ID9ecfb378-3313-40e7-ac4e-c8ff4fb4e6c7 a aamas:Muterm ;
+	aamas:lang aama:Syriac ;	aamas:memberOf syr:syriac-PObjCliticImprtv ;
+	syr:case syr:Accusative ;
+	aamas:morpheme aama:Syriac-PROOBJCLITICIMPRTV ;
+	syr:pos syr:Pronoun ;
+	syr:proClass syr:ObjCliticImprtv ;
+	syr:token-note "ENV7" ;
+	syr:token "⊤" ;
+	syr:person syr:Person3 ;
+	syr:number syr:Singular ;
+	syr:gender syr:Masc ;
+	.
+
+aama:IDa4e3b766-8a28-48fd-a9cf-1aa053f831b0 a aamas:Muterm ;
+	aamas:lang aama:Syriac ;	aamas:memberOf syr:syriac-PObjCliticImprtv ;
+	syr:case syr:Accusative ;
+	aamas:morpheme aama:Syriac-PROOBJCLITICIMPRTV ;
+	syr:pos syr:Pronoun ;
+	syr:proClass syr:ObjCliticImprtv ;
+	syr:token-note "ENV7" ;
+	syr:token "-h" ;
+	syr:person syr:Person3 ;
+	syr:number syr:Singular ;
+	syr:gender syr:Fem ;
+	.
+
+aama:ID70dfbade-2a41-4f38-a24d-b9460df1cfcb a aamas:Muterm ;
+	aamas:lang aama:Syriac ;	aamas:memberOf syr:syriac-PObjCliticImprtv ;
+	syr:case syr:Accusative ;
+	aamas:morpheme aama:Syriac-PROOBJCLITICIMPRTV ;
+	syr:pos syr:Pronoun ;
+	syr:proClass syr:ObjCliticImprtv ;
+	syr:token-note "ENV7" ;
+	syr:token "-n" ;
+	syr:person syr:Person1 ;
+	syr:number syr:Plural ;
+	syr:gender syr:Common ;
+	.
+
+aama:ID167ab119-83d3-4c2a-9b29-5af3574d3c4c a aamas:Muterm ;
+	aamas:lang aama:Syriac ;	aamas:memberOf syr:syriac-PObjCliticImprtv ;
+	syr:case syr:Accusative ;
+	aamas:morpheme aama:Syriac-PROOBJCLITICIMPRTV ;
+	syr:pos syr:Pronoun ;
+	syr:proClass syr:ObjCliticImprtv ;
+	syr:token-note "ENV8" ;
+	syr:token "-ān" ;
+	syr:person syr:Person1 ;
+	syr:number syr:Singular ;
+	syr:gender syr:Common ;
+	.
+
+aama:IDa1069794-2c5e-42b3-b57d-ba34d5fc3710 a aamas:Muterm ;
+	aamas:lang aama:Syriac ;	aamas:memberOf syr:syriac-PObjCliticImprtv ;
+	syr:case syr:Accusative ;
+	aamas:morpheme aama:Syriac-PROOBJCLITICIMPRTV ;
+	syr:pos syr:Pronoun ;
+	syr:proClass syr:ObjCliticImprtv ;
+	syr:token-note "ENV8" ;
+	syr:token "-āy" ;
+	syr:person syr:Person3 ;
+	syr:number syr:Singular ;
+	syr:gender syr:Masc ;
+	.
+
+aama:IDf35d56d3-8838-427f-b1b0-b813c3d619b1 a aamas:Muterm ;
+	aamas:lang aama:Syriac ;	aamas:memberOf syr:syriac-PObjCliticImprtv ;
+	syr:case syr:Accusative ;
+	aamas:morpheme aama:Syriac-PROOBJCLITICIMPRTV ;
+	syr:pos syr:Pronoun ;
+	syr:proClass syr:ObjCliticImprtv ;
+	syr:token-note "ENV8" ;
+	syr:token "-āh" ;
+	syr:person syr:Person3 ;
+	syr:number syr:Singular ;
+	syr:gender syr:Fem ;
+	.
+
+aama:ID02b4dde7-1173-4112-9568-4b188e3a19fc a aamas:Muterm ;
+	aamas:lang aama:Syriac ;	aamas:memberOf syr:syriac-PObjCliticImprtv ;
+	syr:case syr:Accusative ;
+	aamas:morpheme aama:Syriac-PROOBJCLITICIMPRTV ;
+	syr:pos syr:Pronoun ;
+	syr:proClass syr:ObjCliticImprtv ;
+	syr:token-note "ENV8" ;
+	syr:token "-ān" ;
+	syr:person syr:Person1 ;
+	syr:number syr:Plural ;
+	syr:gender syr:Common ;
+	.
+
 #MUTERMCLUSTER:  syriac-PDem
 
 syr:syriac-PDem a aamas:MuTermcluster ;
@@ -1139,7 +931,7 @@ syr:syriac-PDem a aamas:MuTermcluster ;
 	rdfs:comment "Thackston1999 pp. 29-30;Syriac has two sets of demonstratives%%near and far%%which serve both as adjectives and pronouns." 
 	.
 
-aama:IDc7d2cd37-31fa-4cf4-9131-1331c247b852 a aamas:Muterm ;
+aama:ID3053174c-7ca9-4222-b673-cb2f0158b7b7 a aamas:Muterm ;
 	aamas:lang aama:Syriac ;	aamas:memberOf syr:syriac-PDem ;
 	aamas:morpheme aama:Syriac-PRODEM ;
 	syr:pos syr:Pronoun ;
@@ -1150,7 +942,7 @@ aama:IDc7d2cd37-31fa-4cf4-9131-1331c247b852 a aamas:Muterm ;
 	syr:deixis syr:Near ;
 	.
 
-aama:ID2abe4169-1bfb-4c45-9c16-571938f6d8cd a aamas:Muterm ;
+aama:IDb3367156-b604-44c1-9a79-879d7650d681 a aamas:Muterm ;
 	aamas:lang aama:Syriac ;	aamas:memberOf syr:syriac-PDem ;
 	aamas:morpheme aama:Syriac-PRODEM ;
 	syr:pos syr:Pronoun ;
@@ -1161,7 +953,7 @@ aama:ID2abe4169-1bfb-4c45-9c16-571938f6d8cd a aamas:Muterm ;
 	syr:deixis syr:Near ;
 	.
 
-aama:ID64379653-bcd1-49d3-beb9-35f7e1ef3b20 a aamas:Muterm ;
+aama:ID5c288980-8a5d-4981-a01b-f1a2667f17f7 a aamas:Muterm ;
 	aamas:lang aama:Syriac ;	aamas:memberOf syr:syriac-PDem ;
 	aamas:morpheme aama:Syriac-PRODEM ;
 	syr:pos syr:Pronoun ;
@@ -1172,7 +964,7 @@ aama:ID64379653-bcd1-49d3-beb9-35f7e1ef3b20 a aamas:Muterm ;
 	syr:deixis syr:Near ;
 	.
 
-aama:IDa51fd98c-2369-49ae-a5e0-411fe9e798af a aamas:Muterm ;
+aama:IDceb0e366-c255-4609-b03b-6575f01b7c15 a aamas:Muterm ;
 	aamas:lang aama:Syriac ;	aamas:memberOf syr:syriac-PDem ;
 	aamas:morpheme aama:Syriac-PRODEM ;
 	syr:pos syr:Pronoun ;
@@ -1183,7 +975,7 @@ aama:IDa51fd98c-2369-49ae-a5e0-411fe9e798af a aamas:Muterm ;
 	syr:deixis syr:Near ;
 	.
 
-aama:ID3e97954d-f940-4ba8-9961-38036652a849 a aamas:Muterm ;
+aama:ID74c4eaa6-f063-486e-9c79-41ccb86fa4e5 a aamas:Muterm ;
 	aamas:lang aama:Syriac ;	aamas:memberOf syr:syriac-PDem ;
 	aamas:morpheme aama:Syriac-PRODEM ;
 	syr:pos syr:Pronoun ;
@@ -1194,7 +986,7 @@ aama:ID3e97954d-f940-4ba8-9961-38036652a849 a aamas:Muterm ;
 	syr:deixis syr:Far ;
 	.
 
-aama:IDe63cafbb-45a5-4fcd-bcb6-16545fd87b8b a aamas:Muterm ;
+aama:ID94dff82d-8d95-4d1a-814a-5f37728172cf a aamas:Muterm ;
 	aamas:lang aama:Syriac ;	aamas:memberOf syr:syriac-PDem ;
 	aamas:morpheme aama:Syriac-PRODEM ;
 	syr:pos syr:Pronoun ;
@@ -1205,7 +997,7 @@ aama:IDe63cafbb-45a5-4fcd-bcb6-16545fd87b8b a aamas:Muterm ;
 	syr:deixis syr:Far ;
 	.
 
-aama:ID28bd8fc9-b4ce-4fb3-acd4-6ef11f4cfa9b a aamas:Muterm ;
+aama:ID94deff90-adb2-47b3-9b0b-cfbd79a0b67d a aamas:Muterm ;
 	aamas:lang aama:Syriac ;	aamas:memberOf syr:syriac-PDem ;
 	aamas:morpheme aama:Syriac-PRODEM ;
 	syr:pos syr:Pronoun ;
@@ -1216,7 +1008,7 @@ aama:ID28bd8fc9-b4ce-4fb3-acd4-6ef11f4cfa9b a aamas:Muterm ;
 	syr:deixis syr:Far ;
 	.
 
-aama:ID2d8ebb4f-aaa7-403f-87ba-601a9e4af7d1 a aamas:Muterm ;
+aama:IDcb958ce2-68e1-415c-81de-f4d776fd043b a aamas:Muterm ;
 	aamas:lang aama:Syriac ;	aamas:memberOf syr:syriac-PDem ;
 	aamas:morpheme aama:Syriac-PRODEM ;
 	syr:pos syr:Pronoun ;
@@ -1234,7 +1026,7 @@ syr:syriac-PInd a aamas:MuTermcluster ;
 	rdfs:comment "Thackston1999%%p. 28. Independent pronouns in Syriac are used as 1) sentence subjects of verbless sentences and for stressing the pronominal subject of a verb. Whereas Thackston does not indicate initial aleph%%the following paradigm as included the aleph in transliteration." 
 	.
 
-aama:ID1e5ccf51-7afe-46e0-a7a3-ff950a91d294 a aamas:Muterm ;
+aama:ID016e9a12-7299-4fa1-b44c-c3df9a0ab84e a aamas:Muterm ;
 	aamas:lang aama:Syriac ;	aamas:memberOf syr:syriac-PInd ;
 	aamas:morpheme aama:Syriac-PROIND ;
 	syr:pos syr:Pronoun ;
@@ -1245,7 +1037,7 @@ aama:ID1e5ccf51-7afe-46e0-a7a3-ff950a91d294 a aamas:Muterm ;
 	syr:gender syr:Common ;
 	.
 
-aama:IDa50803c5-11c2-4c31-a395-76b1480e4c10 a aamas:Muterm ;
+aama:ID0fc59bf0-deef-44a5-955e-2cf11304f41f a aamas:Muterm ;
 	aamas:lang aama:Syriac ;	aamas:memberOf syr:syriac-PInd ;
 	aamas:morpheme aama:Syriac-PROIND ;
 	syr:pos syr:Pronoun ;
@@ -1256,7 +1048,7 @@ aama:IDa50803c5-11c2-4c31-a395-76b1480e4c10 a aamas:Muterm ;
 	syr:gender syr:Masc ;
 	.
 
-aama:ID28a307a4-28ac-45dd-b16e-dcd87c6b23b1 a aamas:Muterm ;
+aama:ID6bdf8d71-bcd2-4b74-b3b6-97cfe49284ad a aamas:Muterm ;
 	aamas:lang aama:Syriac ;	aamas:memberOf syr:syriac-PInd ;
 	aamas:morpheme aama:Syriac-PROIND ;
 	syr:pos syr:Pronoun ;
@@ -1267,7 +1059,7 @@ aama:ID28a307a4-28ac-45dd-b16e-dcd87c6b23b1 a aamas:Muterm ;
 	syr:gender syr:Fem ;
 	.
 
-aama:ID22732598-6059-4341-a891-9b2f9fa139a6 a aamas:Muterm ;
+aama:IDadfe15e1-91c6-41a7-89c9-13fd3cb53a57 a aamas:Muterm ;
 	aamas:lang aama:Syriac ;	aamas:memberOf syr:syriac-PInd ;
 	aamas:morpheme aama:Syriac-PROIND ;
 	syr:pos syr:Pronoun ;
@@ -1278,7 +1070,7 @@ aama:ID22732598-6059-4341-a891-9b2f9fa139a6 a aamas:Muterm ;
 	syr:gender syr:Masc ;
 	.
 
-aama:IDc784ddc4-89a9-4b14-9b64-545fcdade076 a aamas:Muterm ;
+aama:ID1714ca8c-a614-4cbd-aea5-2e86e6bd4a00 a aamas:Muterm ;
 	aamas:lang aama:Syriac ;	aamas:memberOf syr:syriac-PInd ;
 	aamas:morpheme aama:Syriac-PROIND ;
 	syr:pos syr:Pronoun ;
@@ -1289,7 +1081,7 @@ aama:IDc784ddc4-89a9-4b14-9b64-545fcdade076 a aamas:Muterm ;
 	syr:gender syr:Fem ;
 	.
 
-aama:ID750d761a-e402-4a81-9f2f-898bf82db033 a aamas:Muterm ;
+aama:IDb47b2685-8d70-49dd-a5b8-4c1eb5834bf3 a aamas:Muterm ;
 	aamas:lang aama:Syriac ;	aamas:memberOf syr:syriac-PInd ;
 	aamas:morpheme aama:Syriac-PROIND ;
 	syr:pos syr:Pronoun ;
@@ -1300,7 +1092,7 @@ aama:ID750d761a-e402-4a81-9f2f-898bf82db033 a aamas:Muterm ;
 	syr:gender syr:Common ;
 	.
 
-aama:IDff61d283-023a-4181-a476-acb02e56c84c a aamas:Muterm ;
+aama:IDa20354c3-9358-4b15-9633-75d02884bd06 a aamas:Muterm ;
 	aamas:lang aama:Syriac ;	aamas:memberOf syr:syriac-PInd ;
 	aamas:morpheme aama:Syriac-PROIND ;
 	syr:pos syr:Pronoun ;
@@ -1311,7 +1103,7 @@ aama:IDff61d283-023a-4181-a476-acb02e56c84c a aamas:Muterm ;
 	syr:gender syr:Masc ;
 	.
 
-aama:ID505134f1-7b08-4f99-8021-f478269f8f4c a aamas:Muterm ;
+aama:ID8e6879d2-0cf3-4942-b8a3-6c9fed0cb384 a aamas:Muterm ;
 	aamas:lang aama:Syriac ;	aamas:memberOf syr:syriac-PInd ;
 	aamas:morpheme aama:Syriac-PROIND ;
 	syr:pos syr:Pronoun ;
@@ -1322,7 +1114,7 @@ aama:ID505134f1-7b08-4f99-8021-f478269f8f4c a aamas:Muterm ;
 	syr:gender syr:Fem ;
 	.
 
-aama:IDa3f2a8af-1232-4ec6-9af3-71055cd5cf69 a aamas:Muterm ;
+aama:ID3fa1fcc6-51a1-4e39-b324-00f39367996c a aamas:Muterm ;
 	aamas:lang aama:Syriac ;	aamas:memberOf syr:syriac-PInd ;
 	aamas:morpheme aama:Syriac-PROIND ;
 	syr:pos syr:Pronoun ;
@@ -1333,7 +1125,7 @@ aama:IDa3f2a8af-1232-4ec6-9af3-71055cd5cf69 a aamas:Muterm ;
 	syr:gender syr:Masc ;
 	.
 
-aama:ID76cb1fc4-1df2-4aa9-92fb-6c511c1af9df a aamas:Muterm ;
+aama:ID0d1787db-a156-4219-81d9-03732732def9 a aamas:Muterm ;
 	aamas:lang aama:Syriac ;	aamas:memberOf syr:syriac-PInd ;
 	aamas:morpheme aama:Syriac-PROIND ;
 	syr:pos syr:Pronoun ;
@@ -1344,425 +1136,633 @@ aama:ID76cb1fc4-1df2-4aa9-92fb-6c511c1af9df a aamas:Muterm ;
 	syr:gender syr:Fem ;
 	.
 
-#MUTERMCLUSTER:  syriac-PObjCliticImprtv
+#MUTERMCLUSTER:  syriac-PObjCliticPerf
 
-syr:syriac-PObjCliticImprtv a aamas:MuTermcluster ;
-	rdfs:label "syriac-PObjCliticImprtv" ;
-	rdfs:comment "Thackston1999 p. 89;Syriac uses the following set of pronominal enclitics on imperatives. The environments are as follows:ENV1 = General suffixes with Masculine Singular Imperative forms (added to the form qtol-);ENV2 = General suffixes with Feminine Singular Imperative forms (added to the form qtoli-);ENV3 = General suffixes with Masculine Plural Imperative forms (added to the form qutlu-);ENV4 = General suffixes with Feminine Plural Imperative forms (added to the form qtol-);ENV5 = CCY (III-weak) forms of imperatives:suffixes with Masculine Singular Imperative forms (added to the form qri-);ENV6 = CCY (III-weak) forms of imperatives:suffixes with Feminine Singular Imperative forms (added to the form qrāʾi-);ENV7 = CCY (III-weak) forms of imperatives:suffixes Masculine Plural Imperative forms (added to the form qraʾu-);ENV8 = CCY (III-weak) forms of imperatives:suffixes with Feminine Plural Imperative forms (added to the form qrāyen-);" 
+syr:syriac-PObjCliticPerf a aamas:MuTermcluster ;
+	rdfs:label "syriac-PObjCliticPerf" ;
+	rdfs:comment "Thackston1999 p. 34-35;Syriac uses 3 object suffixes for the perfective. The ENVironments are as follows:ENV1 = Used when the suffix is post-consonantal (3ms%%3fs%%and 1cs perfective forms;3 plural suffix forms use the enclitic pronouns above (-ennon and -ennēn) and are not attached directly to the verb);ENV2 = Used for 3mp perfect%%the base of which becomes qatl- in the pǝʿal before the suffix (3 plural suffix forms use the enclitic pronouns above (-ennon and -ennēn) and are not attached directly to the verb);ENV3 = Used for the 3fp perfect%%the base of which becomes qatl- in the pǝʿal before the suffix except for the 2 plural forms%%where the base stays qtal- (3 plural suffix forms use the enclitic pronouns above (-ennon and -ennēn) and are not attached directly to the verb);ENV4 = Used for the the 2ms%%the base of which becomes qtaltā- in the pǝʿal before the suffix (3 plural suffix forms use the enclitic pronouns above (-ennon and -ennēn) and are not attached directly to the verb);ENV5 = Used for the the 2fs%%the base of which becomes qtalti- in the pǝʿal before the suffix (3 plural suffix forms use the enclitic pronouns above (-ennon and -ennēn) and are not attached directly to the verb);ENV6 = Used for the the 2mp and 2fp (3 plural suffix forms use the enclitic pronouns above (-ennon and -ennēn) and are not attached directly to the verb);" 
 	.
 
-aama:ID2a5260f5-9bcc-4e57-b7f4-5dc32e0f4479 a aamas:Muterm ;
-	aamas:lang aama:Syriac ;	aamas:memberOf syr:syriac-PObjCliticImprtv ;
-	syr:case syr:Accusative ;
-	aamas:morpheme aama:Syriac-PROOBJCLITICIMPRTV ;
+aama:ID8b011dfe-68bd-4ddd-8df4-27f805eda031 a aamas:Muterm ;
+	aamas:lang aama:Syriac ;	aamas:memberOf syr:syriac-PObjCliticPerf ;
+	syr:case syr:Object ;
+	aamas:morpheme aama:Syriac-PROOBJCLITICPERF ;
 	syr:pos syr:Pronoun ;
-	syr:proClass syr:ObjCliticImprtv ;
-	syr:token-environment "ENV1" ;
-	syr:token "-ayn" ;
+	syr:proClass syr:ObjCliticPerf ;
+	syr:token-note "ENV1" ;
+	syr:token "-an" ;
 	syr:person syr:Person1 ;
 	syr:number syr:Singular ;
 	syr:gender syr:Common ;
 	.
 
-aama:IDadb7dd4e-5cc0-4716-85b5-58cb788beabc a aamas:Muterm ;
-	aamas:lang aama:Syriac ;	aamas:memberOf syr:syriac-PObjCliticImprtv ;
-	syr:case syr:Accusative ;
-	aamas:morpheme aama:Syriac-PROOBJCLITICIMPRTV ;
+aama:ID7049b2e2-78c2-4c80-99dd-f487bfdf2a86 a aamas:Muterm ;
+	aamas:lang aama:Syriac ;	aamas:memberOf syr:syriac-PObjCliticPerf ;
+	syr:case syr:Object ;
+	aamas:morpheme aama:Syriac-PROOBJCLITICPERF ;
 	syr:pos syr:Pronoun ;
-	syr:proClass syr:ObjCliticImprtv ;
-	syr:token-environment "ENV1" ;
-	syr:token "-āy" ;
-	syr:person syr:Person3 ;
-	syr:number syr:Singular ;
-	syr:gender syr:Masc ;
-	.
-
-aama:ID5536ddb4-606c-4447-b4e9-8eb4a18e00e5 a aamas:Muterm ;
-	aamas:lang aama:Syriac ;	aamas:memberOf syr:syriac-PObjCliticImprtv ;
-	syr:case syr:Accusative ;
-	aamas:morpheme aama:Syriac-PROOBJCLITICIMPRTV ;
-	syr:pos syr:Pronoun ;
-	syr:proClass syr:ObjCliticImprtv ;
-	syr:token-environment "ENV1" ;
-	syr:token "-ēh" ;
-	syr:person syr:Person3 ;
-	syr:number syr:Singular ;
-	syr:gender syr:Fem ;
-	.
-
-aama:ID4ccd870d-47bf-4d1f-a669-97a4f6169520 a aamas:Muterm ;
-	aamas:lang aama:Syriac ;	aamas:memberOf syr:syriac-PObjCliticImprtv ;
-	syr:case syr:Accusative ;
-	aamas:morpheme aama:Syriac-PROOBJCLITICIMPRTV ;
-	syr:pos syr:Pronoun ;
-	syr:proClass syr:ObjCliticImprtv ;
-	syr:token-environment "ENV1" ;
-	syr:token "-ayn" ;
-	syr:person syr:Person1 ;
-	syr:number syr:Plural ;
-	syr:gender syr:Common ;
-	.
-
-aama:ID302a1050-e207-4354-8896-8afac726e2e6 a aamas:Muterm ;
-	aamas:lang aama:Syriac ;	aamas:memberOf syr:syriac-PObjCliticImprtv ;
-	syr:case syr:Accusative ;
-	aamas:morpheme aama:Syriac-PROOBJCLITICIMPRTV ;
-	syr:pos syr:Pronoun ;
-	syr:proClass syr:ObjCliticImprtv ;
-	syr:token-environment "ENV2" ;
-	syr:token "-n" ;
-	syr:person syr:Person1 ;
-	syr:number syr:Singular ;
-	syr:gender syr:Common ;
-	.
-
-aama:IDac66e3e9-37ae-4d20-b223-ec7fb651ecfd a aamas:Muterm ;
-	aamas:lang aama:Syriac ;	aamas:memberOf syr:syriac-PObjCliticImprtv ;
-	syr:case syr:Accusative ;
-	aamas:morpheme aama:Syriac-PROOBJCLITICIMPRTV ;
-	syr:pos syr:Pronoun ;
-	syr:proClass syr:ObjCliticImprtv ;
-	syr:token-environment "ENV2" ;
-	syr:token "-w" ;
-	syr:person syr:Person3 ;
-	syr:number syr:Singular ;
-	syr:gender syr:Masc ;
-	.
-
-aama:ID8189f448-1a42-4ffb-84da-26ed475760a6 a aamas:Muterm ;
-	aamas:lang aama:Syriac ;	aamas:memberOf syr:syriac-PObjCliticImprtv ;
-	syr:case syr:Accusative ;
-	aamas:morpheme aama:Syriac-PROOBJCLITICIMPRTV ;
-	syr:pos syr:Pronoun ;
-	syr:proClass syr:ObjCliticImprtv ;
-	syr:token-environment "ENV2" ;
-	syr:token "-h" ;
-	syr:person syr:Person3 ;
-	syr:number syr:Singular ;
-	syr:gender syr:Fem ;
-	.
-
-aama:IDe6999167-1a24-48c6-8500-c9c0e65d7db2 a aamas:Muterm ;
-	aamas:lang aama:Syriac ;	aamas:memberOf syr:syriac-PObjCliticImprtv ;
-	syr:case syr:Accusative ;
-	aamas:morpheme aama:Syriac-PROOBJCLITICIMPRTV ;
-	syr:pos syr:Pronoun ;
-	syr:proClass syr:ObjCliticImprtv ;
-	syr:token-environment "ENV2" ;
-	syr:token "-n" ;
-	syr:person syr:Person1 ;
-	syr:number syr:Plural ;
-	syr:gender syr:Common ;
-	.
-
-aama:ID65af7284-ebde-42fe-8d45-1e32daeeee2f a aamas:Muterm ;
-	aamas:lang aama:Syriac ;	aamas:memberOf syr:syriac-PObjCliticImprtv ;
-	syr:case syr:Accusative ;
-	aamas:morpheme aama:Syriac-PROOBJCLITICIMPRTV ;
-	syr:pos syr:Pronoun ;
-	syr:proClass syr:ObjCliticImprtv ;
-	syr:token-environment "ENV3" ;
-	syr:token "-n ~ -nān" ;
-	syr:person syr:Person1 ;
-	syr:number syr:Singular ;
-	syr:gender syr:Common ;
-	.
-
-aama:ID084c3bdd-caae-48e1-890d-cca580a51122 a aamas:Muterm ;
-	aamas:lang aama:Syriac ;	aamas:memberOf syr:syriac-PObjCliticImprtv ;
-	syr:case syr:Accusative ;
-	aamas:morpheme aama:Syriac-PROOBJCLITICIMPRTV ;
-	syr:pos syr:Pronoun ;
-	syr:proClass syr:ObjCliticImprtv ;
-	syr:token-environment "ENV3" ;
-	syr:token "-Ø ~ -nāy" ;
-	syr:person syr:Person3 ;
-	syr:number syr:Singular ;
-	syr:gender syr:Masc ;
-	.
-
-aama:ID410040d7-b981-4398-ba59-e29d30045c89 a aamas:Muterm ;
-	aamas:lang aama:Syriac ;	aamas:memberOf syr:syriac-PObjCliticImprtv ;
-	syr:case syr:Accusative ;
-	aamas:morpheme aama:Syriac-PROOBJCLITICIMPRTV ;
-	syr:pos syr:Pronoun ;
-	syr:proClass syr:ObjCliticImprtv ;
-	syr:token-environment "ENV3" ;
-	syr:token "-h ~ -nāh" ;
-	syr:person syr:Person3 ;
-	syr:number syr:Singular ;
-	syr:gender syr:Fem ;
-	.
-
-aama:IDe87fd76c-2f2a-4d3f-9f2c-495a66ec43aa a aamas:Muterm ;
-	aamas:lang aama:Syriac ;	aamas:memberOf syr:syriac-PObjCliticImprtv ;
-	syr:case syr:Accusative ;
-	aamas:morpheme aama:Syriac-PROOBJCLITICIMPRTV ;
-	syr:pos syr:Pronoun ;
-	syr:proClass syr:ObjCliticImprtv ;
-	syr:token-environment "ENV3" ;
-	syr:token "-n ~ -nān" ;
-	syr:person syr:Person1 ;
-	syr:number syr:Plural ;
-	syr:gender syr:Common ;
-	.
-
-aama:ID1375b16d-207e-41a9-b55b-093c41c0ad15 a aamas:Muterm ;
-	aamas:lang aama:Syriac ;	aamas:memberOf syr:syriac-PObjCliticImprtv ;
-	syr:case syr:Accusative ;
-	aamas:morpheme aama:Syriac-PROOBJCLITICIMPRTV ;
-	syr:pos syr:Pronoun ;
-	syr:proClass syr:ObjCliticImprtv ;
-	syr:token-environment "ENV4" ;
-	syr:token "-ān ~ -ēnān" ;
-	syr:person syr:Person1 ;
-	syr:number syr:Singular ;
-	syr:gender syr:Common ;
-	.
-
-aama:IDb1098a22-6250-49b1-bb4b-119478f2e7ce a aamas:Muterm ;
-	aamas:lang aama:Syriac ;	aamas:memberOf syr:syriac-PObjCliticImprtv ;
-	syr:case syr:Accusative ;
-	aamas:morpheme aama:Syriac-PROOBJCLITICIMPRTV ;
-	syr:pos syr:Pronoun ;
-	syr:proClass syr:ObjCliticImprtv ;
-	syr:token-environment "ENV4" ;
-	syr:token "-āy ~ -ēnāy" ;
-	syr:person syr:Person3 ;
-	syr:number syr:Singular ;
-	syr:gender syr:Masc ;
-	.
-
-aama:IDf6cf4859-2863-4285-93df-512a53d9c1c8 a aamas:Muterm ;
-	aamas:lang aama:Syriac ;	aamas:memberOf syr:syriac-PObjCliticImprtv ;
-	syr:case syr:Accusative ;
-	aamas:morpheme aama:Syriac-PROOBJCLITICIMPRTV ;
-	syr:pos syr:Pronoun ;
-	syr:proClass syr:ObjCliticImprtv ;
-	syr:token-environment "ENV4" ;
-	syr:token "-āh ~ -ēnāh" ;
-	syr:person syr:Person3 ;
-	syr:number syr:Singular ;
-	syr:gender syr:Fem ;
-	.
-
-aama:ID46425556-7530-4360-9bca-8582d53f9d75 a aamas:Muterm ;
-	aamas:lang aama:Syriac ;	aamas:memberOf syr:syriac-PObjCliticImprtv ;
-	syr:case syr:Accusative ;
-	aamas:morpheme aama:Syriac-PROOBJCLITICIMPRTV ;
-	syr:pos syr:Pronoun ;
-	syr:proClass syr:ObjCliticImprtv ;
-	syr:token-environment "ENV4" ;
-	syr:token "-ān ~ -ēnān" ;
-	syr:person syr:Person1 ;
-	syr:number syr:Plural ;
-	syr:gender syr:Common ;
-	.
-
-aama:IDabdd558e-2e60-46f8-8004-3892a7930987 a aamas:Muterm ;
-	aamas:lang aama:Syriac ;	aamas:memberOf syr:syriac-PObjCliticImprtv ;
-	syr:case syr:Accusative ;
-	aamas:morpheme aama:Syriac-PROOBJCLITICIMPRTV ;
-	syr:pos syr:Pronoun ;
-	syr:proClass syr:ObjCliticImprtv ;
-	syr:token-environment "ENV5" ;
-	syr:token "-n" ;
-	syr:person syr:Person1 ;
-	syr:number syr:Singular ;
-	syr:gender syr:Common ;
-	.
-
-aama:IDf6b2d2d7-8760-44a4-a612-8276f858488d a aamas:Muterm ;
-	aamas:lang aama:Syriac ;	aamas:memberOf syr:syriac-PObjCliticImprtv ;
-	syr:case syr:Accusative ;
-	aamas:morpheme aama:Syriac-PROOBJCLITICIMPRTV ;
-	syr:pos syr:Pronoun ;
-	syr:proClass syr:ObjCliticImprtv ;
-	syr:token-environment "ENV5" ;
-	syr:token "-w" ;
-	syr:person syr:Person3 ;
-	syr:number syr:Singular ;
-	syr:gender syr:Masc ;
-	.
-
-aama:ID0cd0a751-6df0-4810-bf6e-149b41f967ae a aamas:Muterm ;
-	aamas:lang aama:Syriac ;	aamas:memberOf syr:syriac-PObjCliticImprtv ;
-	syr:case syr:Accusative ;
-	aamas:morpheme aama:Syriac-PROOBJCLITICIMPRTV ;
-	syr:pos syr:Pronoun ;
-	syr:proClass syr:ObjCliticImprtv ;
-	syr:token-environment "ENV5" ;
-	syr:token "-h" ;
-	syr:person syr:Person3 ;
-	syr:number syr:Singular ;
-	syr:gender syr:Fem ;
-	.
-
-aama:IDe29c080c-67f9-46f8-9525-1a5e1d593c00 a aamas:Muterm ;
-	aamas:lang aama:Syriac ;	aamas:memberOf syr:syriac-PObjCliticImprtv ;
-	syr:case syr:Accusative ;
-	aamas:morpheme aama:Syriac-PROOBJCLITICIMPRTV ;
-	syr:pos syr:Pronoun ;
-	syr:proClass syr:ObjCliticImprtv ;
-	syr:token-environment "ENV5" ;
-	syr:token "-n" ;
-	syr:person syr:Person1 ;
-	syr:number syr:Plural ;
-	syr:gender syr:Common ;
-	.
-
-aama:ID59acec0d-6ad3-4648-b704-fa599aa0f056 a aamas:Muterm ;
-	aamas:lang aama:Syriac ;	aamas:memberOf syr:syriac-PObjCliticImprtv ;
-	syr:case syr:Accusative ;
-	aamas:morpheme aama:Syriac-PROOBJCLITICIMPRTV ;
-	syr:pos syr:Pronoun ;
-	syr:proClass syr:ObjCliticImprtv ;
-	syr:token-environment "ENV6" ;
-	syr:token "-n" ;
-	syr:person syr:Person1 ;
-	syr:number syr:Singular ;
-	syr:gender syr:Common ;
-	.
-
-aama:IDa783d74d-4bae-4f74-9cb8-f7d3e8e91e56 a aamas:Muterm ;
-	aamas:lang aama:Syriac ;	aamas:memberOf syr:syriac-PObjCliticImprtv ;
-	syr:case syr:Accusative ;
-	aamas:morpheme aama:Syriac-PROOBJCLITICIMPRTV ;
-	syr:pos syr:Pronoun ;
-	syr:proClass syr:ObjCliticImprtv ;
-	syr:token-environment "ENV6" ;
-	syr:token "-w" ;
-	syr:person syr:Person3 ;
-	syr:number syr:Singular ;
-	syr:gender syr:Masc ;
-	.
-
-aama:ID391256c9-0363-403d-bae5-e894b16fc3fd a aamas:Muterm ;
-	aamas:lang aama:Syriac ;	aamas:memberOf syr:syriac-PObjCliticImprtv ;
-	syr:case syr:Accusative ;
-	aamas:morpheme aama:Syriac-PROOBJCLITICIMPRTV ;
-	syr:pos syr:Pronoun ;
-	syr:proClass syr:ObjCliticImprtv ;
-	syr:token-environment "ENV6" ;
-	syr:token "-h" ;
-	syr:person syr:Person3 ;
-	syr:number syr:Singular ;
-	syr:gender syr:Fem ;
-	.
-
-aama:ID6a8c23a2-167b-4cac-849e-0236bf8e5383 a aamas:Muterm ;
-	aamas:lang aama:Syriac ;	aamas:memberOf syr:syriac-PObjCliticImprtv ;
-	syr:case syr:Accusative ;
-	aamas:morpheme aama:Syriac-PROOBJCLITICIMPRTV ;
-	syr:pos syr:Pronoun ;
-	syr:proClass syr:ObjCliticImprtv ;
-	syr:token-environment "ENV6" ;
-	syr:token "-n" ;
-	syr:person syr:Person1 ;
-	syr:number syr:Plural ;
-	syr:gender syr:Common ;
-	.
-
-aama:ID009dd0a1-b836-4b68-a11c-8b8ad86da3e7 a aamas:Muterm ;
-	aamas:lang aama:Syriac ;	aamas:memberOf syr:syriac-PObjCliticImprtv ;
-	syr:case syr:Accusative ;
-	aamas:morpheme aama:Syriac-PROOBJCLITICIMPRTV ;
-	syr:pos syr:Pronoun ;
-	syr:proClass syr:ObjCliticImprtv ;
-	syr:token-environment "ENV7" ;
-	syr:token "-n" ;
-	syr:person syr:Person1 ;
-	syr:number syr:Singular ;
-	syr:gender syr:Common ;
-	.
-
-aama:IDe8e78328-3fdb-48f6-9446-32b0f2398933 a aamas:Muterm ;
-	aamas:lang aama:Syriac ;	aamas:memberOf syr:syriac-PObjCliticImprtv ;
-	syr:case syr:Accusative ;
-	aamas:morpheme aama:Syriac-PROOBJCLITICIMPRTV ;
-	syr:pos syr:Pronoun ;
-	syr:proClass syr:ObjCliticImprtv ;
-	syr:token-environment "ENV7" ;
+	syr:proClass syr:ObjCliticPerf ;
+	syr:token-note "ENV1" ;
 	syr:token "⊤" ;
-	syr:person syr:Person3 ;
+	syr:person syr:Person2 ;
 	syr:number syr:Singular ;
 	syr:gender syr:Masc ;
 	.
 
-aama:IDc75f1dc5-4d22-4f51-a296-e49ea04912d1 a aamas:Muterm ;
-	aamas:lang aama:Syriac ;	aamas:memberOf syr:syriac-PObjCliticImprtv ;
-	syr:case syr:Accusative ;
-	aamas:morpheme aama:Syriac-PROOBJCLITICIMPRTV ;
+aama:IDaaa55f95-be3a-4b9f-b0dd-fe24da4c14e1 a aamas:Muterm ;
+	aamas:lang aama:Syriac ;	aamas:memberOf syr:syriac-PObjCliticPerf ;
+	syr:case syr:Object ;
+	aamas:morpheme aama:Syriac-PROOBJCLITICPERF ;
 	syr:pos syr:Pronoun ;
-	syr:proClass syr:ObjCliticImprtv ;
-	syr:token-environment "ENV7" ;
-	syr:token "-h" ;
-	syr:person syr:Person3 ;
+	syr:proClass syr:ObjCliticPerf ;
+	syr:token-note "ENV1" ;
+	syr:token "-eḵ" ;
+	syr:person syr:Person2 ;
 	syr:number syr:Singular ;
 	syr:gender syr:Fem ;
 	.
 
-aama:ID99c4da5a-19b7-4e6b-b1cf-69f59e5d5305 a aamas:Muterm ;
-	aamas:lang aama:Syriac ;	aamas:memberOf syr:syriac-PObjCliticImprtv ;
-	syr:case syr:Accusative ;
-	aamas:morpheme aama:Syriac-PROOBJCLITICIMPRTV ;
+aama:IDac66f52f-5bfb-40b3-a464-2982373903b8 a aamas:Muterm ;
+	aamas:lang aama:Syriac ;	aamas:memberOf syr:syriac-PObjCliticPerf ;
+	syr:case syr:Object ;
+	aamas:morpheme aama:Syriac-PROOBJCLITICPERF ;
 	syr:pos syr:Pronoun ;
-	syr:proClass syr:ObjCliticImprtv ;
-	syr:token-environment "ENV7" ;
-	syr:token "-n" ;
-	syr:person syr:Person1 ;
-	syr:number syr:Plural ;
-	syr:gender syr:Common ;
-	.
-
-aama:ID06711bfc-77fb-457b-888b-3c5c8539b402 a aamas:Muterm ;
-	aamas:lang aama:Syriac ;	aamas:memberOf syr:syriac-PObjCliticImprtv ;
-	syr:case syr:Accusative ;
-	aamas:morpheme aama:Syriac-PROOBJCLITICIMPRTV ;
-	syr:pos syr:Pronoun ;
-	syr:proClass syr:ObjCliticImprtv ;
-	syr:token-environment "ENV8" ;
-	syr:token "-ān" ;
-	syr:person syr:Person1 ;
-	syr:number syr:Singular ;
-	syr:gender syr:Common ;
-	.
-
-aama:ID5b0ee732-6253-43a8-8082-9719fdf0ede5 a aamas:Muterm ;
-	aamas:lang aama:Syriac ;	aamas:memberOf syr:syriac-PObjCliticImprtv ;
-	syr:case syr:Accusative ;
-	aamas:morpheme aama:Syriac-PROOBJCLITICIMPRTV ;
-	syr:pos syr:Pronoun ;
-	syr:proClass syr:ObjCliticImprtv ;
-	syr:token-environment "ENV8" ;
-	syr:token "-āy" ;
+	syr:proClass syr:ObjCliticPerf ;
+	syr:token-note "ENV1" ;
+	syr:token "-eh" ;
 	syr:person syr:Person3 ;
 	syr:number syr:Singular ;
 	syr:gender syr:Masc ;
 	.
 
-aama:ID0b64c26c-de04-4313-a905-67f819ac1af0 a aamas:Muterm ;
-	aamas:lang aama:Syriac ;	aamas:memberOf syr:syriac-PObjCliticImprtv ;
-	syr:case syr:Accusative ;
-	aamas:morpheme aama:Syriac-PROOBJCLITICIMPRTV ;
+aama:IDa5a0d834-8033-4ecf-8fbc-939c67cdf179 a aamas:Muterm ;
+	aamas:lang aama:Syriac ;	aamas:memberOf syr:syriac-PObjCliticPerf ;
+	syr:case syr:Object ;
+	aamas:morpheme aama:Syriac-PROOBJCLITICPERF ;
 	syr:pos syr:Pronoun ;
-	syr:proClass syr:ObjCliticImprtv ;
-	syr:token-environment "ENV8" ;
+	syr:proClass syr:ObjCliticPerf ;
+	syr:token-note "ENV1" ;
 	syr:token "-āh" ;
 	syr:person syr:Person3 ;
 	syr:number syr:Singular ;
 	syr:gender syr:Fem ;
 	.
 
-aama:IDf41e5a65-ba04-4028-a68a-69e427c21b22 a aamas:Muterm ;
-	aamas:lang aama:Syriac ;	aamas:memberOf syr:syriac-PObjCliticImprtv ;
-	syr:case syr:Accusative ;
-	aamas:morpheme aama:Syriac-PROOBJCLITICIMPRTV ;
+aama:ID46f67e1d-b9ad-4f2e-b8e3-f0df599e8fcc a aamas:Muterm ;
+	aamas:lang aama:Syriac ;	aamas:memberOf syr:syriac-PObjCliticPerf ;
+	syr:case syr:Object ;
+	aamas:morpheme aama:Syriac-PROOBJCLITICPERF ;
 	syr:pos syr:Pronoun ;
-	syr:proClass syr:ObjCliticImprtv ;
-	syr:token-environment "ENV8" ;
+	syr:proClass syr:ObjCliticPerf ;
+	syr:token-note "ENV1" ;
+	syr:token "-an" ;
+	syr:person syr:Person1 ;
+	syr:number syr:Plural ;
+	syr:gender syr:Common ;
+	.
+
+aama:ID1e2cf9fc-0a5a-4582-94fc-025bc2694199 a aamas:Muterm ;
+	aamas:lang aama:Syriac ;	aamas:memberOf syr:syriac-PObjCliticPerf ;
+	syr:case syr:Object ;
+	aamas:morpheme aama:Syriac-PROOBJCLITICPERF ;
+	syr:pos syr:Pronoun ;
+	syr:proClass syr:ObjCliticPerf ;
+	syr:token-note "ENV1" ;
+	syr:token "-ḵon" ;
+	syr:person syr:Person2 ;
+	syr:number syr:Plural ;
+	syr:gender syr:Masc ;
+	.
+
+aama:IDa201efc8-e3be-4ead-979e-e4d90a8c946e a aamas:Muterm ;
+	aamas:lang aama:Syriac ;	aamas:memberOf syr:syriac-PObjCliticPerf ;
+	syr:case syr:Object ;
+	aamas:morpheme aama:Syriac-PROOBJCLITICPERF ;
+	syr:pos syr:Pronoun ;
+	syr:proClass syr:ObjCliticPerf ;
+	syr:token-note "ENV1" ;
+	syr:token "-ḵēn" ;
+	syr:person syr:Person2 ;
+	syr:number syr:Plural ;
+	syr:gender syr:Fem ;
+	.
+
+aama:IDff5a81bc-c46e-41c9-acbe-8dd5eee0e6d1 a aamas:Muterm ;
+	aamas:lang aama:Syriac ;	aamas:memberOf syr:syriac-PObjCliticPerf ;
+	syr:case syr:Object ;
+	aamas:morpheme aama:Syriac-PROOBJCLITICPERF ;
+	syr:pos syr:Pronoun ;
+	syr:proClass syr:ObjCliticPerf ;
+	syr:token-note "ENV1" ;
+	syr:token "⊤" ;
+	syr:person syr:Person3 ;
+	syr:number syr:Plural ;
+	syr:gender syr:Masc ;
+	.
+
+aama:ID43920bda-0b52-4b66-96bc-3ee017057c7b a aamas:Muterm ;
+	aamas:lang aama:Syriac ;	aamas:memberOf syr:syriac-PObjCliticPerf ;
+	syr:case syr:Object ;
+	aamas:morpheme aama:Syriac-PROOBJCLITICPERF ;
+	syr:pos syr:Pronoun ;
+	syr:proClass syr:ObjCliticPerf ;
+	syr:token-note "ENV1" ;
+	syr:token "⊤" ;
+	syr:person syr:Person3 ;
+	syr:number syr:Plural ;
+	syr:gender syr:Fem ;
+	.
+
+aama:IDb17c4505-93ae-43e8-a3ca-c451a70f8679 a aamas:Muterm ;
+	aamas:lang aama:Syriac ;	aamas:memberOf syr:syriac-PObjCliticPerf ;
+	syr:case syr:Object ;
+	aamas:morpheme aama:Syriac-PROOBJCLITICPERF ;
+	syr:pos syr:Pronoun ;
+	syr:proClass syr:ObjCliticPerf ;
+	syr:token-note "ENV2" ;
+	syr:token "-un" ;
+	syr:person syr:Person1 ;
+	syr:number syr:Singular ;
+	syr:gender syr:Common ;
+	.
+
+aama:IDf6105f42-4bac-4bb5-a381-c0e52af5fe0f a aamas:Muterm ;
+	aamas:lang aama:Syriac ;	aamas:memberOf syr:syriac-PObjCliticPerf ;
+	syr:case syr:Object ;
+	aamas:morpheme aama:Syriac-PROOBJCLITICPERF ;
+	syr:pos syr:Pronoun ;
+	syr:proClass syr:ObjCliticPerf ;
+	syr:token-note "ENV2" ;
+	syr:token "-uk" ;
+	syr:person syr:Person2 ;
+	syr:number syr:Singular ;
+	syr:gender syr:Masc ;
+	.
+
+aama:IDdc2bbcce-a4b2-471d-90da-1dfbbcb406ed a aamas:Muterm ;
+	aamas:lang aama:Syriac ;	aamas:memberOf syr:syriac-PObjCliticPerf ;
+	syr:case syr:Object ;
+	aamas:morpheme aama:Syriac-PROOBJCLITICPERF ;
+	syr:pos syr:Pronoun ;
+	syr:proClass syr:ObjCliticPerf ;
+	syr:token-note "ENV2" ;
+	syr:token "-uk" ;
+	syr:person syr:Person2 ;
+	syr:number syr:Singular ;
+	syr:gender syr:Fem ;
+	.
+
+aama:IDf25c23ff-1410-4c02-b42a-aa68872a4886 a aamas:Muterm ;
+	aamas:lang aama:Syriac ;	aamas:memberOf syr:syriac-PObjCliticPerf ;
+	syr:case syr:Object ;
+	aamas:morpheme aama:Syriac-PROOBJCLITICPERF ;
+	syr:pos syr:Pronoun ;
+	syr:proClass syr:ObjCliticPerf ;
+	syr:token-note "ENV2" ;
+	syr:token "-u" ;
+	syr:person syr:Person3 ;
+	syr:number syr:Singular ;
+	syr:gender syr:Masc ;
+	.
+
+aama:IDfdc263be-2541-4c05-b22d-f3df185e8346 a aamas:Muterm ;
+	aamas:lang aama:Syriac ;	aamas:memberOf syr:syriac-PObjCliticPerf ;
+	syr:case syr:Object ;
+	aamas:morpheme aama:Syriac-PROOBJCLITICPERF ;
+	syr:pos syr:Pronoun ;
+	syr:proClass syr:ObjCliticPerf ;
+	syr:token-note "ENV2" ;
+	syr:token "-uh" ;
+	syr:person syr:Person3 ;
+	syr:number syr:Singular ;
+	syr:gender syr:Fem ;
+	.
+
+aama:ID88b007f4-5f64-490b-9f9d-2643ad2a0e58 a aamas:Muterm ;
+	aamas:lang aama:Syriac ;	aamas:memberOf syr:syriac-PObjCliticPerf ;
+	syr:case syr:Object ;
+	aamas:morpheme aama:Syriac-PROOBJCLITICPERF ;
+	syr:pos syr:Pronoun ;
+	syr:proClass syr:ObjCliticPerf ;
+	syr:token-note "ENV2" ;
+	syr:token "-un" ;
+	syr:person syr:Person1 ;
+	syr:number syr:Plural ;
+	syr:gender syr:Common ;
+	.
+
+aama:ID8354592d-6bc9-4f08-84fb-48c1c106a53a a aamas:Muterm ;
+	aamas:lang aama:Syriac ;	aamas:memberOf syr:syriac-PObjCliticPerf ;
+	syr:case syr:Object ;
+	aamas:morpheme aama:Syriac-PROOBJCLITICPERF ;
+	syr:pos syr:Pronoun ;
+	syr:proClass syr:ObjCliticPerf ;
+	syr:token-note "ENV2" ;
+	syr:token "-uḵon" ;
+	syr:person syr:Person2 ;
+	syr:number syr:Plural ;
+	syr:gender syr:Masc ;
+	.
+
+aama:ID5915bd62-bbc8-42c8-a93c-0264ca2017c4 a aamas:Muterm ;
+	aamas:lang aama:Syriac ;	aamas:memberOf syr:syriac-PObjCliticPerf ;
+	syr:case syr:Object ;
+	aamas:morpheme aama:Syriac-PROOBJCLITICPERF ;
+	syr:pos syr:Pronoun ;
+	syr:proClass syr:ObjCliticPerf ;
+	syr:token-note "ENV2" ;
+	syr:token "-uḵēn" ;
+	syr:person syr:Person2 ;
+	syr:number syr:Plural ;
+	syr:gender syr:Fem ;
+	.
+
+aama:IDa621a475-d572-47d9-b282-a4bd03cc04ee a aamas:Muterm ;
+	aamas:lang aama:Syriac ;	aamas:memberOf syr:syriac-PObjCliticPerf ;
+	syr:case syr:Object ;
+	aamas:morpheme aama:Syriac-PROOBJCLITICPERF ;
+	syr:pos syr:Pronoun ;
+	syr:proClass syr:ObjCliticPerf ;
+	syr:token-note "ENV2" ;
+	syr:token "⊤" ;
+	syr:person syr:Person3 ;
+	syr:number syr:Plural ;
+	syr:gender syr:Masc ;
+	.
+
+aama:IDabc6a001-b86f-4092-ac2b-42048b1af9cd a aamas:Muterm ;
+	aamas:lang aama:Syriac ;	aamas:memberOf syr:syriac-PObjCliticPerf ;
+	syr:case syr:Object ;
+	aamas:morpheme aama:Syriac-PROOBJCLITICPERF ;
+	syr:pos syr:Pronoun ;
+	syr:proClass syr:ObjCliticPerf ;
+	syr:token-note "ENV2" ;
+	syr:token "⊤" ;
+	syr:person syr:Person3 ;
+	syr:number syr:Plural ;
+	syr:gender syr:Fem ;
+	.
+
+aama:IDc5755b91-f45d-4980-b2d5-166cc807f877 a aamas:Muterm ;
+	aamas:lang aama:Syriac ;	aamas:memberOf syr:syriac-PObjCliticPerf ;
+	syr:case syr:Object ;
+	aamas:morpheme aama:Syriac-PROOBJCLITICPERF ;
+	syr:pos syr:Pronoun ;
+	syr:proClass syr:ObjCliticPerf ;
+	syr:token-note "ENV3" ;
+	syr:token "-ān" ;
+	syr:person syr:Person1 ;
+	syr:number syr:Singular ;
+	syr:gender syr:Common ;
+	.
+
+aama:ID8a3a9716-08a8-4c0a-a374-10ef252a3f49 a aamas:Muterm ;
+	aamas:lang aama:Syriac ;	aamas:memberOf syr:syriac-PObjCliticPerf ;
+	syr:case syr:Object ;
+	aamas:morpheme aama:Syriac-PROOBJCLITICPERF ;
+	syr:pos syr:Pronoun ;
+	syr:proClass syr:ObjCliticPerf ;
+	syr:token-note "ENV3" ;
+	syr:token "-āk" ;
+	syr:person syr:Person2 ;
+	syr:number syr:Singular ;
+	syr:gender syr:Masc ;
+	.
+
+aama:IDbfc696fe-c4ac-4ef3-8c84-a7100a4e4e51 a aamas:Muterm ;
+	aamas:lang aama:Syriac ;	aamas:memberOf syr:syriac-PObjCliticPerf ;
+	syr:case syr:Object ;
+	aamas:morpheme aama:Syriac-PROOBJCLITICPERF ;
+	syr:pos syr:Pronoun ;
+	syr:proClass syr:ObjCliticPerf ;
+	syr:token-note "ENV3" ;
+	syr:token "-ek" ;
+	syr:person syr:Person2 ;
+	syr:number syr:Singular ;
+	syr:gender syr:Fem ;
+	.
+
+aama:IDca6f8540-c1ee-43d9-bdd4-7d79ae1dd88e a aamas:Muterm ;
+	aamas:lang aama:Syriac ;	aamas:memberOf syr:syriac-PObjCliticPerf ;
+	syr:case syr:Object ;
+	aamas:morpheme aama:Syriac-PROOBJCLITICPERF ;
+	syr:pos syr:Pronoun ;
+	syr:proClass syr:ObjCliticPerf ;
+	syr:token-note "ENV3" ;
+	syr:token "-āy" ;
+	syr:person syr:Person3 ;
+	syr:number syr:Singular ;
+	syr:gender syr:Masc ;
+	.
+
+aama:ID438cf057-b246-4731-a659-66dfc5d68fcd a aamas:Muterm ;
+	aamas:lang aama:Syriac ;	aamas:memberOf syr:syriac-PObjCliticPerf ;
+	syr:case syr:Object ;
+	aamas:morpheme aama:Syriac-PROOBJCLITICPERF ;
+	syr:pos syr:Pronoun ;
+	syr:proClass syr:ObjCliticPerf ;
+	syr:token-note "ENV3" ;
+	syr:token "-āh" ;
+	syr:person syr:Person3 ;
+	syr:number syr:Singular ;
+	syr:gender syr:Fem ;
+	.
+
+aama:ID65be6b8f-349c-4b21-a574-0114d5036df2 a aamas:Muterm ;
+	aamas:lang aama:Syriac ;	aamas:memberOf syr:syriac-PObjCliticPerf ;
+	syr:case syr:Object ;
+	aamas:morpheme aama:Syriac-PROOBJCLITICPERF ;
+	syr:pos syr:Pronoun ;
+	syr:proClass syr:ObjCliticPerf ;
+	syr:token-note "ENV3" ;
 	syr:token "-ān" ;
 	syr:person syr:Person1 ;
 	syr:number syr:Plural ;
 	syr:gender syr:Common ;
+	.
+
+aama:ID7c3d0e3f-91f3-4191-b9ed-e706045a1fd3 a aamas:Muterm ;
+	aamas:lang aama:Syriac ;	aamas:memberOf syr:syriac-PObjCliticPerf ;
+	syr:case syr:Object ;
+	aamas:morpheme aama:Syriac-PROOBJCLITICPERF ;
+	syr:pos syr:Pronoun ;
+	syr:proClass syr:ObjCliticPerf ;
+	syr:token-note "ENV3" ;
+	syr:token "-ḵon" ;
+	syr:person syr:Person2 ;
+	syr:number syr:Plural ;
+	syr:gender syr:Masc ;
+	.
+
+aama:ID3cf97133-f1e9-4557-b670-eed84d702339 a aamas:Muterm ;
+	aamas:lang aama:Syriac ;	aamas:memberOf syr:syriac-PObjCliticPerf ;
+	syr:case syr:Object ;
+	aamas:morpheme aama:Syriac-PROOBJCLITICPERF ;
+	syr:pos syr:Pronoun ;
+	syr:proClass syr:ObjCliticPerf ;
+	syr:token-note "ENV3" ;
+	syr:token "-ḵēn" ;
+	syr:person syr:Person2 ;
+	syr:number syr:Plural ;
+	syr:gender syr:Fem ;
+	.
+
+aama:IDc4c8b622-b3ce-4989-b7c7-8fd6ace04cb8 a aamas:Muterm ;
+	aamas:lang aama:Syriac ;	aamas:memberOf syr:syriac-PObjCliticPerf ;
+	syr:case syr:Object ;
+	aamas:morpheme aama:Syriac-PROOBJCLITICPERF ;
+	syr:pos syr:Pronoun ;
+	syr:proClass syr:ObjCliticPerf ;
+	syr:token-note "ENV3" ;
+	syr:token "⊤" ;
+	syr:person syr:Person3 ;
+	syr:number syr:Plural ;
+	syr:gender syr:Masc ;
+	.
+
+aama:ID243cb134-c774-478e-96bc-f67e3ab1cb5d a aamas:Muterm ;
+	aamas:lang aama:Syriac ;	aamas:memberOf syr:syriac-PObjCliticPerf ;
+	syr:case syr:Object ;
+	aamas:morpheme aama:Syriac-PROOBJCLITICPERF ;
+	syr:pos syr:Pronoun ;
+	syr:proClass syr:ObjCliticPerf ;
+	syr:token-note "ENV3" ;
+	syr:token "⊤" ;
+	syr:person syr:Person3 ;
+	syr:number syr:Plural ;
+	syr:gender syr:Fem ;
+	.
+
+aama:ID16819bc5-1ac1-4ce2-a636-d32a25876159 a aamas:Muterm ;
+	aamas:lang aama:Syriac ;	aamas:memberOf syr:syriac-PObjCliticPerf ;
+	syr:case syr:Object ;
+	aamas:morpheme aama:Syriac-PROOBJCLITICPERF ;
+	syr:pos syr:Pronoun ;
+	syr:proClass syr:ObjCliticPerf ;
+	syr:token-note "ENV4" ;
+	syr:token "-n" ;
+	syr:person syr:Person1 ;
+	syr:number syr:Singular ;
+	syr:gender syr:Common ;
+	.
+
+aama:ID40b48b90-401d-4fdb-8498-4b44c74b35a2 a aamas:Muterm ;
+	aamas:lang aama:Syriac ;	aamas:memberOf syr:syriac-PObjCliticPerf ;
+	syr:case syr:Object ;
+	aamas:morpheme aama:Syriac-PROOBJCLITICPERF ;
+	syr:pos syr:Pronoun ;
+	syr:proClass syr:ObjCliticPerf ;
+	syr:token-note "ENV4" ;
+	syr:token "-y" ;
+	syr:person syr:Person3 ;
+	syr:number syr:Singular ;
+	syr:gender syr:Masc ;
+	.
+
+aama:IDa6a5235f-25e6-48e0-8ece-e1c3d11060d4 a aamas:Muterm ;
+	aamas:lang aama:Syriac ;	aamas:memberOf syr:syriac-PObjCliticPerf ;
+	syr:case syr:Object ;
+	aamas:morpheme aama:Syriac-PROOBJCLITICPERF ;
+	syr:pos syr:Pronoun ;
+	syr:proClass syr:ObjCliticPerf ;
+	syr:token-note "ENV4" ;
+	syr:token "-h" ;
+	syr:person syr:Person3 ;
+	syr:number syr:Singular ;
+	syr:gender syr:Fem ;
+	.
+
+aama:ID3c864333-04bc-4f56-8d6d-92f0f45fee70 a aamas:Muterm ;
+	aamas:lang aama:Syriac ;	aamas:memberOf syr:syriac-PObjCliticPerf ;
+	syr:case syr:Object ;
+	aamas:morpheme aama:Syriac-PROOBJCLITICPERF ;
+	syr:pos syr:Pronoun ;
+	syr:proClass syr:ObjCliticPerf ;
+	syr:token-note "ENV4" ;
+	syr:token "-n" ;
+	syr:person syr:Person1 ;
+	syr:number syr:Plural ;
+	syr:gender syr:Common ;
+	.
+
+aama:ID71776a6f-bcc6-4fee-a430-2ceb59131f0b a aamas:Muterm ;
+	aamas:lang aama:Syriac ;	aamas:memberOf syr:syriac-PObjCliticPerf ;
+	syr:case syr:Object ;
+	aamas:morpheme aama:Syriac-PROOBJCLITICPERF ;
+	syr:pos syr:Pronoun ;
+	syr:proClass syr:ObjCliticPerf ;
+	syr:token-note "ENV4" ;
+	syr:token "⊤" ;
+	syr:person syr:Person3 ;
+	syr:number syr:Plural ;
+	syr:gender syr:Masc ;
+	.
+
+aama:ID15994f9e-1d8d-4231-8f31-d995126b7776 a aamas:Muterm ;
+	aamas:lang aama:Syriac ;	aamas:memberOf syr:syriac-PObjCliticPerf ;
+	syr:case syr:Object ;
+	aamas:morpheme aama:Syriac-PROOBJCLITICPERF ;
+	syr:pos syr:Pronoun ;
+	syr:proClass syr:ObjCliticPerf ;
+	syr:token-note "ENV4" ;
+	syr:token "⊤" ;
+	syr:person syr:Person3 ;
+	syr:number syr:Plural ;
+	syr:gender syr:Fem ;
+	.
+
+aama:IDe4dd1965-a373-420d-8379-3d04b9a08eaa a aamas:Muterm ;
+	aamas:lang aama:Syriac ;	aamas:memberOf syr:syriac-PObjCliticPerf ;
+	syr:case syr:Object ;
+	aamas:morpheme aama:Syriac-PROOBJCLITICPERF ;
+	syr:pos syr:Pronoun ;
+	syr:proClass syr:ObjCliticPerf ;
+	syr:token-note "ENV5" ;
+	syr:token "-n" ;
+	syr:person syr:Person1 ;
+	syr:number syr:Singular ;
+	syr:gender syr:Common ;
+	.
+
+aama:IDe8a10006-44c2-4725-aff2-e89e229bc6da a aamas:Muterm ;
+	aamas:lang aama:Syriac ;	aamas:memberOf syr:syriac-PObjCliticPerf ;
+	syr:case syr:Object ;
+	aamas:morpheme aama:Syriac-PROOBJCLITICPERF ;
+	syr:pos syr:Pronoun ;
+	syr:proClass syr:ObjCliticPerf ;
+	syr:token-note "ENV5" ;
+	syr:token "-w" ;
+	syr:person syr:Person3 ;
+	syr:number syr:Singular ;
+	syr:gender syr:Masc ;
+	.
+
+aama:IDb3da0cda-28b2-4227-b8fe-5530276d6340 a aamas:Muterm ;
+	aamas:lang aama:Syriac ;	aamas:memberOf syr:syriac-PObjCliticPerf ;
+	syr:case syr:Object ;
+	aamas:morpheme aama:Syriac-PROOBJCLITICPERF ;
+	syr:pos syr:Pronoun ;
+	syr:proClass syr:ObjCliticPerf ;
+	syr:token-note "ENV5" ;
+	syr:token "-h" ;
+	syr:person syr:Person3 ;
+	syr:number syr:Singular ;
+	syr:gender syr:Fem ;
+	.
+
+aama:ID29ab6039-5e42-47c7-a214-6585dbd36767 a aamas:Muterm ;
+	aamas:lang aama:Syriac ;	aamas:memberOf syr:syriac-PObjCliticPerf ;
+	syr:case syr:Object ;
+	aamas:morpheme aama:Syriac-PROOBJCLITICPERF ;
+	syr:pos syr:Pronoun ;
+	syr:proClass syr:ObjCliticPerf ;
+	syr:token-note "ENV5" ;
+	syr:token "-n" ;
+	syr:person syr:Person1 ;
+	syr:number syr:Plural ;
+	syr:gender syr:Common ;
+	.
+
+aama:ID090dd493-21fa-4b2f-85eb-0f2bf3229c1d a aamas:Muterm ;
+	aamas:lang aama:Syriac ;	aamas:memberOf syr:syriac-PObjCliticPerf ;
+	syr:case syr:Object ;
+	aamas:morpheme aama:Syriac-PROOBJCLITICPERF ;
+	syr:pos syr:Pronoun ;
+	syr:proClass syr:ObjCliticPerf ;
+	syr:token-note "ENV5" ;
+	syr:token "⊤" ;
+	syr:person syr:Person3 ;
+	syr:number syr:Plural ;
+	syr:gender syr:Masc ;
+	.
+
+aama:ID44f300ef-7c85-4c5e-b03b-2100f05704e2 a aamas:Muterm ;
+	aamas:lang aama:Syriac ;	aamas:memberOf syr:syriac-PObjCliticPerf ;
+	syr:case syr:Object ;
+	aamas:morpheme aama:Syriac-PROOBJCLITICPERF ;
+	syr:pos syr:Pronoun ;
+	syr:proClass syr:ObjCliticPerf ;
+	syr:token-note "ENV5" ;
+	syr:token "⊤" ;
+	syr:person syr:Person3 ;
+	syr:number syr:Plural ;
+	syr:gender syr:Fem ;
+	.
+
+aama:IDe32a054a-5463-4cc7-957a-52c99b85ef18 a aamas:Muterm ;
+	aamas:lang aama:Syriac ;	aamas:memberOf syr:syriac-PObjCliticPerf ;
+	syr:case syr:Object ;
+	aamas:morpheme aama:Syriac-PROOBJCLITICPERF ;
+	syr:pos syr:Pronoun ;
+	syr:proClass syr:ObjCliticPerf ;
+	syr:token-note "ENV6" ;
+	syr:token "-ān" ;
+	syr:person syr:Person1 ;
+	syr:number syr:Singular ;
+	syr:gender syr:Common ;
+	.
+
+aama:IDe566d507-bf08-4564-99a8-4a8240e2ef0a a aamas:Muterm ;
+	aamas:lang aama:Syriac ;	aamas:memberOf syr:syriac-PObjCliticPerf ;
+	syr:case syr:Object ;
+	aamas:morpheme aama:Syriac-PROOBJCLITICPERF ;
+	syr:pos syr:Pronoun ;
+	syr:proClass syr:ObjCliticPerf ;
+	syr:token-note "ENV6" ;
+	syr:token "-āy" ;
+	syr:person syr:Person3 ;
+	syr:number syr:Singular ;
+	syr:gender syr:Masc ;
+	.
+
+aama:ID7580a8ca-1144-473f-9d52-259f00a3d3f9 a aamas:Muterm ;
+	aamas:lang aama:Syriac ;	aamas:memberOf syr:syriac-PObjCliticPerf ;
+	syr:case syr:Object ;
+	aamas:morpheme aama:Syriac-PROOBJCLITICPERF ;
+	syr:pos syr:Pronoun ;
+	syr:proClass syr:ObjCliticPerf ;
+	syr:token-note "ENV6" ;
+	syr:token "-āh" ;
+	syr:person syr:Person3 ;
+	syr:number syr:Singular ;
+	syr:gender syr:Fem ;
+	.
+
+aama:IDbbc242d9-a2c9-4b5c-9692-5890d1adf98d a aamas:Muterm ;
+	aamas:lang aama:Syriac ;	aamas:memberOf syr:syriac-PObjCliticPerf ;
+	syr:case syr:Object ;
+	aamas:morpheme aama:Syriac-PROOBJCLITICPERF ;
+	syr:pos syr:Pronoun ;
+	syr:proClass syr:ObjCliticPerf ;
+	syr:token-note "ENV6" ;
+	syr:token "-ān" ;
+	syr:person syr:Person1 ;
+	syr:number syr:Plural ;
+	syr:gender syr:Common ;
+	.
+
+aama:IDfafe98c6-cc39-4ef2-81f7-bb1d64390c43 a aamas:Muterm ;
+	aamas:lang aama:Syriac ;	aamas:memberOf syr:syriac-PObjCliticPerf ;
+	syr:case syr:Object ;
+	aamas:morpheme aama:Syriac-PROOBJCLITICPERF ;
+	syr:pos syr:Pronoun ;
+	syr:proClass syr:ObjCliticPerf ;
+	syr:token-note "ENV6" ;
+	syr:token "⊤" ;
+	syr:person syr:Person3 ;
+	syr:number syr:Plural ;
+	syr:gender syr:Masc ;
+	.
+
+aama:IDc14c0475-5cb6-4910-b2e5-24711a095de2 a aamas:Muterm ;
+	aamas:lang aama:Syriac ;	aamas:memberOf syr:syriac-PObjCliticPerf ;
+	syr:case syr:Object ;
+	aamas:morpheme aama:Syriac-PROOBJCLITICPERF ;
+	syr:pos syr:Pronoun ;
+	syr:proClass syr:ObjCliticPerf ;
+	syr:token-note "ENV6" ;
+	syr:token "⊤" ;
+	syr:person syr:Person3 ;
+	syr:number syr:Plural ;
+	syr:gender syr:Fem ;
 	.

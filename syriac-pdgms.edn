@@ -79,7 +79,7 @@
 	    :morpheme :PROOBJCLITICIMPRTV,
 	    :pos :Pronoun,
 	    :proClass :ObjCliticImprtv}
-    :terms [[:gender, :number, :person, :token, :token-environment]  ;; schema
+    :terms [[:gender, :number, :person, :token, :token-note]  ;; schema
 	    [:Common, :Singular, :Person1, "-ayn", "ENV1"],
 	    [:Masc, :Singular, :Person3, "-āy", "ENV1"],
 	    [:Fem, :Singular, :Person3, "-ēh", "ENV1"],
@@ -136,7 +136,7 @@
 	    :morpheme :PROOBJCLITICPERF,
 	    :pos :Pronoun,
 	    :proClass :ObjCliticPerf}
-    :terms [[:gender, :number, :person, :token, :token-environment]  ;; schema
+    :terms [[:gender, :number, :person, :token, :token-note]  ;; schema
 	    [:Common, :Singular, :Person1, "-an", "ENV1"],
 	    [:Masc, :Singular, :Person2, "⊤", "ENV1"],
 	    [:Fem, :Singular, :Person2, "-eḵ", "ENV1"],
