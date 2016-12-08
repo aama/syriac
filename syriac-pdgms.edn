@@ -8,31 +8,173 @@
 :schemata{:status [:NA],
           :gender [:Common :Fem :Masc],
           :case [:Accusative :Genitive :Object],
-          :pdgmType [:Finite :NA]
           :pos [:Pronoun :Verb],
           :person [:Person1 :Person2 :Person3 :Not_in_datastore],
           :numHead [:HeadPlural :HeadSingular],
           :cliticEnv [:Env1 :Env2 :Env3 :Env4 :Env5 :Env6 :Env7 :Env8],
           :proClass [:Demostrative :Independent :ObjCliticImprtv :ObjCliticPerf :PossClitic],
           :number [:Plural :Singular],
-          :deixis [:Far :Near]}
+          :deixis [:Far :Near]
+          :rootClass [:CCC :COP],
+          :derivedStem [:B :D :H :BT :DT :HT],
+          :pdgmType [:Finite :NA :SubjMarker :Participle :DervStems :Nonfinite]
+          :tam [:Imperative :Imperfect :PartPres  :Perfect]}
 :pclass {:pngClass [:person :number :gender :numHead],
-          :synsemClass [:case :deixis :derivedStem :polarity :pos :proClass],
-          :inflClass [:status :cliticEnv],
+          :synsemClass [:case :deixis :derivedStem :polarity :pos :proClass :tan],
+          :inflClass [:status :cliticEnv :rootClass :pdgmType],
           :otherClass []}
 :morphemes{:PRODEM {:gloss "[x]", :lemma "[y]"},
            :PROIND {:gloss "[x]", :lemma "[y]"},
            :PROOBJCLITICIMPRTV {:gloss "[x]", :lemma "[y]"},
            :PROOBJCLITICPERF {:gloss "[x]", :lemma "[y]"},
            :PROPOSSCLITIC {:gloss "[x]", :lemma "[y]"}}
-:lexemes{}
+:lexemes{:ḳtl {:lemma "ḳtl", :gloss "kill", :pos :Verb, :rootClass :CCC},
+           :pʿl {:lemma "pʿal", :gloss "do", :pos :Verb, :rootClass :CCC},
+           :ktb {:lemma "ktb", :gloss "write", :pos :Verb, :rootClass :CCC},
+           :mll {:lemma "mll", :gloss "speak", :pos :Verb, :rootClass :CCC},
+           :nhr {:lemma "nhr", :gloss "light", :pos :Verb, :rootClass :CCC}
+         :COP {:lemma "ˀit", :gloss "be", :pos :Verb, :rootClass :COP}}
 :lxterms [
-    {:label "Syriac_Verb_to_be_added_to_datastore"
+   {:label "syriac-VCCCPrefix-ḳtl"
+    :note ""
     :pdgmType :Finite
-    :common {:pos :Verb}
-    :terms [[:status :person :token],
-            [:NA :Not_in_datastore "not attested"]]
+    :common {:derivedStem :B,
+             :lexeme :ḳtl,
+             :pos :Verb,
+             :rootClass :CCC,
+             :tam :Imperfect}
+    :terms [[:number :person :gender :token],
+            [:Singular :Person1 :Common   "ˀe-ḳtol"],
+            [:Singular :Person2 :Masc  "te-ḳtol"],
+            [:Singular :Person2 :Fem  "te-ḳtl-in"],
+            [:Singular :Person3 :Masc  "ne-ḳtol"],
+            [:Singular :Person3 :Fem  "te-ḳtol"],
+            [:Plural :Person1 :Common  "ne-ḳtol"],
+            [:Plural :Person2 :Masc  "te-ḳtl-un"],
+            [:Plural :Person2 :Fem  "te-ḳtl-ɔn"],
+            [:Plural :Person3 :Masc  "ne-ḳtl-un"],
+            [:Plural :Person3 :Fem  "ne-ḳtl-ɔn"]]
     }
+   {:label "syriac-VCCCPartPres-ḳtl"
+    :note ""
+    :pdgmType :Finite
+    :common {:derivedStem :B,
+             :lexeme :ḳtl,
+             :pos :Verb,
+             :rootClass :CCC,
+             :tam :PartPres}
+    :terms [[:number :person :gender :token],
+            [:Singular :Person1 :Masc   "ḳɔtel-⦰-nɔ"],
+            [:Singular :Person1 :Fem   "ḳɔtl-ɔ-nɔ"],
+            [:Singular :Person2 :Masc  "ḳɔtl-⦰-att"],
+            [:Singular :Person2 :Fem  "ḳɔtl-(ɔ)-att(y)"],
+            [:Singular :Person3 :Masc  "ḳɔtel-⦰-⦰"],
+            [:Singular :Person3 :Fem  "ḳɔtl-ɔ-⦰"],
+            [:Plural :Person1 :Masc  "ḳɔtl-in-nan"],
+            [:Plural :Person1 :Fem  "ḳɔtl-ɔn-nan"],
+            [:Plural :Person2 :Masc  "ḳɔtl-in-ton>ḳɔtl-it-ton"],
+            [:Plural :Person2 :Fem  "ḳɔtl-ɔn-ten>ḳɔtl-ɔt-ten"],
+            [:Plural :Person3 :Masc  "ḳɔtl-in-⦰"],
+            [:Plural :Person3 :Fem  "ḳɔtl-ɔn-⦰"]]
+  }
+   {:label "syriac-VCCCPres-COP"
+    :note ""
+    :pdgmType :Finite
+    :common {:derivedStem :B,
+             :lexeme :COP,
+             :pos :Verb,
+             :rootClass :COP,
+             :tam :Present}
+    :terms [[:number :person :gender :token],
+            [:Singular :Person1 :Common   "ˀit_-ay"],
+            [:Singular :Person2 :Masc  "ˀit_-ayk"],
+            [:Singular :Person2 :Fem  "ˀit_-ayk"],
+            [:Singular :Person3 :Masc  "ˀit_-aw"],
+            [:Singular :Person3 :Fem  "ˀit_-eh"],
+            [:Plural :Person1 :Common  "ˀit_-ayn"],
+            [:Plural :Person2 :Masc  "ˀit_-aykon"],
+            [:Plural :Person2 :Fem  "ˀit_-ayken"],
+            [:Plural :Person3 :Masc  "ˀit_-ayhon"],
+            [:Plural :Person3 :Fem  "ˀit_-ayhen"]]
+    }
+    {:label "syriac-VCCCBImprtv-ḳtl"
+    :note ""
+    :pdgmType :Finite
+    :common {:derivedStem :B,
+             :lexeme :ḳtl,
+             :person :Person2,
+             :pos :Verb,
+             :rootClass :CCC,
+             :tam :Imperative}
+    :terms [[:number :gender :token],
+            [:Singular :Masc "ḳtol"],
+            [:Singular :Fem "ḳtol(y)"],
+            [:Plural :Masc "ḳtol(w) ḳtolun"],
+            [:Plural :Fem "ḳtol(y) ḳtolen"]]
+    }
+    {:label "syriac-VCCCBPerf-ḳtl"
+    :note ""
+    :pdgmType :Finite
+    :common {:derivedStem :B,
+             :lexeme :ḳtl,
+             :pos :Verb,
+             :rootClass :CCC,
+             :tam :Perfect}
+    :terms [[:number :person :gender :token],
+            [:Singular :Person1 :Common  "ḳetl-et"],
+            [:Singular :Person2 :Masc "ḳtal-t"],
+            [:Singular :Person2 :Fem "ḳtal-t(y)"],
+            [:Singular :Person3 :Masc "ḳtal-⦰"],
+            [:Singular :Person3 :Fem "ḳetl-at"],
+            [:Plural :Person1 :Common "ḳtal-n"],
+            [:Plural :Person2 :Masc "ḳtal-ton"],
+            [:Plural :Person2 :Fem "ḳtal-ten"],
+            [:Plural :Person3 :Masc "ḳtal-(w)"],
+            [:Plural :Person3 :Fem "ḳtal-(y)"]]
+     }
+    {:label "syriac-VCCCDervStems"
+    :note ""
+    :pdgmType :DervStems
+    :common {:pos :Verb,
+             :rootClass :CCC,
+             :number :Singular
+             :person :Person3
+             :gender :Masc
+             :tam :Perfect}
+    :terms [[:lexeme :dervStem :token],
+            [:pʿl :B  "pʿal 'basic'"],
+            [:pʿl :D  "paʿʿel 'intensive'"],
+            [:pʿl :H  "ˀap_ʿel 'causative'"],
+            [:pʿl :BT  "ˀet_pʿel 'basic pass/ref/'"],
+            [:pʿl :DT  "ˀet_paʿʿal 'intensive pass/refl'"],
+            [:pʿl :HT  "ˀettap_ʿal 'causative pass/refl'"],
+            [:ktb :B  "kt_ab_ ‘he wrote’"],
+            [:ktb :BT  "ˀet_kt_eb_ ‘it was committed to writing’"],
+            [:mll :D  "mallel ‘he spoke’"],
+            [:mll :DT  "ˀetmallal ‘it was said’"],
+            [:nhr :H  "ˀanhar ‘it gave light’"],
+            [:nhr :HT  "ˀettanhar ‘he was enlightened’"]]
+     }
+    {:label "syriac-VCCCNominalForms-ḳtl"
+    :note ""
+    :pdgmType :Nonfinite
+    :common {:lexeme :ḳtl,
+             :pos :Verb,
+             :rootClass :CCC}
+    :terms [[:nominalForm :dervStem :token],
+            [:ParticipleAct :B "ḳɔtel"],
+            [:ParticiplePass :B"ḳtil"],
+            [:Infinitive :B "meḳtal"],
+            [:Agent :B "ḳɔtolɔ"],
+            [:ParticipleAct :D "mḳattel"],
+            [:ParticiplePass :D"mḳattal"],
+            [:Infinitive :D "mḳattɔlu"],
+            [:Agent :D "mḳattlɔnɔ"],
+            [:ParticipleAct :H "maḳtel"],
+            [:ParticiplePass :H "maḳtal"],
+            [:Infinitive :H "maḳtɔlu"],
+            [:Agent :H "maḳtlɔnɔ"]]
+     }
 ]
 :muterms [
     {:label "syriac-PDem"
