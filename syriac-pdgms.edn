@@ -5,13 +5,14 @@
 :datasource "Thackston1999"
 :geodemoURL "http://www.ethnologue.com/language/syc"
 :geodemoTXT "Classical Syriac, a member of the Aramaic branch of Semitic was the language of the early Christian communities in Syria and Northern Mesopotamia during the first millennium CE. It continued as a language of scholarship until the early modern period, and until today as a liturgical language of many branches of Eastern Christianity."
- :schemata {:dervStem [:B  :BT :D :DT :H :HT],
-            :nominalForm [:Agent :Infinitive :ParticipleAct :ParticiplePass],
+ :schemata {:vmorphClass [:DervStems  :Nonfinite],
             :case [:Accusative :Genitive :Object],
             :cliticEnv [:Env1 :Env2 :Env3 :Env4 :Env5 :Env6 :Env7 :Env8],
             :deixis [:Far :Near],
             :derivedStem [:B],
+            :dervStem [:B :BT :D :DT :H :HT],
             :gender [:Common :Fem :Masc],
+            :nominalForm [:Agent :Infinitive :ParticipleAct :ParticiplePass],
             :numHead [:HeadPlural :HeadSingular],
             :number [:Plural :Singular],
             :person [:Person1 :Person2 :Person3],
@@ -19,7 +20,7 @@
             :proClass [:Demostrative :Independent :ObjCliticImprtv :ObjCliticPerf :PossClitic],
             :rootClass [:CCC :COP],
             :tam [:Imperative :Imperfect :PartPres :Perfect :Present]
-            :pdgmType [:DervStems :Finite :Nonfinite :PRO]}
+            :pdgmType [:Finite :PRO :VOther]}
 :pclass {:pngClass [:person :number :gender :numHead],
           :synsemClass [:case :deixis :derivedStem :polarity :pos :proClass :tan],
           :inflClass [:status :cliticEnv :rootClass :pdgmType],
@@ -135,8 +136,9 @@
      }
     {:label "syriac-VCCCDervStems"
     :note ""
-    :pdgmType :DervStems
-    :common {:pos :Verb,
+    :pdgmType :VOther
+    :common {:vmorphClass :DervStems
+             :pos :Verb,
              :rootClass :CCC,
              :number :Singular
              :person :Person3
@@ -158,8 +160,9 @@
      }
     {:label "syriac-VCCCNominalForms-ḳtl"
     :note ""
-    :pdgmType :Nonfinite
-    :common {:lexeme :ḳtl,
+    :pdgmType :VOther
+    :common {:vmorphClass :Nonfinite
+             :lexeme :ḳtl,
              :pos :Verb,
              :rootClass :CCC}
     :terms [[:nominalForm :dervStem :token],
