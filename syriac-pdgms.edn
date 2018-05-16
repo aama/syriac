@@ -34,7 +34,7 @@
  :termclusters [
                 {:label "syriac-VCCCPrefix-ḳtl"
                  :note ""
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :derivedStem :B,
                           :lexeme :ḳtl,
                           :pos :Verb,
@@ -54,7 +54,7 @@
                  }
                 {:label "syriac-VCCCPartPres-ḳtl"
                  :note ""
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :derivedStem :B,
                           :lexeme :ḳtl,
                           :pos :Verb,
@@ -76,7 +76,7 @@
                  }
                 {:label "syriac-VCCCPres-COP"
                  :note ""
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :derivedStem :B,
                           :lexeme :COP,
                           :pos :Verb,
@@ -96,7 +96,7 @@
                  }
                 {:label "syriac-VCCCBImprtv-ḳtl"
                  :note ""
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :derivedStem :B,
                           :lexeme :ḳtl,
                           :person :Person2,
@@ -111,7 +111,7 @@
                  }
                 {:label "syriac-VCCCBPerf-ḳtl"
                  :note ""
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :derivedStem :B,
                           :lexeme :ḳtl,
                           :pos :Verb,
