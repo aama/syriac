@@ -5,22 +5,23 @@
  :datasource "Thackston1999"
  :geodemoURL "http://www.ethnologue.com/language/syc"
  :geodemoTXT "Classical Syriac, a member of the Aramaic branch of Semitic was the language of the early Christian communities in Syria and Northern Mesopotamia during the first millennium CE. It continued as a language of scholarship until the early modern period, and until today as a liturgical language of many branches of Eastern Christianity."
-:schemata {:case [:Accusative :Genitive :Object],
-           :cliticEnv [:Env1 :Env2 :Env3 :Env4 :Env5 :Env6 :Env7 :Env8],
-           :deixis [:Far :Near],
-           :derivedStem [:B],
-           :dervStem [:B :BT :D :DT :H :HT],
-           :gender [:Common :Fem :Masc],
-           :nominalForm [:Agent :Infinitive :ParticipleAct :ParticiplePass],
-           :numHead [:HeadPlural :HeadSingular],
-           :number [:Plural :Singular],
-           :person [:Person1 :Person2 :Person3],
-           :pos [:Pronoun :Verb],
-           :proClass [:Demostrative :Independent :ObjCliticImprtv :ObjCliticPerf :PossClitic],
-           :rootClass [:CCC :COP],
-           :tam [:Imperative :Imperfect :PartPres :Perfect :Present],
-           :vmorphClass [:Finite :DervStems :Nonfinite]
-           }
+:schemata {:lexeme [:COP  :ktb :mll :nhr :pʿl :ḳtl],
+ :case [:Accusative :Genitive :Object],
+ :cliticEnv [:Env1 :Env2 :Env3 :Env4 :Env5 :Env6 :Env7 :Env8],
+ :deixis [:Far :Near],
+ :derivedStem [:B],
+ :dervStem [:B :BT :D :DT :H :HT],
+ :gender [:Common :Fem :Masc],
+ :nominalForm [:Agent :Infinitive :ParticipleAct :ParticiplePass],
+ :numHead [:HeadPlural :HeadSingular],
+ :number [:Plural :Singular],
+ :person [:Person1 :Person2 :Person3],
+ :pos [:Pronoun :Verb],
+ :proClass [:Demostrative :Independent :ObjCliticImprtv :ObjCliticPerf :PossClitic],
+ :rootClass [:CCC :COP],
+ :tam [:Imperative :Imperfect :PartPres :Perfect :Present],
+ :vmorphClass [:DervStems :Finite :Nonfinite]
+ }
  :pclass {:pngClass [:person :number :gender :numHead],
           :synsemClass [:case :deixis :derivedStem :polarity :pos :proClass :tan],
           :inflClass [:status :cliticEnv :rootClass :pdgmType],
