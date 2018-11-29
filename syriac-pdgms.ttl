@@ -1,5 +1,5 @@
 #TTL FROM INPUT FILE:
-#../aama-data/data//syriac/syriac-pdgms.edn
+#../aama-data/data/syriac//syriac-pdgms.edn
 
 @prefix rdf:	 <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs:	 <http://www.w3.org/2000/01/rdf-schema#> .
@@ -166,34 +166,6 @@ syr:ObjCliticPerf rdfs:label "ObjCliticPerf" .
 syr:PossClitic aamas:lang aama:Syriac .
 syr:PossClitic rdf:type syr:Proclass .
 syr:PossClitic rdfs:label "PossClitic" .
-
-#SCHEMATA: lexeme
-syr:lexeme aamas:lang aama:Syriac .
-syr:Lexeme aamas:lang aama:Syriac .
-syr:lexeme rdfs:domain aamas:Term .
-syr:Lexeme rdfs:label "lexeme exponents" .
-syr:lexeme rdfs:label "lexeme" .
-syr:lexeme rdfs:range syr:Lexeme .
-syr:Lexeme rdfs:subClassOf syr:MuExponent .
-syr:lexeme rdfs:subPropertyOf syr:muProperty .
-syr:COP aamas:lang aama:Syriac .
-syr:COP rdf:type syr:Lexeme .
-syr:COP rdfs:label "COP" .
-syr:ktb aamas:lang aama:Syriac .
-syr:ktb rdf:type syr:Lexeme .
-syr:ktb rdfs:label "ktb" .
-syr:mll aamas:lang aama:Syriac .
-syr:mll rdf:type syr:Lexeme .
-syr:mll rdfs:label "mll" .
-syr:nhr aamas:lang aama:Syriac .
-syr:nhr rdf:type syr:Lexeme .
-syr:nhr rdfs:label "nhr" .
-syr:pʿl aamas:lang aama:Syriac .
-syr:pʿl rdf:type syr:Lexeme .
-syr:pʿl rdfs:label "pʿl" .
-syr:ḳtl aamas:lang aama:Syriac .
-syr:ḳtl rdf:type syr:Lexeme .
-syr:ḳtl rdfs:label "ḳtl" .
 
 #SCHEMATA: case
 syr:case aamas:lang aama:Syriac .
@@ -386,53 +358,55 @@ syr:pdgmType aamas:pclass aamas:inflClass .
 aamas:inflClass rdfs:label "inflClass" .
 
 #LEXEMES:
-aama:Syriac-ḳtl a aamas:Lexeme ;
+
+##LexItems
+aama:Syriac-COP a aamas:Lexeme ;
 	aamas:lang aama:Syriac ;
-	rdfs:label "ḳtl" ;
-	aamas:lemma "ḳtl" ;
-	aamas:gloss "kill" ;
+	rdfs:label "COP" ;
 	syr:pos syr:Verb ;
-	syr:rootClass syr:CCC ;
-	.
-aama:Syriac-pʿl a aamas:Lexeme ;
-	aamas:lang aama:Syriac ;
-	rdfs:label "pʿl" ;
-	aamas:lemma "pʿal" ;
-	aamas:gloss "do" ;
-	syr:pos syr:Verb ;
-	syr:rootClass syr:CCC ;
+	aamas:lemma "ˀit" ;
+	aamas:gloss "be" ;
+	syr:rootClass syr:COP ;
 	.
 aama:Syriac-ktb a aamas:Lexeme ;
 	aamas:lang aama:Syriac ;
 	rdfs:label "ktb" ;
+	syr:pos syr:Verb ;
 	aamas:lemma "ktb" ;
 	aamas:gloss "write" ;
-	syr:pos syr:Verb ;
 	syr:rootClass syr:CCC ;
 	.
 aama:Syriac-mll a aamas:Lexeme ;
 	aamas:lang aama:Syriac ;
 	rdfs:label "mll" ;
+	syr:pos syr:Verb ;
 	aamas:lemma "mll" ;
 	aamas:gloss "speak" ;
-	syr:pos syr:Verb ;
 	syr:rootClass syr:CCC ;
 	.
 aama:Syriac-nhr a aamas:Lexeme ;
 	aamas:lang aama:Syriac ;
 	rdfs:label "nhr" ;
+	syr:pos syr:Verb ;
 	aamas:lemma "nhr" ;
 	aamas:gloss "light" ;
-	syr:pos syr:Verb ;
 	syr:rootClass syr:CCC ;
 	.
-aama:Syriac-COP a aamas:Lexeme ;
+aama:Syriac-pʿl a aamas:Lexeme ;
 	aamas:lang aama:Syriac ;
-	rdfs:label "COP" ;
-	aamas:lemma "ˀit" ;
-	aamas:gloss "be" ;
+	rdfs:label "pʿl" ;
 	syr:pos syr:Verb ;
-	syr:rootClass syr:COP ;
+	aamas:lemma "pʿal" ;
+	aamas:gloss "do" ;
+	syr:rootClass syr:CCC ;
+	.
+aama:Syriac-ḳtl a aamas:Lexeme ;
+	aamas:lang aama:Syriac ;
+	rdfs:label "ḳtl" ;
+	syr:pos syr:Verb ;
+	aamas:lemma "ḳtl" ;
+	aamas:gloss "kill" ;
+	syr:rootClass syr:CCC ;
 	.
 
 #TERMCLUSTER:  syriac-VCCCPrefix-ḳtl
@@ -443,7 +417,7 @@ syr:syriac-VCCCPrefix-ḳtl a aamas:Termcluster ;
 	rdfs:comment "" 
 	.
 
-aama:IDa2d18beb-8aa0-42a0-a8e3-cb1767ccb728 a aamas:Term ;
+aama:ID6750bcb7-253a-4025-8086-33187f652f71 a aamas:Term ;
 	aamas:lang aama:Syriac ;
 	aamas:memberOf syr:syriac-VCCCPrefix-ḳtl ;
 	syr:vmorphClass syr:Finite ;
@@ -458,7 +432,7 @@ aama:IDa2d18beb-8aa0-42a0-a8e3-cb1767ccb728 a aamas:Term ;
 	syr:number syr:Singular ;
 	.
 
-aama:ID7ea42c21-85a8-4f06-982b-a30442ad30c6 a aamas:Term ;
+aama:IDb7c42a9f-6db4-477a-8559-7fce4d224fce a aamas:Term ;
 	aamas:lang aama:Syriac ;
 	aamas:memberOf syr:syriac-VCCCPrefix-ḳtl ;
 	syr:vmorphClass syr:Finite ;
@@ -473,7 +447,7 @@ aama:ID7ea42c21-85a8-4f06-982b-a30442ad30c6 a aamas:Term ;
 	syr:number syr:Singular ;
 	.
 
-aama:ID3ef0e3e2-7ba4-4c2b-91e3-65214a486f61 a aamas:Term ;
+aama:IDb2f623de-8f65-4712-9899-cf990dde3b89 a aamas:Term ;
 	aamas:lang aama:Syriac ;
 	aamas:memberOf syr:syriac-VCCCPrefix-ḳtl ;
 	syr:vmorphClass syr:Finite ;
@@ -488,7 +462,7 @@ aama:ID3ef0e3e2-7ba4-4c2b-91e3-65214a486f61 a aamas:Term ;
 	syr:number syr:Singular ;
 	.
 
-aama:IDad651150-355c-43cd-bb3c-b7292dfbf522 a aamas:Term ;
+aama:ID424e419f-2823-4b03-aa74-b4d77342a061 a aamas:Term ;
 	aamas:lang aama:Syriac ;
 	aamas:memberOf syr:syriac-VCCCPrefix-ḳtl ;
 	syr:vmorphClass syr:Finite ;
@@ -503,7 +477,7 @@ aama:IDad651150-355c-43cd-bb3c-b7292dfbf522 a aamas:Term ;
 	syr:number syr:Singular ;
 	.
 
-aama:ID748d0777-0315-4e00-a77d-082b6135f4a0 a aamas:Term ;
+aama:IDb3424923-c093-407a-9a2a-01bc2aff1a8b a aamas:Term ;
 	aamas:lang aama:Syriac ;
 	aamas:memberOf syr:syriac-VCCCPrefix-ḳtl ;
 	syr:vmorphClass syr:Finite ;
@@ -518,7 +492,7 @@ aama:ID748d0777-0315-4e00-a77d-082b6135f4a0 a aamas:Term ;
 	syr:number syr:Singular ;
 	.
 
-aama:IDed2b734a-51df-407a-b4f7-c0fd00a9e6ac a aamas:Term ;
+aama:ID24ff9096-f63c-4f36-b56c-8261eb940dc4 a aamas:Term ;
 	aamas:lang aama:Syriac ;
 	aamas:memberOf syr:syriac-VCCCPrefix-ḳtl ;
 	syr:vmorphClass syr:Finite ;
@@ -533,7 +507,7 @@ aama:IDed2b734a-51df-407a-b4f7-c0fd00a9e6ac a aamas:Term ;
 	syr:number syr:Plural ;
 	.
 
-aama:IDc24bb1eb-abb7-4bb7-b565-0df31a839ba7 a aamas:Term ;
+aama:ID9614fa4c-b73d-4d70-9cde-f5e84b1b789a a aamas:Term ;
 	aamas:lang aama:Syriac ;
 	aamas:memberOf syr:syriac-VCCCPrefix-ḳtl ;
 	syr:vmorphClass syr:Finite ;
@@ -548,7 +522,7 @@ aama:IDc24bb1eb-abb7-4bb7-b565-0df31a839ba7 a aamas:Term ;
 	syr:number syr:Plural ;
 	.
 
-aama:ID41ec00cf-7159-4146-a277-bc250ffa4a56 a aamas:Term ;
+aama:IDf9a4c126-0602-48a8-b82c-b649140f2896 a aamas:Term ;
 	aamas:lang aama:Syriac ;
 	aamas:memberOf syr:syriac-VCCCPrefix-ḳtl ;
 	syr:vmorphClass syr:Finite ;
@@ -563,7 +537,7 @@ aama:ID41ec00cf-7159-4146-a277-bc250ffa4a56 a aamas:Term ;
 	syr:number syr:Plural ;
 	.
 
-aama:IDa77279ac-6cbb-4d2d-bec4-92376ffe348a a aamas:Term ;
+aama:ID9fa61716-a08b-4f32-bd39-d84aabcde043 a aamas:Term ;
 	aamas:lang aama:Syriac ;
 	aamas:memberOf syr:syriac-VCCCPrefix-ḳtl ;
 	syr:vmorphClass syr:Finite ;
@@ -578,7 +552,7 @@ aama:IDa77279ac-6cbb-4d2d-bec4-92376ffe348a a aamas:Term ;
 	syr:number syr:Plural ;
 	.
 
-aama:ID32e0d8cf-6a79-42cb-866b-a1b9a537668c a aamas:Term ;
+aama:IDec1ecef7-09cb-44ee-81b0-2178f525c32f a aamas:Term ;
 	aamas:lang aama:Syriac ;
 	aamas:memberOf syr:syriac-VCCCPrefix-ḳtl ;
 	syr:vmorphClass syr:Finite ;
@@ -601,7 +575,7 @@ syr:syriac-VCCCPartPres-ḳtl a aamas:Termcluster ;
 	rdfs:comment "" 
 	.
 
-aama:ID1461b305-084a-4972-a2ed-37c5c93be426 a aamas:Term ;
+aama:ID9579e6fb-046d-451e-916e-44d48fc82af9 a aamas:Term ;
 	aamas:lang aama:Syriac ;
 	aamas:memberOf syr:syriac-VCCCPartPres-ḳtl ;
 	syr:vmorphClass syr:Finite ;
@@ -616,7 +590,7 @@ aama:ID1461b305-084a-4972-a2ed-37c5c93be426 a aamas:Term ;
 	syr:number syr:Singular ;
 	.
 
-aama:IDd2357921-bbd3-4b1c-973c-8c86f4065de5 a aamas:Term ;
+aama:ID0e65d334-93cf-4c37-9185-af04e1f6f22e a aamas:Term ;
 	aamas:lang aama:Syriac ;
 	aamas:memberOf syr:syriac-VCCCPartPres-ḳtl ;
 	syr:vmorphClass syr:Finite ;
@@ -631,7 +605,7 @@ aama:IDd2357921-bbd3-4b1c-973c-8c86f4065de5 a aamas:Term ;
 	syr:number syr:Singular ;
 	.
 
-aama:ID7d674180-2d28-4592-8f76-af8733ff55cb a aamas:Term ;
+aama:ID639d2796-30d3-4720-9b74-34aa39c5671a a aamas:Term ;
 	aamas:lang aama:Syriac ;
 	aamas:memberOf syr:syriac-VCCCPartPres-ḳtl ;
 	syr:vmorphClass syr:Finite ;
@@ -646,7 +620,7 @@ aama:ID7d674180-2d28-4592-8f76-af8733ff55cb a aamas:Term ;
 	syr:number syr:Singular ;
 	.
 
-aama:IDf24e1cd3-3b01-4617-8214-74ab27b012cd a aamas:Term ;
+aama:IDc574168c-8f93-4e18-99ff-ddd5f919b25d a aamas:Term ;
 	aamas:lang aama:Syriac ;
 	aamas:memberOf syr:syriac-VCCCPartPres-ḳtl ;
 	syr:vmorphClass syr:Finite ;
@@ -661,7 +635,7 @@ aama:IDf24e1cd3-3b01-4617-8214-74ab27b012cd a aamas:Term ;
 	syr:number syr:Singular ;
 	.
 
-aama:IDc3dc9804-30f3-4761-9ac0-2970df07eb8e a aamas:Term ;
+aama:IDb3cf5bce-16a2-453c-85eb-88868dff7260 a aamas:Term ;
 	aamas:lang aama:Syriac ;
 	aamas:memberOf syr:syriac-VCCCPartPres-ḳtl ;
 	syr:vmorphClass syr:Finite ;
@@ -676,7 +650,7 @@ aama:IDc3dc9804-30f3-4761-9ac0-2970df07eb8e a aamas:Term ;
 	syr:number syr:Singular ;
 	.
 
-aama:ID8588c011-08b1-4167-973b-6a38bb01a49a a aamas:Term ;
+aama:ID3147ccc3-07db-4de9-bcb2-489e49e99cf7 a aamas:Term ;
 	aamas:lang aama:Syriac ;
 	aamas:memberOf syr:syriac-VCCCPartPres-ḳtl ;
 	syr:vmorphClass syr:Finite ;
@@ -691,7 +665,7 @@ aama:ID8588c011-08b1-4167-973b-6a38bb01a49a a aamas:Term ;
 	syr:number syr:Singular ;
 	.
 
-aama:ID3b02f4ef-fed6-4c80-90ff-532721f69871 a aamas:Term ;
+aama:ID7fdca99e-2f9c-44d9-b995-32453d6435d7 a aamas:Term ;
 	aamas:lang aama:Syriac ;
 	aamas:memberOf syr:syriac-VCCCPartPres-ḳtl ;
 	syr:vmorphClass syr:Finite ;
@@ -706,7 +680,7 @@ aama:ID3b02f4ef-fed6-4c80-90ff-532721f69871 a aamas:Term ;
 	syr:number syr:Plural ;
 	.
 
-aama:IDcfe695b7-3517-493b-8159-420d8b9823b8 a aamas:Term ;
+aama:ID4b7417b2-d73a-4d2e-b1ef-ebc0f7055a6a a aamas:Term ;
 	aamas:lang aama:Syriac ;
 	aamas:memberOf syr:syriac-VCCCPartPres-ḳtl ;
 	syr:vmorphClass syr:Finite ;
@@ -721,7 +695,7 @@ aama:IDcfe695b7-3517-493b-8159-420d8b9823b8 a aamas:Term ;
 	syr:number syr:Plural ;
 	.
 
-aama:ID9a3ead5f-d471-4974-a9a5-53c163083f82 a aamas:Term ;
+aama:IDa7a667cc-f001-49c6-bb94-759f962543ef a aamas:Term ;
 	aamas:lang aama:Syriac ;
 	aamas:memberOf syr:syriac-VCCCPartPres-ḳtl ;
 	syr:vmorphClass syr:Finite ;
@@ -736,7 +710,7 @@ aama:ID9a3ead5f-d471-4974-a9a5-53c163083f82 a aamas:Term ;
 	syr:number syr:Plural ;
 	.
 
-aama:ID46b8d02e-e2f3-4331-9b6f-04885736c358 a aamas:Term ;
+aama:ID2cb470e2-09c4-47b5-ab4d-611f197dcdc3 a aamas:Term ;
 	aamas:lang aama:Syriac ;
 	aamas:memberOf syr:syriac-VCCCPartPres-ḳtl ;
 	syr:vmorphClass syr:Finite ;
@@ -751,7 +725,7 @@ aama:ID46b8d02e-e2f3-4331-9b6f-04885736c358 a aamas:Term ;
 	syr:number syr:Plural ;
 	.
 
-aama:ID61a15722-a848-45ef-8692-6ceeb32fad00 a aamas:Term ;
+aama:ID7951581c-b55d-4613-843c-9c95931be965 a aamas:Term ;
 	aamas:lang aama:Syriac ;
 	aamas:memberOf syr:syriac-VCCCPartPres-ḳtl ;
 	syr:vmorphClass syr:Finite ;
@@ -766,7 +740,7 @@ aama:ID61a15722-a848-45ef-8692-6ceeb32fad00 a aamas:Term ;
 	syr:number syr:Plural ;
 	.
 
-aama:ID50e1883c-9046-43f4-81b9-ef7b9db34748 a aamas:Term ;
+aama:IDab4336d5-d564-46be-a20b-91911413a556 a aamas:Term ;
 	aamas:lang aama:Syriac ;
 	aamas:memberOf syr:syriac-VCCCPartPres-ḳtl ;
 	syr:vmorphClass syr:Finite ;
@@ -789,7 +763,7 @@ syr:syriac-VCCCPres-COP a aamas:Termcluster ;
 	rdfs:comment "" 
 	.
 
-aama:IDc9e7c0ba-3349-40a3-a359-ce48d707ce84 a aamas:Term ;
+aama:ID439dd419-203e-4573-b31d-ed853d879762 a aamas:Term ;
 	aamas:lang aama:Syriac ;
 	aamas:memberOf syr:syriac-VCCCPres-COP ;
 	syr:vmorphClass syr:Finite ;
@@ -804,7 +778,7 @@ aama:IDc9e7c0ba-3349-40a3-a359-ce48d707ce84 a aamas:Term ;
 	syr:number syr:Singular ;
 	.
 
-aama:ID4aa62a45-71f0-4433-811f-4e24325bcda5 a aamas:Term ;
+aama:IDde31ef16-ed3a-48a4-918f-b203707b9c49 a aamas:Term ;
 	aamas:lang aama:Syriac ;
 	aamas:memberOf syr:syriac-VCCCPres-COP ;
 	syr:vmorphClass syr:Finite ;
@@ -819,7 +793,7 @@ aama:ID4aa62a45-71f0-4433-811f-4e24325bcda5 a aamas:Term ;
 	syr:number syr:Singular ;
 	.
 
-aama:IDb3345968-8b69-40c3-84f9-34ff98f25e9e a aamas:Term ;
+aama:IDe5509f91-29f2-4f2a-b5c5-c2461483a60e a aamas:Term ;
 	aamas:lang aama:Syriac ;
 	aamas:memberOf syr:syriac-VCCCPres-COP ;
 	syr:vmorphClass syr:Finite ;
@@ -834,7 +808,7 @@ aama:IDb3345968-8b69-40c3-84f9-34ff98f25e9e a aamas:Term ;
 	syr:number syr:Singular ;
 	.
 
-aama:ID4a5e9f74-d500-44ee-9025-dec7425c2f01 a aamas:Term ;
+aama:ID2aaf743e-62a5-4a4a-948a-77ba43f7f94b a aamas:Term ;
 	aamas:lang aama:Syriac ;
 	aamas:memberOf syr:syriac-VCCCPres-COP ;
 	syr:vmorphClass syr:Finite ;
@@ -849,7 +823,7 @@ aama:ID4a5e9f74-d500-44ee-9025-dec7425c2f01 a aamas:Term ;
 	syr:number syr:Singular ;
 	.
 
-aama:ID106362ce-15fc-4ee8-8412-c1cc96c5052e a aamas:Term ;
+aama:IDc5426feb-d183-46ec-a706-087a4112becf a aamas:Term ;
 	aamas:lang aama:Syriac ;
 	aamas:memberOf syr:syriac-VCCCPres-COP ;
 	syr:vmorphClass syr:Finite ;
@@ -864,7 +838,7 @@ aama:ID106362ce-15fc-4ee8-8412-c1cc96c5052e a aamas:Term ;
 	syr:number syr:Singular ;
 	.
 
-aama:ID0a747504-ef8f-46a5-994d-235529ef66b1 a aamas:Term ;
+aama:ID8a7e3d19-cace-4634-879d-3abf8f9c5d36 a aamas:Term ;
 	aamas:lang aama:Syriac ;
 	aamas:memberOf syr:syriac-VCCCPres-COP ;
 	syr:vmorphClass syr:Finite ;
@@ -879,7 +853,7 @@ aama:ID0a747504-ef8f-46a5-994d-235529ef66b1 a aamas:Term ;
 	syr:number syr:Plural ;
 	.
 
-aama:IDbaf90b2f-958e-48df-97a2-5226a4eb1790 a aamas:Term ;
+aama:ID57b1f9d8-8f84-4da7-ba31-37e2028a455d a aamas:Term ;
 	aamas:lang aama:Syriac ;
 	aamas:memberOf syr:syriac-VCCCPres-COP ;
 	syr:vmorphClass syr:Finite ;
@@ -894,7 +868,7 @@ aama:IDbaf90b2f-958e-48df-97a2-5226a4eb1790 a aamas:Term ;
 	syr:number syr:Plural ;
 	.
 
-aama:IDd87305fb-e684-46df-8e57-3df326ce41ef a aamas:Term ;
+aama:ID8630c94b-ae6e-479b-a28b-1981b5116707 a aamas:Term ;
 	aamas:lang aama:Syriac ;
 	aamas:memberOf syr:syriac-VCCCPres-COP ;
 	syr:vmorphClass syr:Finite ;
@@ -909,7 +883,7 @@ aama:IDd87305fb-e684-46df-8e57-3df326ce41ef a aamas:Term ;
 	syr:number syr:Plural ;
 	.
 
-aama:ID20514acd-604c-4a2a-b84c-2961c857dcf6 a aamas:Term ;
+aama:ID62cda520-d03d-4760-b187-9e3f7472c70d a aamas:Term ;
 	aamas:lang aama:Syriac ;
 	aamas:memberOf syr:syriac-VCCCPres-COP ;
 	syr:vmorphClass syr:Finite ;
@@ -924,7 +898,7 @@ aama:ID20514acd-604c-4a2a-b84c-2961c857dcf6 a aamas:Term ;
 	syr:number syr:Plural ;
 	.
 
-aama:IDc0d5f460-3519-4d84-aeca-60fc6542b61b a aamas:Term ;
+aama:IDebd51334-e7c6-455e-9104-598c3dd226c0 a aamas:Term ;
 	aamas:lang aama:Syriac ;
 	aamas:memberOf syr:syriac-VCCCPres-COP ;
 	syr:vmorphClass syr:Finite ;
@@ -947,7 +921,7 @@ syr:syriac-VCCCBImprtv-ḳtl a aamas:Termcluster ;
 	rdfs:comment "" 
 	.
 
-aama:ID89fdce63-4f23-4457-b323-f9c565a91295 a aamas:Term ;
+aama:ID90583c5b-fbe2-492e-bd1b-5722ade78f92 a aamas:Term ;
 	aamas:lang aama:Syriac ;
 	aamas:memberOf syr:syriac-VCCCBImprtv-ḳtl ;
 	syr:vmorphClass syr:Finite ;
@@ -962,7 +936,7 @@ aama:ID89fdce63-4f23-4457-b323-f9c565a91295 a aamas:Term ;
 	syr:number syr:Singular ;
 	.
 
-aama:ID90d4a395-7d4e-4ad2-a943-ffb0554998c1 a aamas:Term ;
+aama:IDfea4b621-8f73-4e11-a840-344982082b87 a aamas:Term ;
 	aamas:lang aama:Syriac ;
 	aamas:memberOf syr:syriac-VCCCBImprtv-ḳtl ;
 	syr:vmorphClass syr:Finite ;
@@ -977,7 +951,7 @@ aama:ID90d4a395-7d4e-4ad2-a943-ffb0554998c1 a aamas:Term ;
 	syr:number syr:Singular ;
 	.
 
-aama:ID19a2577f-65e5-42bb-993d-acf210b4e264 a aamas:Term ;
+aama:ID786d649a-71a2-4d4e-a367-d4e38600b4d0 a aamas:Term ;
 	aamas:lang aama:Syriac ;
 	aamas:memberOf syr:syriac-VCCCBImprtv-ḳtl ;
 	syr:vmorphClass syr:Finite ;
@@ -992,7 +966,7 @@ aama:ID19a2577f-65e5-42bb-993d-acf210b4e264 a aamas:Term ;
 	syr:number syr:Plural ;
 	.
 
-aama:IDa501797e-9e4c-48fc-9ee2-37ba16623324 a aamas:Term ;
+aama:ID7e1b803e-248a-454b-9534-3faf9a58440a a aamas:Term ;
 	aamas:lang aama:Syriac ;
 	aamas:memberOf syr:syriac-VCCCBImprtv-ḳtl ;
 	syr:vmorphClass syr:Finite ;
@@ -1015,7 +989,7 @@ syr:syriac-VCCCBPerf-ḳtl a aamas:Termcluster ;
 	rdfs:comment "" 
 	.
 
-aama:IDdacab9d8-ab69-403f-a9dc-c662b9908720 a aamas:Term ;
+aama:IDfc398871-ca66-4cae-af8d-3fd3150c88e7 a aamas:Term ;
 	aamas:lang aama:Syriac ;
 	aamas:memberOf syr:syriac-VCCCBPerf-ḳtl ;
 	syr:vmorphClass syr:Finite ;
@@ -1030,7 +1004,7 @@ aama:IDdacab9d8-ab69-403f-a9dc-c662b9908720 a aamas:Term ;
 	syr:number syr:Singular ;
 	.
 
-aama:ID6b0c1b05-fcda-4356-ba87-2c7f0c00fb91 a aamas:Term ;
+aama:IDf26f61a2-8a48-4554-9276-e66671c83cbf a aamas:Term ;
 	aamas:lang aama:Syriac ;
 	aamas:memberOf syr:syriac-VCCCBPerf-ḳtl ;
 	syr:vmorphClass syr:Finite ;
@@ -1045,7 +1019,7 @@ aama:ID6b0c1b05-fcda-4356-ba87-2c7f0c00fb91 a aamas:Term ;
 	syr:number syr:Singular ;
 	.
 
-aama:ID6a04a2fb-c66c-4ccb-9b96-a8b27bd5eef0 a aamas:Term ;
+aama:ID4d01868a-c5a9-44ab-8cce-20b712ff73a8 a aamas:Term ;
 	aamas:lang aama:Syriac ;
 	aamas:memberOf syr:syriac-VCCCBPerf-ḳtl ;
 	syr:vmorphClass syr:Finite ;
@@ -1060,7 +1034,7 @@ aama:ID6a04a2fb-c66c-4ccb-9b96-a8b27bd5eef0 a aamas:Term ;
 	syr:number syr:Singular ;
 	.
 
-aama:ID68bae587-2a41-4103-a7a8-b90d941be700 a aamas:Term ;
+aama:ID792d3a30-ba5b-49ec-a3f6-77b6275e4f64 a aamas:Term ;
 	aamas:lang aama:Syriac ;
 	aamas:memberOf syr:syriac-VCCCBPerf-ḳtl ;
 	syr:vmorphClass syr:Finite ;
@@ -1075,7 +1049,7 @@ aama:ID68bae587-2a41-4103-a7a8-b90d941be700 a aamas:Term ;
 	syr:number syr:Singular ;
 	.
 
-aama:ID36527083-1d1e-4d39-b125-e8044dbdee11 a aamas:Term ;
+aama:ID4f5bb3d5-f0e7-46b6-a9d4-16315461cff2 a aamas:Term ;
 	aamas:lang aama:Syriac ;
 	aamas:memberOf syr:syriac-VCCCBPerf-ḳtl ;
 	syr:vmorphClass syr:Finite ;
@@ -1090,7 +1064,7 @@ aama:ID36527083-1d1e-4d39-b125-e8044dbdee11 a aamas:Term ;
 	syr:number syr:Singular ;
 	.
 
-aama:ID943db6f2-2ac9-4640-b9d5-d2fe327b5d8d a aamas:Term ;
+aama:ID2a69a708-37af-40c8-9ac0-c3a6495285b0 a aamas:Term ;
 	aamas:lang aama:Syriac ;
 	aamas:memberOf syr:syriac-VCCCBPerf-ḳtl ;
 	syr:vmorphClass syr:Finite ;
@@ -1105,7 +1079,7 @@ aama:ID943db6f2-2ac9-4640-b9d5-d2fe327b5d8d a aamas:Term ;
 	syr:number syr:Plural ;
 	.
 
-aama:ID42d91857-87dd-4653-8280-2eb1081714c2 a aamas:Term ;
+aama:ID36517aa5-58f9-486e-8d73-83468d5e137b a aamas:Term ;
 	aamas:lang aama:Syriac ;
 	aamas:memberOf syr:syriac-VCCCBPerf-ḳtl ;
 	syr:vmorphClass syr:Finite ;
@@ -1120,7 +1094,7 @@ aama:ID42d91857-87dd-4653-8280-2eb1081714c2 a aamas:Term ;
 	syr:number syr:Plural ;
 	.
 
-aama:ID8c87f78e-c611-48e8-8c09-0c487d179a3b a aamas:Term ;
+aama:IDdf106809-4351-45fe-91c6-67a51d4edb7d a aamas:Term ;
 	aamas:lang aama:Syriac ;
 	aamas:memberOf syr:syriac-VCCCBPerf-ḳtl ;
 	syr:vmorphClass syr:Finite ;
@@ -1135,7 +1109,7 @@ aama:ID8c87f78e-c611-48e8-8c09-0c487d179a3b a aamas:Term ;
 	syr:number syr:Plural ;
 	.
 
-aama:ID3bb4b346-e3a1-4c92-bcca-18bf4fcee556 a aamas:Term ;
+aama:IDb5b02ad2-39e2-4abb-95bf-2d9b5691bf06 a aamas:Term ;
 	aamas:lang aama:Syriac ;
 	aamas:memberOf syr:syriac-VCCCBPerf-ḳtl ;
 	syr:vmorphClass syr:Finite ;
@@ -1150,7 +1124,7 @@ aama:ID3bb4b346-e3a1-4c92-bcca-18bf4fcee556 a aamas:Term ;
 	syr:number syr:Plural ;
 	.
 
-aama:ID13bfa0a4-cd33-4199-9472-9245d9256e78 a aamas:Term ;
+aama:ID4a0fa997-c7fa-4f9a-b277-9691715e47ad a aamas:Term ;
 	aamas:lang aama:Syriac ;
 	aamas:memberOf syr:syriac-VCCCBPerf-ḳtl ;
 	syr:vmorphClass syr:Finite ;
@@ -1173,7 +1147,7 @@ syr:syriac-VCCCDervStems a aamas:Termcluster ;
 	rdfs:comment "" 
 	.
 
-aama:IDbf4b8e6e-c23e-4bd0-8127-75bd9ebdf81c a aamas:Term ;
+aama:ID7398d695-667b-41a7-9701-6dd76ade6775 a aamas:Term ;
 	aamas:lang aama:Syriac ;
 	aamas:memberOf syr:syriac-VCCCDervStems ;
 	syr:vmorphClass syr:DervStems ;
@@ -1188,7 +1162,7 @@ aama:IDbf4b8e6e-c23e-4bd0-8127-75bd9ebdf81c a aamas:Term ;
 	aamas:lexeme aama:Syriac-pʿl ;
 	.
 
-aama:ID27c989e9-481f-48f5-8f0a-8eb58a5ecebb a aamas:Term ;
+aama:ID9ec62143-9a31-45df-9e52-d980bde92c9a a aamas:Term ;
 	aamas:lang aama:Syriac ;
 	aamas:memberOf syr:syriac-VCCCDervStems ;
 	syr:vmorphClass syr:DervStems ;
@@ -1203,7 +1177,7 @@ aama:ID27c989e9-481f-48f5-8f0a-8eb58a5ecebb a aamas:Term ;
 	aamas:lexeme aama:Syriac-pʿl ;
 	.
 
-aama:ID6d7c90b3-672c-44c7-9713-2ef33d1c2eea a aamas:Term ;
+aama:ID069f49e1-74a9-4431-acdc-f630224f9547 a aamas:Term ;
 	aamas:lang aama:Syriac ;
 	aamas:memberOf syr:syriac-VCCCDervStems ;
 	syr:vmorphClass syr:DervStems ;
@@ -1218,7 +1192,7 @@ aama:ID6d7c90b3-672c-44c7-9713-2ef33d1c2eea a aamas:Term ;
 	aamas:lexeme aama:Syriac-pʿl ;
 	.
 
-aama:ID9baa71e2-cce5-47ef-934c-7e9ac7dbe6f7 a aamas:Term ;
+aama:ID69c266bf-780d-4957-898d-310e89d4352c a aamas:Term ;
 	aamas:lang aama:Syriac ;
 	aamas:memberOf syr:syriac-VCCCDervStems ;
 	syr:vmorphClass syr:DervStems ;
@@ -1233,7 +1207,7 @@ aama:ID9baa71e2-cce5-47ef-934c-7e9ac7dbe6f7 a aamas:Term ;
 	aamas:lexeme aama:Syriac-pʿl ;
 	.
 
-aama:IDea926056-9913-47f4-9ac9-ef2591bb7eed a aamas:Term ;
+aama:IDd537ff0f-f6f1-4ac9-841f-673f451d652a a aamas:Term ;
 	aamas:lang aama:Syriac ;
 	aamas:memberOf syr:syriac-VCCCDervStems ;
 	syr:vmorphClass syr:DervStems ;
@@ -1248,7 +1222,7 @@ aama:IDea926056-9913-47f4-9ac9-ef2591bb7eed a aamas:Term ;
 	aamas:lexeme aama:Syriac-pʿl ;
 	.
 
-aama:ID12a9e761-8925-44b7-9162-3c98489b2a47 a aamas:Term ;
+aama:ID6c37c56c-ce88-4d05-8597-213bd196d189 a aamas:Term ;
 	aamas:lang aama:Syriac ;
 	aamas:memberOf syr:syriac-VCCCDervStems ;
 	syr:vmorphClass syr:DervStems ;
@@ -1263,7 +1237,7 @@ aama:ID12a9e761-8925-44b7-9162-3c98489b2a47 a aamas:Term ;
 	aamas:lexeme aama:Syriac-pʿl ;
 	.
 
-aama:ID156a595a-7a01-4b3b-8360-e81fc8547760 a aamas:Term ;
+aama:ID27bbd6c4-01f5-42af-9ae4-e00fcb24ed70 a aamas:Term ;
 	aamas:lang aama:Syriac ;
 	aamas:memberOf syr:syriac-VCCCDervStems ;
 	syr:vmorphClass syr:DervStems ;
@@ -1278,7 +1252,7 @@ aama:ID156a595a-7a01-4b3b-8360-e81fc8547760 a aamas:Term ;
 	aamas:lexeme aama:Syriac-ktb ;
 	.
 
-aama:ID33aff26c-c630-4144-a414-40deb9f7f585 a aamas:Term ;
+aama:IDf8e2d086-fa34-4d10-95f7-4164e249283b a aamas:Term ;
 	aamas:lang aama:Syriac ;
 	aamas:memberOf syr:syriac-VCCCDervStems ;
 	syr:vmorphClass syr:DervStems ;
@@ -1293,7 +1267,7 @@ aama:ID33aff26c-c630-4144-a414-40deb9f7f585 a aamas:Term ;
 	aamas:lexeme aama:Syriac-ktb ;
 	.
 
-aama:ID7c5e5f84-d27a-41ea-85c8-77505963cbd5 a aamas:Term ;
+aama:ID9cd11f5d-030b-46f2-90fc-89979bd05ca4 a aamas:Term ;
 	aamas:lang aama:Syriac ;
 	aamas:memberOf syr:syriac-VCCCDervStems ;
 	syr:vmorphClass syr:DervStems ;
@@ -1308,7 +1282,7 @@ aama:ID7c5e5f84-d27a-41ea-85c8-77505963cbd5 a aamas:Term ;
 	aamas:lexeme aama:Syriac-mll ;
 	.
 
-aama:IDcdcbb095-6894-435c-8189-ffaab8082d20 a aamas:Term ;
+aama:ID94f14f5c-77f6-4aec-87df-115498784244 a aamas:Term ;
 	aamas:lang aama:Syriac ;
 	aamas:memberOf syr:syriac-VCCCDervStems ;
 	syr:vmorphClass syr:DervStems ;
@@ -1323,7 +1297,7 @@ aama:IDcdcbb095-6894-435c-8189-ffaab8082d20 a aamas:Term ;
 	aamas:lexeme aama:Syriac-mll ;
 	.
 
-aama:ID8f433e71-c4d3-46b6-a853-b678009d21a2 a aamas:Term ;
+aama:ID94b662dc-bcc1-4c95-b77a-5d2bbd5fce74 a aamas:Term ;
 	aamas:lang aama:Syriac ;
 	aamas:memberOf syr:syriac-VCCCDervStems ;
 	syr:vmorphClass syr:DervStems ;
@@ -1338,7 +1312,7 @@ aama:ID8f433e71-c4d3-46b6-a853-b678009d21a2 a aamas:Term ;
 	aamas:lexeme aama:Syriac-nhr ;
 	.
 
-aama:IDb3549735-a379-47b0-876d-97ed122bada3 a aamas:Term ;
+aama:IDb1b98610-6a65-4ee9-9cf8-bf69ce0a707b a aamas:Term ;
 	aamas:lang aama:Syriac ;
 	aamas:memberOf syr:syriac-VCCCDervStems ;
 	syr:vmorphClass syr:DervStems ;
@@ -1361,7 +1335,7 @@ syr:syriac-VCCCNominalForms-ḳtl a aamas:Termcluster ;
 	rdfs:comment "" 
 	.
 
-aama:ID3352d116-9ca5-4c1b-b3ac-861ffb6d0412 a aamas:Term ;
+aama:ID5cb66492-7fe2-490e-b44c-ccfb395aac4a a aamas:Term ;
 	aamas:lang aama:Syriac ;
 	aamas:memberOf syr:syriac-VCCCNominalForms-ḳtl ;
 	syr:vmorphClass syr:Nonfinite ;
@@ -1373,7 +1347,7 @@ aama:ID3352d116-9ca5-4c1b-b3ac-861ffb6d0412 a aamas:Term ;
 	syr:nominalForm syr:ParticipleAct ;
 	.
 
-aama:ID3dc992e8-266c-4b03-acbc-1af38a0e236f a aamas:Term ;
+aama:ID53f935d1-67cf-4b58-bb23-9c8ebf4154f3 a aamas:Term ;
 	aamas:lang aama:Syriac ;
 	aamas:memberOf syr:syriac-VCCCNominalForms-ḳtl ;
 	syr:vmorphClass syr:Nonfinite ;
@@ -1385,7 +1359,7 @@ aama:ID3dc992e8-266c-4b03-acbc-1af38a0e236f a aamas:Term ;
 	syr:nominalForm syr:ParticiplePass ;
 	.
 
-aama:IDd40bf13b-436a-44dd-ab43-838ceb773631 a aamas:Term ;
+aama:IDffac7547-0ed8-4ee2-9dce-8bd1ca94dc7c a aamas:Term ;
 	aamas:lang aama:Syriac ;
 	aamas:memberOf syr:syriac-VCCCNominalForms-ḳtl ;
 	syr:vmorphClass syr:Nonfinite ;
@@ -1397,7 +1371,7 @@ aama:IDd40bf13b-436a-44dd-ab43-838ceb773631 a aamas:Term ;
 	syr:nominalForm syr:Infinitive ;
 	.
 
-aama:ID6efcc5b5-9428-4b5e-9095-5f7583b88654 a aamas:Term ;
+aama:ID2b2d17b8-51c1-4b9e-b5e9-9c3b11fdb342 a aamas:Term ;
 	aamas:lang aama:Syriac ;
 	aamas:memberOf syr:syriac-VCCCNominalForms-ḳtl ;
 	syr:vmorphClass syr:Nonfinite ;
@@ -1409,7 +1383,7 @@ aama:ID6efcc5b5-9428-4b5e-9095-5f7583b88654 a aamas:Term ;
 	syr:nominalForm syr:Agent ;
 	.
 
-aama:ID06b03cef-2627-4391-aa1d-285b5fd909ab a aamas:Term ;
+aama:IDe2c3abc0-b93a-41e6-8b03-caf5ba96b2f1 a aamas:Term ;
 	aamas:lang aama:Syriac ;
 	aamas:memberOf syr:syriac-VCCCNominalForms-ḳtl ;
 	syr:vmorphClass syr:Nonfinite ;
@@ -1421,7 +1395,7 @@ aama:ID06b03cef-2627-4391-aa1d-285b5fd909ab a aamas:Term ;
 	syr:nominalForm syr:ParticipleAct ;
 	.
 
-aama:ID0227d507-bb97-47d7-93f5-1d632adf59f0 a aamas:Term ;
+aama:ID5c431590-c7b5-4317-8941-9ee6d558dae4 a aamas:Term ;
 	aamas:lang aama:Syriac ;
 	aamas:memberOf syr:syriac-VCCCNominalForms-ḳtl ;
 	syr:vmorphClass syr:Nonfinite ;
@@ -1433,7 +1407,7 @@ aama:ID0227d507-bb97-47d7-93f5-1d632adf59f0 a aamas:Term ;
 	syr:nominalForm syr:ParticiplePass ;
 	.
 
-aama:IDe8fac66f-be28-479a-8f08-1f9c17ebc9cd a aamas:Term ;
+aama:ID39b10ef7-b918-463b-88ba-89e04ba3b5f4 a aamas:Term ;
 	aamas:lang aama:Syriac ;
 	aamas:memberOf syr:syriac-VCCCNominalForms-ḳtl ;
 	syr:vmorphClass syr:Nonfinite ;
@@ -1445,7 +1419,7 @@ aama:IDe8fac66f-be28-479a-8f08-1f9c17ebc9cd a aamas:Term ;
 	syr:nominalForm syr:Infinitive ;
 	.
 
-aama:IDef6ba4d8-d9c6-4d55-9432-1ad73a31f8ba a aamas:Term ;
+aama:IDd9bbc5f0-7789-4685-a24d-b37aaf600680 a aamas:Term ;
 	aamas:lang aama:Syriac ;
 	aamas:memberOf syr:syriac-VCCCNominalForms-ḳtl ;
 	syr:vmorphClass syr:Nonfinite ;
@@ -1457,7 +1431,7 @@ aama:IDef6ba4d8-d9c6-4d55-9432-1ad73a31f8ba a aamas:Term ;
 	syr:nominalForm syr:Agent ;
 	.
 
-aama:ID10670646-feba-474c-8019-4936a6445c00 a aamas:Term ;
+aama:ID4c956dbd-66fe-4975-9631-25c2850a0604 a aamas:Term ;
 	aamas:lang aama:Syriac ;
 	aamas:memberOf syr:syriac-VCCCNominalForms-ḳtl ;
 	syr:vmorphClass syr:Nonfinite ;
@@ -1469,7 +1443,7 @@ aama:ID10670646-feba-474c-8019-4936a6445c00 a aamas:Term ;
 	syr:nominalForm syr:ParticipleAct ;
 	.
 
-aama:ID434d2b6a-f7cb-4228-a80a-e13807325743 a aamas:Term ;
+aama:ID471139a6-99af-44ea-93a7-858f51f3a153 a aamas:Term ;
 	aamas:lang aama:Syriac ;
 	aamas:memberOf syr:syriac-VCCCNominalForms-ḳtl ;
 	syr:vmorphClass syr:Nonfinite ;
@@ -1481,7 +1455,7 @@ aama:ID434d2b6a-f7cb-4228-a80a-e13807325743 a aamas:Term ;
 	syr:nominalForm syr:ParticiplePass ;
 	.
 
-aama:IDb8101841-3605-474a-8f64-40a19286a658 a aamas:Term ;
+aama:ID9785d4e4-ea5d-4790-9ba5-7a3ec2bc9b83 a aamas:Term ;
 	aamas:lang aama:Syriac ;
 	aamas:memberOf syr:syriac-VCCCNominalForms-ḳtl ;
 	syr:vmorphClass syr:Nonfinite ;
@@ -1493,7 +1467,7 @@ aama:IDb8101841-3605-474a-8f64-40a19286a658 a aamas:Term ;
 	syr:nominalForm syr:Infinitive ;
 	.
 
-aama:ID4b7aa895-508c-460f-a19b-a091ac03f1f9 a aamas:Term ;
+aama:IDc8798761-9643-45c8-8377-16c304208830 a aamas:Term ;
 	aamas:lang aama:Syriac ;
 	aamas:memberOf syr:syriac-VCCCNominalForms-ḳtl ;
 	syr:vmorphClass syr:Nonfinite ;
@@ -1513,7 +1487,7 @@ syr:syriac-PDem a aamas:Termcluster ;
 	rdfs:comment "Thackston1999 pp. 29-30;Syriac has two sets of demonstratives%%near and far%%which serve both as adjectives and pronouns." 
 	.
 
-aama:IDde02c20b-a3d2-42e3-8bc6-8ee0a184d077 a aamas:Term ;
+aama:IDad9c9f00-e01c-4429-8fdd-0fd3fcd5c410 a aamas:Term ;
 	aamas:lang aama:Syriac ;
 	aamas:memberOf syr:syriac-PDem ;
 	syr:pos syr:Pronoun ;
@@ -1524,7 +1498,7 @@ aama:IDde02c20b-a3d2-42e3-8bc6-8ee0a184d077 a aamas:Term ;
 	syr:deixis syr:Far ;
 	.
 
-aama:ID179d8458-6e4e-4432-b925-3341ceef6252 a aamas:Term ;
+aama:IDa9db2708-f03d-4637-b123-6a55d4f05bf5 a aamas:Term ;
 	aamas:lang aama:Syriac ;
 	aamas:memberOf syr:syriac-PDem ;
 	syr:pos syr:Pronoun ;
@@ -1535,7 +1509,7 @@ aama:ID179d8458-6e4e-4432-b925-3341ceef6252 a aamas:Term ;
 	syr:deixis syr:Far ;
 	.
 
-aama:ID0d3e2a8c-0fc7-40b6-80bd-139656f70acc a aamas:Term ;
+aama:ID756f38cc-94ad-4298-a46e-a6b6c9b61661 a aamas:Term ;
 	aamas:lang aama:Syriac ;
 	aamas:memberOf syr:syriac-PDem ;
 	syr:pos syr:Pronoun ;
@@ -1546,7 +1520,7 @@ aama:ID0d3e2a8c-0fc7-40b6-80bd-139656f70acc a aamas:Term ;
 	syr:deixis syr:Far ;
 	.
 
-aama:ID99c0e8ff-2011-4aa0-9d07-0ecfdab0ba6d a aamas:Term ;
+aama:ID3e31beda-e7d6-42cd-8771-b497309ae7e1 a aamas:Term ;
 	aamas:lang aama:Syriac ;
 	aamas:memberOf syr:syriac-PDem ;
 	syr:pos syr:Pronoun ;
@@ -1557,7 +1531,7 @@ aama:ID99c0e8ff-2011-4aa0-9d07-0ecfdab0ba6d a aamas:Term ;
 	syr:deixis syr:Far ;
 	.
 
-aama:IDe3bb75a7-9514-40ef-ae2a-b8c83fd49130 a aamas:Term ;
+aama:ID395ddb66-d54d-4495-96f6-861650656cc1 a aamas:Term ;
 	aamas:lang aama:Syriac ;
 	aamas:memberOf syr:syriac-PDem ;
 	syr:pos syr:Pronoun ;
@@ -1568,7 +1542,7 @@ aama:IDe3bb75a7-9514-40ef-ae2a-b8c83fd49130 a aamas:Term ;
 	syr:deixis syr:Near ;
 	.
 
-aama:ID246de216-5734-44c3-83f3-0cc408896f24 a aamas:Term ;
+aama:IDe12edcfb-6878-44d2-8fc1-a151802b6c66 a aamas:Term ;
 	aamas:lang aama:Syriac ;
 	aamas:memberOf syr:syriac-PDem ;
 	syr:pos syr:Pronoun ;
@@ -1579,7 +1553,7 @@ aama:ID246de216-5734-44c3-83f3-0cc408896f24 a aamas:Term ;
 	syr:deixis syr:Near ;
 	.
 
-aama:IDf56b589a-7163-4808-a714-5acc77734cb1 a aamas:Term ;
+aama:ID2b1dfa4e-2b73-4d1e-86de-d20513db0e23 a aamas:Term ;
 	aamas:lang aama:Syriac ;
 	aamas:memberOf syr:syriac-PDem ;
 	syr:pos syr:Pronoun ;
@@ -1590,7 +1564,7 @@ aama:IDf56b589a-7163-4808-a714-5acc77734cb1 a aamas:Term ;
 	syr:deixis syr:Near ;
 	.
 
-aama:ID3c42ac22-98b6-4c06-b25a-73015f5ec305 a aamas:Term ;
+aama:IDcf2935d2-8043-40d5-8380-fd2840038179 a aamas:Term ;
 	aamas:lang aama:Syriac ;
 	aamas:memberOf syr:syriac-PDem ;
 	syr:pos syr:Pronoun ;
@@ -1609,7 +1583,7 @@ syr:syriac-PInd a aamas:Termcluster ;
 	rdfs:comment "Thackston1999%%p. 28. Independent pronouns in Syriac are used as 1) sentence subjects of verbless sentences and for stressing the pronominal subject of a verb. Whereas Thackston does not indicate initial aleph%%the following paradigm as included the aleph in transliteration." 
 	.
 
-aama:ID03979beb-9834-4ab6-8429-2acd97b5f5ab a aamas:Term ;
+aama:ID59966a75-cca5-467b-b01a-533b3dd5a51e a aamas:Term ;
 	aamas:lang aama:Syriac ;
 	aamas:memberOf syr:syriac-PInd ;
 	syr:pos syr:Pronoun ;
@@ -1620,7 +1594,7 @@ aama:ID03979beb-9834-4ab6-8429-2acd97b5f5ab a aamas:Term ;
 	syr:number syr:Singular ;
 	.
 
-aama:IDc9832a94-e825-4631-be2e-d0cdb90784ab a aamas:Term ;
+aama:ID1bfa5bc0-eed0-454c-a966-765f821a676b a aamas:Term ;
 	aamas:lang aama:Syriac ;
 	aamas:memberOf syr:syriac-PInd ;
 	syr:pos syr:Pronoun ;
@@ -1631,7 +1605,7 @@ aama:IDc9832a94-e825-4631-be2e-d0cdb90784ab a aamas:Term ;
 	syr:number syr:Singular ;
 	.
 
-aama:ID8384a52a-5dcc-490e-84fd-90b56b7be614 a aamas:Term ;
+aama:IDf6f9477b-df61-4608-bd4e-4d0d9da5d35b a aamas:Term ;
 	aamas:lang aama:Syriac ;
 	aamas:memberOf syr:syriac-PInd ;
 	syr:pos syr:Pronoun ;
@@ -1642,7 +1616,7 @@ aama:ID8384a52a-5dcc-490e-84fd-90b56b7be614 a aamas:Term ;
 	syr:number syr:Singular ;
 	.
 
-aama:IDb44e5244-6bb8-43f8-a417-c61872bcbb2a a aamas:Term ;
+aama:IDd33496ba-2435-4fb4-a359-9229c73fa550 a aamas:Term ;
 	aamas:lang aama:Syriac ;
 	aamas:memberOf syr:syriac-PInd ;
 	syr:pos syr:Pronoun ;
@@ -1653,7 +1627,7 @@ aama:IDb44e5244-6bb8-43f8-a417-c61872bcbb2a a aamas:Term ;
 	syr:number syr:Singular ;
 	.
 
-aama:IDe54eccd9-771d-48c1-89c2-e8848ebbce13 a aamas:Term ;
+aama:ID41c630cd-b05e-4152-9393-1250895560be a aamas:Term ;
 	aamas:lang aama:Syriac ;
 	aamas:memberOf syr:syriac-PInd ;
 	syr:pos syr:Pronoun ;
@@ -1664,7 +1638,7 @@ aama:IDe54eccd9-771d-48c1-89c2-e8848ebbce13 a aamas:Term ;
 	syr:number syr:Singular ;
 	.
 
-aama:ID420a217e-9b2f-4b9a-a938-e3ddb70a4d44 a aamas:Term ;
+aama:IDec0bbbf6-61ba-4406-b4db-6b557b2e11a6 a aamas:Term ;
 	aamas:lang aama:Syriac ;
 	aamas:memberOf syr:syriac-PInd ;
 	syr:pos syr:Pronoun ;
@@ -1675,7 +1649,7 @@ aama:ID420a217e-9b2f-4b9a-a938-e3ddb70a4d44 a aamas:Term ;
 	syr:number syr:Plural ;
 	.
 
-aama:ID694fa0cd-b962-4954-8931-bd81c1eb4350 a aamas:Term ;
+aama:IDd8c0f0e6-3a62-4415-b36c-6bae5633f884 a aamas:Term ;
 	aamas:lang aama:Syriac ;
 	aamas:memberOf syr:syriac-PInd ;
 	syr:pos syr:Pronoun ;
@@ -1686,7 +1660,7 @@ aama:ID694fa0cd-b962-4954-8931-bd81c1eb4350 a aamas:Term ;
 	syr:number syr:Plural ;
 	.
 
-aama:ID25a7d623-f260-4b9b-a2ec-b6ae8f96b65d a aamas:Term ;
+aama:ID9a7c66ad-21ec-40a9-bec9-8cce0e1d49dc a aamas:Term ;
 	aamas:lang aama:Syriac ;
 	aamas:memberOf syr:syriac-PInd ;
 	syr:pos syr:Pronoun ;
@@ -1697,7 +1671,7 @@ aama:ID25a7d623-f260-4b9b-a2ec-b6ae8f96b65d a aamas:Term ;
 	syr:number syr:Plural ;
 	.
 
-aama:IDa3c8892a-4664-41c7-8c7c-df6149ff5e63 a aamas:Term ;
+aama:ID884b5b48-18c5-46f1-a949-c28b004bf099 a aamas:Term ;
 	aamas:lang aama:Syriac ;
 	aamas:memberOf syr:syriac-PInd ;
 	syr:pos syr:Pronoun ;
@@ -1708,7 +1682,7 @@ aama:IDa3c8892a-4664-41c7-8c7c-df6149ff5e63 a aamas:Term ;
 	syr:number syr:Plural ;
 	.
 
-aama:IDeaee9fc6-61e7-4028-9bc5-37e08ae7143e a aamas:Term ;
+aama:ID072b803d-5af8-4d47-8216-32fc5da77251 a aamas:Term ;
 	aamas:lang aama:Syriac ;
 	aamas:memberOf syr:syriac-PInd ;
 	syr:pos syr:Pronoun ;
@@ -1727,7 +1701,7 @@ syr:syriac-PObjCliticImprtv a aamas:Termcluster ;
 	rdfs:comment "Thackston1999 p. 89;Syriac uses the following set of pronominal enclitics on imperatives. The environments are as follows:ENV1 = General suffixes with Masculine Singular Imperative forms (added to the form qtol-);ENV2 = General suffixes with Feminine Singular Imperative forms (added to the form qtoli-);ENV3 = General suffixes with Masculine Plural Imperative forms (added to the form qutlu-);ENV4 = General suffixes with Feminine Plural Imperative forms (added to the form qtol-);ENV5 = CCY (III-weak) forms of imperatives:suffixes with Masculine Singular Imperative forms (added to the form qri-);ENV6 = CCY (III-weak) forms of imperatives:suffixes with Feminine Singular Imperative forms (added to the form qrāʾi-);ENV7 = CCY (III-weak) forms of imperatives:suffixes Masculine Plural Imperative forms (added to the form qraʾu-);ENV8 = CCY (III-weak) forms of imperatives:suffixes with Feminine Plural Imperative forms (added to the form qrāyen-);" 
 	.
 
-aama:IDbf3bf23d-61b5-48eb-af05-cb3ff7a2625f a aamas:Term ;
+aama:ID98f5e79b-745b-45b6-80ff-e3a89eb24c77 a aamas:Term ;
 	aamas:lang aama:Syriac ;
 	aamas:memberOf syr:syriac-PObjCliticImprtv ;
 	syr:case syr:Accusative ;
@@ -1740,7 +1714,7 @@ aama:IDbf3bf23d-61b5-48eb-af05-cb3ff7a2625f a aamas:Term ;
 	syr:cliticEnv syr:Env1 ;
 	.
 
-aama:ID3eee77cc-5f24-48d1-93b0-e650bce1b6e1 a aamas:Term ;
+aama:IDe1e0e4fd-9301-4aee-822a-5ea990761cce a aamas:Term ;
 	aamas:lang aama:Syriac ;
 	aamas:memberOf syr:syriac-PObjCliticImprtv ;
 	syr:case syr:Accusative ;
@@ -1753,7 +1727,7 @@ aama:ID3eee77cc-5f24-48d1-93b0-e650bce1b6e1 a aamas:Term ;
 	syr:cliticEnv syr:Env1 ;
 	.
 
-aama:IDe0c985d0-ac86-410b-8443-3ac3a328bbed a aamas:Term ;
+aama:IDb64f5c7d-5d58-40ab-aae8-764f1b1434eb a aamas:Term ;
 	aamas:lang aama:Syriac ;
 	aamas:memberOf syr:syriac-PObjCliticImprtv ;
 	syr:case syr:Accusative ;
@@ -1766,7 +1740,7 @@ aama:IDe0c985d0-ac86-410b-8443-3ac3a328bbed a aamas:Term ;
 	syr:cliticEnv syr:Env1 ;
 	.
 
-aama:ID126542c5-f1d1-4ccf-bf19-07f5a1b3b7c2 a aamas:Term ;
+aama:ID66f38b31-ff4e-4244-8829-4bc4c42424bc a aamas:Term ;
 	aamas:lang aama:Syriac ;
 	aamas:memberOf syr:syriac-PObjCliticImprtv ;
 	syr:case syr:Accusative ;
@@ -1779,7 +1753,7 @@ aama:ID126542c5-f1d1-4ccf-bf19-07f5a1b3b7c2 a aamas:Term ;
 	syr:cliticEnv syr:Env1 ;
 	.
 
-aama:IDfa50d491-23d3-4b79-b5dd-7c4202d95467 a aamas:Term ;
+aama:ID03a1c623-d5ba-4ade-8006-e994b0321d5a a aamas:Term ;
 	aamas:lang aama:Syriac ;
 	aamas:memberOf syr:syriac-PObjCliticImprtv ;
 	syr:case syr:Accusative ;
@@ -1792,7 +1766,7 @@ aama:IDfa50d491-23d3-4b79-b5dd-7c4202d95467 a aamas:Term ;
 	syr:cliticEnv syr:Env2 ;
 	.
 
-aama:ID9e3b2617-77b8-44da-af54-0c902c703f2c a aamas:Term ;
+aama:ID1dbe49e9-d822-42ef-b97d-0964a513c726 a aamas:Term ;
 	aamas:lang aama:Syriac ;
 	aamas:memberOf syr:syriac-PObjCliticImprtv ;
 	syr:case syr:Accusative ;
@@ -1805,7 +1779,7 @@ aama:ID9e3b2617-77b8-44da-af54-0c902c703f2c a aamas:Term ;
 	syr:cliticEnv syr:Env2 ;
 	.
 
-aama:ID7820f855-1caf-4f61-8ea1-24bbb9ea9707 a aamas:Term ;
+aama:ID268874b0-d485-4339-ba88-f4e1cf9d6050 a aamas:Term ;
 	aamas:lang aama:Syriac ;
 	aamas:memberOf syr:syriac-PObjCliticImprtv ;
 	syr:case syr:Accusative ;
@@ -1818,7 +1792,7 @@ aama:ID7820f855-1caf-4f61-8ea1-24bbb9ea9707 a aamas:Term ;
 	syr:cliticEnv syr:Env2 ;
 	.
 
-aama:ID439a8b45-ba13-408b-8387-bf585d23e5bb a aamas:Term ;
+aama:IDd5c7eb8c-11c1-4477-b2fb-de53674b14c8 a aamas:Term ;
 	aamas:lang aama:Syriac ;
 	aamas:memberOf syr:syriac-PObjCliticImprtv ;
 	syr:case syr:Accusative ;
@@ -1831,7 +1805,7 @@ aama:ID439a8b45-ba13-408b-8387-bf585d23e5bb a aamas:Term ;
 	syr:cliticEnv syr:Env2 ;
 	.
 
-aama:ID7c5193e2-2a9d-4576-a859-215592498787 a aamas:Term ;
+aama:ID74bf0e86-7a3b-41b7-8ccc-e80a4a9f9139 a aamas:Term ;
 	aamas:lang aama:Syriac ;
 	aamas:memberOf syr:syriac-PObjCliticImprtv ;
 	syr:case syr:Accusative ;
@@ -1844,7 +1818,7 @@ aama:ID7c5193e2-2a9d-4576-a859-215592498787 a aamas:Term ;
 	syr:cliticEnv syr:Env3 ;
 	.
 
-aama:ID4ac84928-1cf0-4357-8bbe-4a36df3ed5ae a aamas:Term ;
+aama:IDf736c8d4-904c-4e2a-a329-f5208743b690 a aamas:Term ;
 	aamas:lang aama:Syriac ;
 	aamas:memberOf syr:syriac-PObjCliticImprtv ;
 	syr:case syr:Accusative ;
@@ -1857,7 +1831,7 @@ aama:ID4ac84928-1cf0-4357-8bbe-4a36df3ed5ae a aamas:Term ;
 	syr:cliticEnv syr:Env3 ;
 	.
 
-aama:ID2690df0a-2ec1-4fe7-8b84-63d2c79c24d2 a aamas:Term ;
+aama:IDba54c5f7-dab4-4998-8e97-925547705119 a aamas:Term ;
 	aamas:lang aama:Syriac ;
 	aamas:memberOf syr:syriac-PObjCliticImprtv ;
 	syr:case syr:Accusative ;
@@ -1870,7 +1844,7 @@ aama:ID2690df0a-2ec1-4fe7-8b84-63d2c79c24d2 a aamas:Term ;
 	syr:cliticEnv syr:Env3 ;
 	.
 
-aama:ID24781553-b0e5-4991-8917-a986c30cc884 a aamas:Term ;
+aama:ID2cc8130a-7d77-4384-8c43-6ab2da65a238 a aamas:Term ;
 	aamas:lang aama:Syriac ;
 	aamas:memberOf syr:syriac-PObjCliticImprtv ;
 	syr:case syr:Accusative ;
@@ -1883,7 +1857,7 @@ aama:ID24781553-b0e5-4991-8917-a986c30cc884 a aamas:Term ;
 	syr:cliticEnv syr:Env3 ;
 	.
 
-aama:ID38e127cf-2607-4e18-875c-809031d78818 a aamas:Term ;
+aama:ID43532081-2e59-4a97-80d1-ecc614eee54d a aamas:Term ;
 	aamas:lang aama:Syriac ;
 	aamas:memberOf syr:syriac-PObjCliticImprtv ;
 	syr:case syr:Accusative ;
@@ -1896,7 +1870,7 @@ aama:ID38e127cf-2607-4e18-875c-809031d78818 a aamas:Term ;
 	syr:cliticEnv syr:Env4 ;
 	.
 
-aama:ID8f38f573-55bf-47b0-a72d-88b1dcdc3fb5 a aamas:Term ;
+aama:ID06cd378b-306b-4e52-b252-b629f05260be a aamas:Term ;
 	aamas:lang aama:Syriac ;
 	aamas:memberOf syr:syriac-PObjCliticImprtv ;
 	syr:case syr:Accusative ;
@@ -1909,7 +1883,7 @@ aama:ID8f38f573-55bf-47b0-a72d-88b1dcdc3fb5 a aamas:Term ;
 	syr:cliticEnv syr:Env4 ;
 	.
 
-aama:ID333ce9fe-0062-4840-9ddf-6831b8ed9cd0 a aamas:Term ;
+aama:IDa64bcec4-95c6-4669-872f-155f938c1edc a aamas:Term ;
 	aamas:lang aama:Syriac ;
 	aamas:memberOf syr:syriac-PObjCliticImprtv ;
 	syr:case syr:Accusative ;
@@ -1922,7 +1896,7 @@ aama:ID333ce9fe-0062-4840-9ddf-6831b8ed9cd0 a aamas:Term ;
 	syr:cliticEnv syr:Env4 ;
 	.
 
-aama:ID0555dc93-2ee5-413c-af23-8a16a55909ab a aamas:Term ;
+aama:IDbff2b9be-7fc1-4d0b-b5ad-6efb95a75ef0 a aamas:Term ;
 	aamas:lang aama:Syriac ;
 	aamas:memberOf syr:syriac-PObjCliticImprtv ;
 	syr:case syr:Accusative ;
@@ -1935,7 +1909,7 @@ aama:ID0555dc93-2ee5-413c-af23-8a16a55909ab a aamas:Term ;
 	syr:cliticEnv syr:Env4 ;
 	.
 
-aama:ID14e6a083-3461-461e-b2c8-74a0ed2aae90 a aamas:Term ;
+aama:ID91d63570-896b-4ea6-921b-ad0668b9888e a aamas:Term ;
 	aamas:lang aama:Syriac ;
 	aamas:memberOf syr:syriac-PObjCliticImprtv ;
 	syr:case syr:Accusative ;
@@ -1948,7 +1922,7 @@ aama:ID14e6a083-3461-461e-b2c8-74a0ed2aae90 a aamas:Term ;
 	syr:cliticEnv syr:Env5 ;
 	.
 
-aama:IDce399a9e-6bb8-451d-b65b-678776f2d2e3 a aamas:Term ;
+aama:ID793b689f-a131-46ea-b308-efdf115926d3 a aamas:Term ;
 	aamas:lang aama:Syriac ;
 	aamas:memberOf syr:syriac-PObjCliticImprtv ;
 	syr:case syr:Accusative ;
@@ -1961,7 +1935,7 @@ aama:IDce399a9e-6bb8-451d-b65b-678776f2d2e3 a aamas:Term ;
 	syr:cliticEnv syr:Env5 ;
 	.
 
-aama:ID09f97c0e-dd11-4d14-bcf7-c83424dd62f2 a aamas:Term ;
+aama:IDd344f591-425d-417a-afb2-5d8eeaf9f427 a aamas:Term ;
 	aamas:lang aama:Syriac ;
 	aamas:memberOf syr:syriac-PObjCliticImprtv ;
 	syr:case syr:Accusative ;
@@ -1974,7 +1948,7 @@ aama:ID09f97c0e-dd11-4d14-bcf7-c83424dd62f2 a aamas:Term ;
 	syr:cliticEnv syr:Env5 ;
 	.
 
-aama:IDbfe33840-21a9-4dc3-87af-5c2faa31c095 a aamas:Term ;
+aama:ID238de142-0989-49d0-9ed7-1f48e5c141ca a aamas:Term ;
 	aamas:lang aama:Syriac ;
 	aamas:memberOf syr:syriac-PObjCliticImprtv ;
 	syr:case syr:Accusative ;
@@ -1987,7 +1961,7 @@ aama:IDbfe33840-21a9-4dc3-87af-5c2faa31c095 a aamas:Term ;
 	syr:cliticEnv syr:Env5 ;
 	.
 
-aama:IDc2d1e02e-4ea5-468b-9f5f-5598c63616b7 a aamas:Term ;
+aama:ID334af677-b5ac-4ee6-b793-966ae5a06682 a aamas:Term ;
 	aamas:lang aama:Syriac ;
 	aamas:memberOf syr:syriac-PObjCliticImprtv ;
 	syr:case syr:Accusative ;
@@ -2000,7 +1974,7 @@ aama:IDc2d1e02e-4ea5-468b-9f5f-5598c63616b7 a aamas:Term ;
 	syr:cliticEnv syr:Env6 ;
 	.
 
-aama:ID8e3b0234-abe3-43a3-8ba6-52c0ef18b1ba a aamas:Term ;
+aama:ID9e89d89a-424b-44f0-8ff3-0eee5f5ba280 a aamas:Term ;
 	aamas:lang aama:Syriac ;
 	aamas:memberOf syr:syriac-PObjCliticImprtv ;
 	syr:case syr:Accusative ;
@@ -2013,7 +1987,7 @@ aama:ID8e3b0234-abe3-43a3-8ba6-52c0ef18b1ba a aamas:Term ;
 	syr:cliticEnv syr:Env6 ;
 	.
 
-aama:ID88445bf8-eae0-44ab-a482-95e0d41840cb a aamas:Term ;
+aama:IDa2afe4ea-91c5-4146-891b-7e8cc5cd0265 a aamas:Term ;
 	aamas:lang aama:Syriac ;
 	aamas:memberOf syr:syriac-PObjCliticImprtv ;
 	syr:case syr:Accusative ;
@@ -2026,7 +2000,7 @@ aama:ID88445bf8-eae0-44ab-a482-95e0d41840cb a aamas:Term ;
 	syr:cliticEnv syr:Env6 ;
 	.
 
-aama:ID000bb1ec-5970-4bf6-82b8-435894a13cae a aamas:Term ;
+aama:ID1b9e20d6-7d40-4c00-a5ce-c96f6e8ef19f a aamas:Term ;
 	aamas:lang aama:Syriac ;
 	aamas:memberOf syr:syriac-PObjCliticImprtv ;
 	syr:case syr:Accusative ;
@@ -2039,7 +2013,7 @@ aama:ID000bb1ec-5970-4bf6-82b8-435894a13cae a aamas:Term ;
 	syr:cliticEnv syr:Env6 ;
 	.
 
-aama:IDb36a9d9b-5cb4-4ddd-8a1b-dfadab869c5b a aamas:Term ;
+aama:ID80671a6d-c6d3-4941-b158-5f34db68d3d1 a aamas:Term ;
 	aamas:lang aama:Syriac ;
 	aamas:memberOf syr:syriac-PObjCliticImprtv ;
 	syr:case syr:Accusative ;
@@ -2052,7 +2026,7 @@ aama:IDb36a9d9b-5cb4-4ddd-8a1b-dfadab869c5b a aamas:Term ;
 	syr:cliticEnv syr:Env7 ;
 	.
 
-aama:ID1c63ec29-a206-4bfd-9094-16f3086843f8 a aamas:Term ;
+aama:IDe3537d1f-79fa-4285-b0bb-d43f7644e553 a aamas:Term ;
 	aamas:lang aama:Syriac ;
 	aamas:memberOf syr:syriac-PObjCliticImprtv ;
 	syr:case syr:Accusative ;
@@ -2065,7 +2039,7 @@ aama:ID1c63ec29-a206-4bfd-9094-16f3086843f8 a aamas:Term ;
 	syr:cliticEnv syr:Env7 ;
 	.
 
-aama:IDe8dfa846-5f51-48a9-9d43-9c3571e1cd82 a aamas:Term ;
+aama:ID037082f4-58c7-468b-b3d5-1aeb22bf14bc a aamas:Term ;
 	aamas:lang aama:Syriac ;
 	aamas:memberOf syr:syriac-PObjCliticImprtv ;
 	syr:case syr:Accusative ;
@@ -2078,7 +2052,7 @@ aama:IDe8dfa846-5f51-48a9-9d43-9c3571e1cd82 a aamas:Term ;
 	syr:cliticEnv syr:Env7 ;
 	.
 
-aama:IDe6b64e5a-8979-45ee-b7f7-926d0d34da72 a aamas:Term ;
+aama:IDaaa1ef56-316e-4353-aee3-b2ba1753b726 a aamas:Term ;
 	aamas:lang aama:Syriac ;
 	aamas:memberOf syr:syriac-PObjCliticImprtv ;
 	syr:case syr:Accusative ;
@@ -2091,7 +2065,7 @@ aama:IDe6b64e5a-8979-45ee-b7f7-926d0d34da72 a aamas:Term ;
 	syr:cliticEnv syr:Env7 ;
 	.
 
-aama:ID5f30a765-d12e-4c2a-a484-8b6a3e97ea77 a aamas:Term ;
+aama:IDec081f62-7a07-4c1c-9453-0de4236bb5ce a aamas:Term ;
 	aamas:lang aama:Syriac ;
 	aamas:memberOf syr:syriac-PObjCliticImprtv ;
 	syr:case syr:Accusative ;
@@ -2104,7 +2078,7 @@ aama:ID5f30a765-d12e-4c2a-a484-8b6a3e97ea77 a aamas:Term ;
 	syr:cliticEnv syr:Env8 ;
 	.
 
-aama:ID683a4721-27ec-4de4-aa7d-e0376f8ff911 a aamas:Term ;
+aama:IDecbeb3bf-e747-482c-a220-dd9440712f31 a aamas:Term ;
 	aamas:lang aama:Syriac ;
 	aamas:memberOf syr:syriac-PObjCliticImprtv ;
 	syr:case syr:Accusative ;
@@ -2117,7 +2091,7 @@ aama:ID683a4721-27ec-4de4-aa7d-e0376f8ff911 a aamas:Term ;
 	syr:cliticEnv syr:Env8 ;
 	.
 
-aama:ID9b92e03d-049a-4351-93e7-d65dc3065036 a aamas:Term ;
+aama:ID69304df2-955a-4e9c-8445-546742256916 a aamas:Term ;
 	aamas:lang aama:Syriac ;
 	aamas:memberOf syr:syriac-PObjCliticImprtv ;
 	syr:case syr:Accusative ;
@@ -2130,7 +2104,7 @@ aama:ID9b92e03d-049a-4351-93e7-d65dc3065036 a aamas:Term ;
 	syr:cliticEnv syr:Env8 ;
 	.
 
-aama:ID1e6db98a-d0ec-48bb-8f9b-a4bff3c01d12 a aamas:Term ;
+aama:IDe9f0244e-1258-4e5f-9541-40d401af24ad a aamas:Term ;
 	aamas:lang aama:Syriac ;
 	aamas:memberOf syr:syriac-PObjCliticImprtv ;
 	syr:case syr:Accusative ;
@@ -2151,7 +2125,7 @@ syr:syriac-PObjCliticPerf a aamas:Termcluster ;
 	rdfs:comment "Thackston1999 p. 34-35;Syriac uses 3 object suffixes for the perfective. The ENVironments are as follows:ENV1 = Used when the suffix is post-consonantal (3ms%%3fs%%and 1cs perfective forms;3 plural suffix forms use the enclitic pronouns above (-ennon and -ennēn) and are not attached directly to the verb);ENV2 = Used for 3mp perfect%%the base of which becomes qatl- in the pǝʿal before the suffix (3 plural suffix forms use the enclitic pronouns above (-ennon and -ennēn) and are not attached directly to the verb);ENV3 = Used for the 3fp perfect%%the base of which becomes qatl- in the pǝʿal before the suffix except for the 2 plural forms%%where the base stays qtal- (3 plural suffix forms use the enclitic pronouns above (-ennon and -ennēn) and are not attached directly to the verb);ENV4 = Used for the the 2ms%%the base of which becomes qtaltā- in the pǝʿal before the suffix (3 plural suffix forms use the enclitic pronouns above (-ennon and -ennēn) and are not attached directly to the verb);ENV5 = Used for the the 2fs%%the base of which becomes qtalti- in the pǝʿal before the suffix (3 plural suffix forms use the enclitic pronouns above (-ennon and -ennēn) and are not attached directly to the verb);ENV6 = Used for the the 2mp and 2fp (3 plural suffix forms use the enclitic pronouns above (-ennon and -ennēn) and are not attached directly to the verb);" 
 	.
 
-aama:ID1c2fbb4d-d593-4741-aa0f-ece1885d1d1f a aamas:Term ;
+aama:IDee16865f-00f3-402a-85e9-eaeef9df0aff a aamas:Term ;
 	aamas:lang aama:Syriac ;
 	aamas:memberOf syr:syriac-PObjCliticPerf ;
 	syr:case syr:Object ;
@@ -2164,7 +2138,7 @@ aama:ID1c2fbb4d-d593-4741-aa0f-ece1885d1d1f a aamas:Term ;
 	syr:cliticEnv syr:Env1 ;
 	.
 
-aama:IDe667756b-2450-4aa6-a140-3f3c8a96e316 a aamas:Term ;
+aama:IDfd0b88ce-6e04-49a2-bb93-4b555b156448 a aamas:Term ;
 	aamas:lang aama:Syriac ;
 	aamas:memberOf syr:syriac-PObjCliticPerf ;
 	syr:case syr:Object ;
@@ -2177,7 +2151,7 @@ aama:IDe667756b-2450-4aa6-a140-3f3c8a96e316 a aamas:Term ;
 	syr:cliticEnv syr:Env1 ;
 	.
 
-aama:ID39b96897-86a7-4135-816a-ffdb28eb2e46 a aamas:Term ;
+aama:IDffdbe3fd-fea2-496a-ba83-1b45f281d28b a aamas:Term ;
 	aamas:lang aama:Syriac ;
 	aamas:memberOf syr:syriac-PObjCliticPerf ;
 	syr:case syr:Object ;
@@ -2190,7 +2164,7 @@ aama:ID39b96897-86a7-4135-816a-ffdb28eb2e46 a aamas:Term ;
 	syr:cliticEnv syr:Env1 ;
 	.
 
-aama:IDdddc08d0-61e8-46d8-a892-496ffc456dc5 a aamas:Term ;
+aama:ID100e27c5-9b91-48ba-b473-1cdd163c6358 a aamas:Term ;
 	aamas:lang aama:Syriac ;
 	aamas:memberOf syr:syriac-PObjCliticPerf ;
 	syr:case syr:Object ;
@@ -2203,7 +2177,7 @@ aama:IDdddc08d0-61e8-46d8-a892-496ffc456dc5 a aamas:Term ;
 	syr:cliticEnv syr:Env1 ;
 	.
 
-aama:IDd659ae27-5570-4927-b687-7b0eb9d8e013 a aamas:Term ;
+aama:IDf277bb04-291f-4c9d-a50a-54b381350038 a aamas:Term ;
 	aamas:lang aama:Syriac ;
 	aamas:memberOf syr:syriac-PObjCliticPerf ;
 	syr:case syr:Object ;
@@ -2216,7 +2190,7 @@ aama:IDd659ae27-5570-4927-b687-7b0eb9d8e013 a aamas:Term ;
 	syr:cliticEnv syr:Env1 ;
 	.
 
-aama:ID99c270ff-6d3a-43c4-8a7b-7f26d1e2e303 a aamas:Term ;
+aama:IDc7dcd2b0-db92-44dd-ac20-7b00d6745ba6 a aamas:Term ;
 	aamas:lang aama:Syriac ;
 	aamas:memberOf syr:syriac-PObjCliticPerf ;
 	syr:case syr:Object ;
@@ -2229,7 +2203,7 @@ aama:ID99c270ff-6d3a-43c4-8a7b-7f26d1e2e303 a aamas:Term ;
 	syr:cliticEnv syr:Env1 ;
 	.
 
-aama:IDd88f1dfd-57bd-4d04-b28e-6159dac1f1eb a aamas:Term ;
+aama:ID50894f0c-fde9-4899-aca6-868afac06508 a aamas:Term ;
 	aamas:lang aama:Syriac ;
 	aamas:memberOf syr:syriac-PObjCliticPerf ;
 	syr:case syr:Object ;
@@ -2242,7 +2216,7 @@ aama:IDd88f1dfd-57bd-4d04-b28e-6159dac1f1eb a aamas:Term ;
 	syr:cliticEnv syr:Env1 ;
 	.
 
-aama:ID88d4420a-7037-47c9-8950-9c5864ce5b95 a aamas:Term ;
+aama:ID05f0b9aa-23fe-4372-8ad3-c3a4c5fbfe0c a aamas:Term ;
 	aamas:lang aama:Syriac ;
 	aamas:memberOf syr:syriac-PObjCliticPerf ;
 	syr:case syr:Object ;
@@ -2255,7 +2229,7 @@ aama:ID88d4420a-7037-47c9-8950-9c5864ce5b95 a aamas:Term ;
 	syr:cliticEnv syr:Env1 ;
 	.
 
-aama:ID26006fcd-0639-41c8-bebe-d5bfdf67081b a aamas:Term ;
+aama:IDaef7356c-4dfb-4f02-b28c-3e4ecba2bf5d a aamas:Term ;
 	aamas:lang aama:Syriac ;
 	aamas:memberOf syr:syriac-PObjCliticPerf ;
 	syr:case syr:Object ;
@@ -2268,7 +2242,7 @@ aama:ID26006fcd-0639-41c8-bebe-d5bfdf67081b a aamas:Term ;
 	syr:cliticEnv syr:Env1 ;
 	.
 
-aama:IDf10174e6-6014-4194-be64-27a483ee5701 a aamas:Term ;
+aama:ID9563e4b7-aa4a-408c-8f3c-8437cb90bedc a aamas:Term ;
 	aamas:lang aama:Syriac ;
 	aamas:memberOf syr:syriac-PObjCliticPerf ;
 	syr:case syr:Object ;
@@ -2281,7 +2255,7 @@ aama:IDf10174e6-6014-4194-be64-27a483ee5701 a aamas:Term ;
 	syr:cliticEnv syr:Env1 ;
 	.
 
-aama:ID90ab29d5-cc3a-4b16-bed9-690ac42cc651 a aamas:Term ;
+aama:ID6dce6545-df08-43e9-925f-1c81174ec1c0 a aamas:Term ;
 	aamas:lang aama:Syriac ;
 	aamas:memberOf syr:syriac-PObjCliticPerf ;
 	syr:case syr:Object ;
@@ -2294,7 +2268,7 @@ aama:ID90ab29d5-cc3a-4b16-bed9-690ac42cc651 a aamas:Term ;
 	syr:cliticEnv syr:Env2 ;
 	.
 
-aama:ID1f02837f-9f4e-46ed-a95a-3b1672c7359b a aamas:Term ;
+aama:ID9276a869-d1d7-47d3-bd59-c45e215878ed a aamas:Term ;
 	aamas:lang aama:Syriac ;
 	aamas:memberOf syr:syriac-PObjCliticPerf ;
 	syr:case syr:Object ;
@@ -2307,7 +2281,7 @@ aama:ID1f02837f-9f4e-46ed-a95a-3b1672c7359b a aamas:Term ;
 	syr:cliticEnv syr:Env2 ;
 	.
 
-aama:ID2b6a6f7c-d404-45bd-913d-a0bbbae54a43 a aamas:Term ;
+aama:ID2921e058-5730-4296-a10e-bb57833856c4 a aamas:Term ;
 	aamas:lang aama:Syriac ;
 	aamas:memberOf syr:syriac-PObjCliticPerf ;
 	syr:case syr:Object ;
@@ -2320,7 +2294,7 @@ aama:ID2b6a6f7c-d404-45bd-913d-a0bbbae54a43 a aamas:Term ;
 	syr:cliticEnv syr:Env2 ;
 	.
 
-aama:IDe5a1574a-bcc5-455c-a185-43e3b1f225af a aamas:Term ;
+aama:IDf78e8fd2-d0b7-4656-bb02-b671f3b0a260 a aamas:Term ;
 	aamas:lang aama:Syriac ;
 	aamas:memberOf syr:syriac-PObjCliticPerf ;
 	syr:case syr:Object ;
@@ -2333,7 +2307,7 @@ aama:IDe5a1574a-bcc5-455c-a185-43e3b1f225af a aamas:Term ;
 	syr:cliticEnv syr:Env2 ;
 	.
 
-aama:ID6bc4b534-ea16-4409-a2eb-3d3420d778ba a aamas:Term ;
+aama:IDf653a4df-0e8e-49b4-952b-58ef640ecfd7 a aamas:Term ;
 	aamas:lang aama:Syriac ;
 	aamas:memberOf syr:syriac-PObjCliticPerf ;
 	syr:case syr:Object ;
@@ -2346,7 +2320,7 @@ aama:ID6bc4b534-ea16-4409-a2eb-3d3420d778ba a aamas:Term ;
 	syr:cliticEnv syr:Env2 ;
 	.
 
-aama:ID7e92d3c0-972e-4b73-891b-526dfbb70729 a aamas:Term ;
+aama:ID0fc0bc4f-91c2-4b0c-8693-bd38e3cf62b5 a aamas:Term ;
 	aamas:lang aama:Syriac ;
 	aamas:memberOf syr:syriac-PObjCliticPerf ;
 	syr:case syr:Object ;
@@ -2359,7 +2333,7 @@ aama:ID7e92d3c0-972e-4b73-891b-526dfbb70729 a aamas:Term ;
 	syr:cliticEnv syr:Env2 ;
 	.
 
-aama:ID58c90759-df71-4f5a-9f5f-ed6390951493 a aamas:Term ;
+aama:ID3e714f60-b393-4fc7-bb09-78b791c6c839 a aamas:Term ;
 	aamas:lang aama:Syriac ;
 	aamas:memberOf syr:syriac-PObjCliticPerf ;
 	syr:case syr:Object ;
@@ -2372,7 +2346,7 @@ aama:ID58c90759-df71-4f5a-9f5f-ed6390951493 a aamas:Term ;
 	syr:cliticEnv syr:Env2 ;
 	.
 
-aama:ID5bc784c9-61b3-4586-b458-83aa945d3d89 a aamas:Term ;
+aama:IDe262efc7-bc02-41da-b621-901db67528c6 a aamas:Term ;
 	aamas:lang aama:Syriac ;
 	aamas:memberOf syr:syriac-PObjCliticPerf ;
 	syr:case syr:Object ;
@@ -2385,7 +2359,7 @@ aama:ID5bc784c9-61b3-4586-b458-83aa945d3d89 a aamas:Term ;
 	syr:cliticEnv syr:Env2 ;
 	.
 
-aama:IDef77742d-7d81-44de-9947-f412613a2e77 a aamas:Term ;
+aama:ID8dbe1ddc-3c8f-48d5-aaa2-de5dd8ec3972 a aamas:Term ;
 	aamas:lang aama:Syriac ;
 	aamas:memberOf syr:syriac-PObjCliticPerf ;
 	syr:case syr:Object ;
@@ -2398,7 +2372,7 @@ aama:IDef77742d-7d81-44de-9947-f412613a2e77 a aamas:Term ;
 	syr:cliticEnv syr:Env2 ;
 	.
 
-aama:IDccdac3ee-6279-4653-9d5d-6b022ac4655a a aamas:Term ;
+aama:ID38dd7aa2-3586-4300-9ba0-5d579f44bbd1 a aamas:Term ;
 	aamas:lang aama:Syriac ;
 	aamas:memberOf syr:syriac-PObjCliticPerf ;
 	syr:case syr:Object ;
@@ -2411,7 +2385,7 @@ aama:IDccdac3ee-6279-4653-9d5d-6b022ac4655a a aamas:Term ;
 	syr:cliticEnv syr:Env2 ;
 	.
 
-aama:ID1a77a37d-f653-4314-af7a-13d8a4c3582b a aamas:Term ;
+aama:IDb31a6ac5-c865-47fc-b448-2a93c674583a a aamas:Term ;
 	aamas:lang aama:Syriac ;
 	aamas:memberOf syr:syriac-PObjCliticPerf ;
 	syr:case syr:Object ;
@@ -2424,7 +2398,7 @@ aama:ID1a77a37d-f653-4314-af7a-13d8a4c3582b a aamas:Term ;
 	syr:cliticEnv syr:Env3 ;
 	.
 
-aama:IDa6db497a-de44-475e-83e5-862d103a78e3 a aamas:Term ;
+aama:ID882b1100-2f81-4a8b-a16b-5f749d8754c2 a aamas:Term ;
 	aamas:lang aama:Syriac ;
 	aamas:memberOf syr:syriac-PObjCliticPerf ;
 	syr:case syr:Object ;
@@ -2437,7 +2411,7 @@ aama:IDa6db497a-de44-475e-83e5-862d103a78e3 a aamas:Term ;
 	syr:cliticEnv syr:Env3 ;
 	.
 
-aama:IDda430dd8-dba2-436f-9b86-f5f5fd97e041 a aamas:Term ;
+aama:ID74a5ea53-08d7-476c-9d0e-81ceae000adb a aamas:Term ;
 	aamas:lang aama:Syriac ;
 	aamas:memberOf syr:syriac-PObjCliticPerf ;
 	syr:case syr:Object ;
@@ -2450,7 +2424,7 @@ aama:IDda430dd8-dba2-436f-9b86-f5f5fd97e041 a aamas:Term ;
 	syr:cliticEnv syr:Env3 ;
 	.
 
-aama:ID362b2025-87e7-46bf-8995-cbacdda9b4e0 a aamas:Term ;
+aama:ID783fae3b-018e-41f0-a958-33c9cbceac23 a aamas:Term ;
 	aamas:lang aama:Syriac ;
 	aamas:memberOf syr:syriac-PObjCliticPerf ;
 	syr:case syr:Object ;
@@ -2463,7 +2437,7 @@ aama:ID362b2025-87e7-46bf-8995-cbacdda9b4e0 a aamas:Term ;
 	syr:cliticEnv syr:Env3 ;
 	.
 
-aama:ID3c644dfa-d0ab-48ef-bfb2-71ead49c09e5 a aamas:Term ;
+aama:IDcb4cca9c-8d71-4f30-bd0b-c19669e825f5 a aamas:Term ;
 	aamas:lang aama:Syriac ;
 	aamas:memberOf syr:syriac-PObjCliticPerf ;
 	syr:case syr:Object ;
@@ -2476,7 +2450,7 @@ aama:ID3c644dfa-d0ab-48ef-bfb2-71ead49c09e5 a aamas:Term ;
 	syr:cliticEnv syr:Env3 ;
 	.
 
-aama:ID379c98e7-3dee-495b-ba54-ffca899217cb a aamas:Term ;
+aama:ID0fb7b76f-7968-4d86-9c59-dcb81b0f5801 a aamas:Term ;
 	aamas:lang aama:Syriac ;
 	aamas:memberOf syr:syriac-PObjCliticPerf ;
 	syr:case syr:Object ;
@@ -2489,7 +2463,7 @@ aama:ID379c98e7-3dee-495b-ba54-ffca899217cb a aamas:Term ;
 	syr:cliticEnv syr:Env3 ;
 	.
 
-aama:IDdece45cc-a691-479f-a52d-5226be5cf494 a aamas:Term ;
+aama:ID518d2838-c847-46b8-a00f-060d8fe06e24 a aamas:Term ;
 	aamas:lang aama:Syriac ;
 	aamas:memberOf syr:syriac-PObjCliticPerf ;
 	syr:case syr:Object ;
@@ -2502,7 +2476,7 @@ aama:IDdece45cc-a691-479f-a52d-5226be5cf494 a aamas:Term ;
 	syr:cliticEnv syr:Env3 ;
 	.
 
-aama:IDed92624c-0ce0-44dc-8b4a-d7d0774451dd a aamas:Term ;
+aama:IDbeeebc24-d1a5-4845-8848-ff6be003e26c a aamas:Term ;
 	aamas:lang aama:Syriac ;
 	aamas:memberOf syr:syriac-PObjCliticPerf ;
 	syr:case syr:Object ;
@@ -2515,7 +2489,7 @@ aama:IDed92624c-0ce0-44dc-8b4a-d7d0774451dd a aamas:Term ;
 	syr:cliticEnv syr:Env3 ;
 	.
 
-aama:IDa3910832-5f6c-4b43-b373-3a84fd00b6ca a aamas:Term ;
+aama:ID6bd11afb-8222-4ce9-845f-b98a7fa910f1 a aamas:Term ;
 	aamas:lang aama:Syriac ;
 	aamas:memberOf syr:syriac-PObjCliticPerf ;
 	syr:case syr:Object ;
@@ -2528,7 +2502,7 @@ aama:IDa3910832-5f6c-4b43-b373-3a84fd00b6ca a aamas:Term ;
 	syr:cliticEnv syr:Env3 ;
 	.
 
-aama:ID1cd925fc-2de1-45cd-a352-87dd12a61c86 a aamas:Term ;
+aama:ID9c6a97ee-ad0e-48ff-9ad9-911eb6b9c62b a aamas:Term ;
 	aamas:lang aama:Syriac ;
 	aamas:memberOf syr:syriac-PObjCliticPerf ;
 	syr:case syr:Object ;
@@ -2541,7 +2515,7 @@ aama:ID1cd925fc-2de1-45cd-a352-87dd12a61c86 a aamas:Term ;
 	syr:cliticEnv syr:Env3 ;
 	.
 
-aama:ID6c9eba73-5750-4dec-929f-8dede21b0f15 a aamas:Term ;
+aama:ID69e12aa8-b798-4255-a10b-d81999391501 a aamas:Term ;
 	aamas:lang aama:Syriac ;
 	aamas:memberOf syr:syriac-PObjCliticPerf ;
 	syr:case syr:Object ;
@@ -2554,7 +2528,7 @@ aama:ID6c9eba73-5750-4dec-929f-8dede21b0f15 a aamas:Term ;
 	syr:cliticEnv syr:Env4 ;
 	.
 
-aama:ID8e4f2b3a-b500-4fe4-b7b3-19f2b1750214 a aamas:Term ;
+aama:IDa0e097a3-f08a-4efc-937a-9654de70fbe9 a aamas:Term ;
 	aamas:lang aama:Syriac ;
 	aamas:memberOf syr:syriac-PObjCliticPerf ;
 	syr:case syr:Object ;
@@ -2567,7 +2541,7 @@ aama:ID8e4f2b3a-b500-4fe4-b7b3-19f2b1750214 a aamas:Term ;
 	syr:cliticEnv syr:Env4 ;
 	.
 
-aama:IDc6d4b0bc-f291-4dc4-9f7d-cdd1fa64cfa8 a aamas:Term ;
+aama:IDf75c1756-0e0a-4ab4-bc2b-c5f2d98a8775 a aamas:Term ;
 	aamas:lang aama:Syriac ;
 	aamas:memberOf syr:syriac-PObjCliticPerf ;
 	syr:case syr:Object ;
@@ -2580,7 +2554,7 @@ aama:IDc6d4b0bc-f291-4dc4-9f7d-cdd1fa64cfa8 a aamas:Term ;
 	syr:cliticEnv syr:Env4 ;
 	.
 
-aama:ID874be602-663c-4b4d-9a9d-839d9cdadae2 a aamas:Term ;
+aama:IDeca8ddfa-d967-4167-aba1-f470a064fd1e a aamas:Term ;
 	aamas:lang aama:Syriac ;
 	aamas:memberOf syr:syriac-PObjCliticPerf ;
 	syr:case syr:Object ;
@@ -2593,7 +2567,7 @@ aama:ID874be602-663c-4b4d-9a9d-839d9cdadae2 a aamas:Term ;
 	syr:cliticEnv syr:Env4 ;
 	.
 
-aama:ID3060ea62-6a8e-48d7-a5c7-69b6f8d048fc a aamas:Term ;
+aama:ID41d97e67-9595-4cbb-94f7-9aabf79f9563 a aamas:Term ;
 	aamas:lang aama:Syriac ;
 	aamas:memberOf syr:syriac-PObjCliticPerf ;
 	syr:case syr:Object ;
@@ -2606,7 +2580,7 @@ aama:ID3060ea62-6a8e-48d7-a5c7-69b6f8d048fc a aamas:Term ;
 	syr:cliticEnv syr:Env4 ;
 	.
 
-aama:ID9fa6df94-29b8-4960-a0c3-99b9534f595b a aamas:Term ;
+aama:IDbe2c7667-e582-4aa7-8eb7-de7a7a2279e8 a aamas:Term ;
 	aamas:lang aama:Syriac ;
 	aamas:memberOf syr:syriac-PObjCliticPerf ;
 	syr:case syr:Object ;
@@ -2619,7 +2593,7 @@ aama:ID9fa6df94-29b8-4960-a0c3-99b9534f595b a aamas:Term ;
 	syr:cliticEnv syr:Env4 ;
 	.
 
-aama:ID03c3246e-2859-4b65-a1fd-c1a79586fb76 a aamas:Term ;
+aama:ID8cbb25dc-9898-42c4-8645-9c19e5f17047 a aamas:Term ;
 	aamas:lang aama:Syriac ;
 	aamas:memberOf syr:syriac-PObjCliticPerf ;
 	syr:case syr:Object ;
@@ -2632,7 +2606,7 @@ aama:ID03c3246e-2859-4b65-a1fd-c1a79586fb76 a aamas:Term ;
 	syr:cliticEnv syr:Env5 ;
 	.
 
-aama:IDb558f00a-2ac1-45ef-bbcd-410edae45f64 a aamas:Term ;
+aama:IDe7d40cdd-5ada-476f-8d6f-2d224a118677 a aamas:Term ;
 	aamas:lang aama:Syriac ;
 	aamas:memberOf syr:syriac-PObjCliticPerf ;
 	syr:case syr:Object ;
@@ -2645,7 +2619,7 @@ aama:IDb558f00a-2ac1-45ef-bbcd-410edae45f64 a aamas:Term ;
 	syr:cliticEnv syr:Env5 ;
 	.
 
-aama:ID4e1ec0fc-71d9-4ff2-929b-e03ddc9d8f25 a aamas:Term ;
+aama:ID734360a6-1785-4ad2-90b6-6ca03c2cd091 a aamas:Term ;
 	aamas:lang aama:Syriac ;
 	aamas:memberOf syr:syriac-PObjCliticPerf ;
 	syr:case syr:Object ;
@@ -2658,7 +2632,7 @@ aama:ID4e1ec0fc-71d9-4ff2-929b-e03ddc9d8f25 a aamas:Term ;
 	syr:cliticEnv syr:Env5 ;
 	.
 
-aama:IDb8ece2e6-6034-4d66-86da-eea26ea26b38 a aamas:Term ;
+aama:IDe2a6eec2-57c3-4d13-adee-2232a2fb9bbc a aamas:Term ;
 	aamas:lang aama:Syriac ;
 	aamas:memberOf syr:syriac-PObjCliticPerf ;
 	syr:case syr:Object ;
@@ -2671,7 +2645,7 @@ aama:IDb8ece2e6-6034-4d66-86da-eea26ea26b38 a aamas:Term ;
 	syr:cliticEnv syr:Env5 ;
 	.
 
-aama:ID988e71be-42ab-45d1-bfa7-97644066523c a aamas:Term ;
+aama:ID48a5442a-063b-4d8d-84de-66a9092031b8 a aamas:Term ;
 	aamas:lang aama:Syriac ;
 	aamas:memberOf syr:syriac-PObjCliticPerf ;
 	syr:case syr:Object ;
@@ -2684,7 +2658,7 @@ aama:ID988e71be-42ab-45d1-bfa7-97644066523c a aamas:Term ;
 	syr:cliticEnv syr:Env5 ;
 	.
 
-aama:ID732bc0fb-956f-49ad-b06d-fccfe042927d a aamas:Term ;
+aama:ID417128dd-f938-4e99-bd9f-590b396cc78f a aamas:Term ;
 	aamas:lang aama:Syriac ;
 	aamas:memberOf syr:syriac-PObjCliticPerf ;
 	syr:case syr:Object ;
@@ -2697,7 +2671,7 @@ aama:ID732bc0fb-956f-49ad-b06d-fccfe042927d a aamas:Term ;
 	syr:cliticEnv syr:Env5 ;
 	.
 
-aama:ID45ffa08b-c53c-4b07-a29b-1e5a28c0a7e1 a aamas:Term ;
+aama:ID49a1e236-8331-411b-8dac-2cec77374817 a aamas:Term ;
 	aamas:lang aama:Syriac ;
 	aamas:memberOf syr:syriac-PObjCliticPerf ;
 	syr:case syr:Object ;
@@ -2710,7 +2684,7 @@ aama:ID45ffa08b-c53c-4b07-a29b-1e5a28c0a7e1 a aamas:Term ;
 	syr:cliticEnv syr:Env6 ;
 	.
 
-aama:ID9d73543b-a39e-4af1-ad20-f9cc72231806 a aamas:Term ;
+aama:IDb4147356-93ec-4361-926e-48f3352313eb a aamas:Term ;
 	aamas:lang aama:Syriac ;
 	aamas:memberOf syr:syriac-PObjCliticPerf ;
 	syr:case syr:Object ;
@@ -2723,7 +2697,7 @@ aama:ID9d73543b-a39e-4af1-ad20-f9cc72231806 a aamas:Term ;
 	syr:cliticEnv syr:Env6 ;
 	.
 
-aama:ID0f905bbf-7557-443d-ad8c-9b319e25693c a aamas:Term ;
+aama:IDd559e0c0-9923-41a5-bb1a-18409188f5e8 a aamas:Term ;
 	aamas:lang aama:Syriac ;
 	aamas:memberOf syr:syriac-PObjCliticPerf ;
 	syr:case syr:Object ;
@@ -2736,7 +2710,7 @@ aama:ID0f905bbf-7557-443d-ad8c-9b319e25693c a aamas:Term ;
 	syr:cliticEnv syr:Env6 ;
 	.
 
-aama:IDf117f414-a2b4-41d5-8ab2-93ace3dd821e a aamas:Term ;
+aama:ID0f733614-3a1e-4997-a3dc-1a42c3c7b5cb a aamas:Term ;
 	aamas:lang aama:Syriac ;
 	aamas:memberOf syr:syriac-PObjCliticPerf ;
 	syr:case syr:Object ;
@@ -2749,7 +2723,7 @@ aama:IDf117f414-a2b4-41d5-8ab2-93ace3dd821e a aamas:Term ;
 	syr:cliticEnv syr:Env6 ;
 	.
 
-aama:IDd618afa0-a744-49e2-a6b1-e228b8dab39c a aamas:Term ;
+aama:IDb9223aa2-f761-4a5f-8a9e-2e608bac7c2f a aamas:Term ;
 	aamas:lang aama:Syriac ;
 	aamas:memberOf syr:syriac-PObjCliticPerf ;
 	syr:case syr:Object ;
@@ -2762,7 +2736,7 @@ aama:IDd618afa0-a744-49e2-a6b1-e228b8dab39c a aamas:Term ;
 	syr:cliticEnv syr:Env6 ;
 	.
 
-aama:ID1f6df6bd-9943-40b0-950b-ec59e9644866 a aamas:Term ;
+aama:ID5e80b50a-4c3d-4b61-8443-3d34fc968b92 a aamas:Term ;
 	aamas:lang aama:Syriac ;
 	aamas:memberOf syr:syriac-PObjCliticPerf ;
 	syr:case syr:Object ;
@@ -2783,7 +2757,7 @@ syr:syriac-PPossClitic a aamas:Termcluster ;
 	rdfs:comment "Thackston1999 p. 14;Syriac uses the following set of pronominal enclitics on 1) singular nouns and some prepositions%%2) plural nouns and other prepositisions. The forms with singular nouns are also used as infintival objects%%though the 1cs suffix becomes –an%%the pǝʿal infinitive meqtal becomes meqtǝl- except for infinitives with the 2 plural suffixes which remain meqtal%%and the III-weak where meḥzā becomes meḥzǝy- expect for infinitives with the 2 plural suffixes which remain meḥzā:" 
 	.
 
-aama:IDc8acd926-5236-4630-8cce-8eb8a4a6955b a aamas:Term ;
+aama:IDad0d7842-fac8-44c9-aa07-d7b5465dd226 a aamas:Term ;
 	aamas:lang aama:Syriac ;
 	aamas:memberOf syr:syriac-PPossClitic ;
 	syr:case syr:Genitive ;
@@ -2796,7 +2770,7 @@ aama:IDc8acd926-5236-4630-8cce-8eb8a4a6955b a aamas:Term ;
 	syr:numHead syr:HeadPlural ;
 	.
 
-aama:ID7262168a-69b0-4bd3-9fe3-b9e5caa32ac5 a aamas:Term ;
+aama:ID411f70a9-7d8c-4ade-af75-66d8132bdb26 a aamas:Term ;
 	aamas:lang aama:Syriac ;
 	aamas:memberOf syr:syriac-PPossClitic ;
 	syr:case syr:Genitive ;
@@ -2809,7 +2783,7 @@ aama:ID7262168a-69b0-4bd3-9fe3-b9e5caa32ac5 a aamas:Term ;
 	syr:numHead syr:HeadPlural ;
 	.
 
-aama:ID45c958ac-bd4e-4ace-8c14-e4d5e9f3fc85 a aamas:Term ;
+aama:ID13c6aab8-5604-40bf-8586-28640d7cb53c a aamas:Term ;
 	aamas:lang aama:Syriac ;
 	aamas:memberOf syr:syriac-PPossClitic ;
 	syr:case syr:Genitive ;
@@ -2822,7 +2796,7 @@ aama:ID45c958ac-bd4e-4ace-8c14-e4d5e9f3fc85 a aamas:Term ;
 	syr:numHead syr:HeadPlural ;
 	.
 
-aama:ID307a7697-19b8-409d-a128-4fc981e1793c a aamas:Term ;
+aama:IDe134128e-883f-48a4-a062-19176636c6f0 a aamas:Term ;
 	aamas:lang aama:Syriac ;
 	aamas:memberOf syr:syriac-PPossClitic ;
 	syr:case syr:Genitive ;
@@ -2835,7 +2809,7 @@ aama:ID307a7697-19b8-409d-a128-4fc981e1793c a aamas:Term ;
 	syr:numHead syr:HeadPlural ;
 	.
 
-aama:ID5db01018-5f0d-43e7-ad76-6328687ad902 a aamas:Term ;
+aama:IDd35f2ad1-34c8-436e-b8a5-8e0815d6e51e a aamas:Term ;
 	aamas:lang aama:Syriac ;
 	aamas:memberOf syr:syriac-PPossClitic ;
 	syr:case syr:Genitive ;
@@ -2848,7 +2822,7 @@ aama:ID5db01018-5f0d-43e7-ad76-6328687ad902 a aamas:Term ;
 	syr:numHead syr:HeadPlural ;
 	.
 
-aama:IDbcae53f6-ba14-4caf-b63d-d1cce294f16f a aamas:Term ;
+aama:IDa2cf4292-3fdd-43a1-9c1a-f3197ba681e3 a aamas:Term ;
 	aamas:lang aama:Syriac ;
 	aamas:memberOf syr:syriac-PPossClitic ;
 	syr:case syr:Genitive ;
@@ -2861,7 +2835,7 @@ aama:IDbcae53f6-ba14-4caf-b63d-d1cce294f16f a aamas:Term ;
 	syr:numHead syr:HeadPlural ;
 	.
 
-aama:IDf5117ff7-d11b-487f-83cf-cd480758b916 a aamas:Term ;
+aama:IDbaa07ebf-e238-432e-9a1a-1d2d210eb8f1 a aamas:Term ;
 	aamas:lang aama:Syriac ;
 	aamas:memberOf syr:syriac-PPossClitic ;
 	syr:case syr:Genitive ;
@@ -2874,7 +2848,7 @@ aama:IDf5117ff7-d11b-487f-83cf-cd480758b916 a aamas:Term ;
 	syr:numHead syr:HeadPlural ;
 	.
 
-aama:ID4af57454-595d-4b5c-92f5-8c8d9234fc14 a aamas:Term ;
+aama:IDa3ef4196-de50-4eaa-8e53-10ca2521b455 a aamas:Term ;
 	aamas:lang aama:Syriac ;
 	aamas:memberOf syr:syriac-PPossClitic ;
 	syr:case syr:Genitive ;
@@ -2887,7 +2861,7 @@ aama:ID4af57454-595d-4b5c-92f5-8c8d9234fc14 a aamas:Term ;
 	syr:numHead syr:HeadPlural ;
 	.
 
-aama:ID3969812e-6690-4baf-8a94-ca467091090b a aamas:Term ;
+aama:IDfed84c06-e299-4416-a2e0-aa758d6e3c71 a aamas:Term ;
 	aamas:lang aama:Syriac ;
 	aamas:memberOf syr:syriac-PPossClitic ;
 	syr:case syr:Genitive ;
@@ -2900,7 +2874,7 @@ aama:ID3969812e-6690-4baf-8a94-ca467091090b a aamas:Term ;
 	syr:numHead syr:HeadPlural ;
 	.
 
-aama:IDc3639973-e07f-4b0b-8ada-3356f28ad232 a aamas:Term ;
+aama:IDf5700d3a-fa4c-40e4-a8f9-c925bd515581 a aamas:Term ;
 	aamas:lang aama:Syriac ;
 	aamas:memberOf syr:syriac-PPossClitic ;
 	syr:case syr:Genitive ;
@@ -2913,7 +2887,7 @@ aama:IDc3639973-e07f-4b0b-8ada-3356f28ad232 a aamas:Term ;
 	syr:numHead syr:HeadPlural ;
 	.
 
-aama:ID182329b8-07bd-48a6-a1bc-ebfcf4577a64 a aamas:Term ;
+aama:ID8e6dfb05-720b-4127-addf-b2e57512d6c7 a aamas:Term ;
 	aamas:lang aama:Syriac ;
 	aamas:memberOf syr:syriac-PPossClitic ;
 	syr:case syr:Genitive ;
@@ -2926,7 +2900,7 @@ aama:ID182329b8-07bd-48a6-a1bc-ebfcf4577a64 a aamas:Term ;
 	syr:numHead syr:HeadSingular ;
 	.
 
-aama:ID9da2ccad-54ec-479f-9db1-ca591c8b4197 a aamas:Term ;
+aama:IDa7bc51fa-54f8-41ed-94c9-9d43b7e6f490 a aamas:Term ;
 	aamas:lang aama:Syriac ;
 	aamas:memberOf syr:syriac-PPossClitic ;
 	syr:case syr:Genitive ;
@@ -2939,7 +2913,7 @@ aama:ID9da2ccad-54ec-479f-9db1-ca591c8b4197 a aamas:Term ;
 	syr:numHead syr:HeadSingular ;
 	.
 
-aama:ID9682860c-891a-44d1-8ff9-f928e64b55e0 a aamas:Term ;
+aama:IDbf4b4d3f-4c34-4b33-8a27-23e6c9e5d000 a aamas:Term ;
 	aamas:lang aama:Syriac ;
 	aamas:memberOf syr:syriac-PPossClitic ;
 	syr:case syr:Genitive ;
@@ -2952,7 +2926,7 @@ aama:ID9682860c-891a-44d1-8ff9-f928e64b55e0 a aamas:Term ;
 	syr:numHead syr:HeadSingular ;
 	.
 
-aama:ID2f343f85-df19-4e63-a40e-f20d0d7d6536 a aamas:Term ;
+aama:ID466aa224-9f15-4e56-a3f2-bcc8295223a5 a aamas:Term ;
 	aamas:lang aama:Syriac ;
 	aamas:memberOf syr:syriac-PPossClitic ;
 	syr:case syr:Genitive ;
@@ -2965,7 +2939,7 @@ aama:ID2f343f85-df19-4e63-a40e-f20d0d7d6536 a aamas:Term ;
 	syr:numHead syr:HeadSingular ;
 	.
 
-aama:ID8e81199c-1031-422a-8994-c495a6fecb3f a aamas:Term ;
+aama:ID173e76c1-179d-455b-a7d8-5bce51b0a5fc a aamas:Term ;
 	aamas:lang aama:Syriac ;
 	aamas:memberOf syr:syriac-PPossClitic ;
 	syr:case syr:Genitive ;
@@ -2978,7 +2952,7 @@ aama:ID8e81199c-1031-422a-8994-c495a6fecb3f a aamas:Term ;
 	syr:numHead syr:HeadSingular ;
 	.
 
-aama:ID6a1d3acb-dacb-4fcd-8f3e-e61cad7c6341 a aamas:Term ;
+aama:ID9eaa0904-62fc-4896-984f-e4bd68520cfb a aamas:Term ;
 	aamas:lang aama:Syriac ;
 	aamas:memberOf syr:syriac-PPossClitic ;
 	syr:case syr:Genitive ;
@@ -2991,7 +2965,7 @@ aama:ID6a1d3acb-dacb-4fcd-8f3e-e61cad7c6341 a aamas:Term ;
 	syr:numHead syr:HeadSingular ;
 	.
 
-aama:ID0d531e79-c883-4a0b-9c37-b7d728de9312 a aamas:Term ;
+aama:ID5cbc7b8a-b6b2-4fbd-ab85-c3ed48bc3794 a aamas:Term ;
 	aamas:lang aama:Syriac ;
 	aamas:memberOf syr:syriac-PPossClitic ;
 	syr:case syr:Genitive ;
@@ -3004,7 +2978,7 @@ aama:ID0d531e79-c883-4a0b-9c37-b7d728de9312 a aamas:Term ;
 	syr:numHead syr:HeadSingular ;
 	.
 
-aama:ID27b24320-0009-4627-ad0c-869a5f1aec5b a aamas:Term ;
+aama:ID4effe182-7a94-425a-8f22-5f2c1f1d8a4a a aamas:Term ;
 	aamas:lang aama:Syriac ;
 	aamas:memberOf syr:syriac-PPossClitic ;
 	syr:case syr:Genitive ;
@@ -3017,7 +2991,7 @@ aama:ID27b24320-0009-4627-ad0c-869a5f1aec5b a aamas:Term ;
 	syr:numHead syr:HeadSingular ;
 	.
 
-aama:IDc7741693-883d-403d-9872-0693d3d3d737 a aamas:Term ;
+aama:ID48f50314-e8ad-49e7-9005-fd8b211e7811 a aamas:Term ;
 	aamas:lang aama:Syriac ;
 	aamas:memberOf syr:syriac-PPossClitic ;
 	syr:case syr:Genitive ;
@@ -3030,7 +3004,7 @@ aama:IDc7741693-883d-403d-9872-0693d3d3d737 a aamas:Term ;
 	syr:numHead syr:HeadSingular ;
 	.
 
-aama:IDbe9f6519-1e5b-4552-8345-8af9d056e7c8 a aamas:Term ;
+aama:IDccaa77f1-7c21-4a14-a5df-1a9f52204af7 a aamas:Term ;
 	aamas:lang aama:Syriac ;
 	aamas:memberOf syr:syriac-PPossClitic ;
 	syr:case syr:Genitive ;

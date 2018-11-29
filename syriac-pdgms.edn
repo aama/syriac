@@ -5,8 +5,7 @@
  :datasource "Thackston1999"
  :geodemoURL "http://www.ethnologue.com/language/syc"
  :geodemoTXT "Classical Syriac, a member of the Aramaic branch of Semitic was the language of the early Christian communities in Syria and Northern Mesopotamia during the first millennium CE. It continued as a language of scholarship until the early modern period, and until today as a liturgical language of many branches of Eastern Christianity."
-:schemata {:lexeme [:COP  :ktb :mll :nhr :pʿl :ḳtl],
- :case [:Accusative :Genitive :Object],
+ :schemata { :case [:Accusative :Genitive :Object],
  :cliticEnv [:Env1 :Env2 :Env3 :Env4 :Env5 :Env6 :Env7 :Env8],
  :deixis [:Far :Near],
  :derivedStem [:B],
@@ -26,12 +25,14 @@
           :synsemClass [:case :deixis :derivedStem :polarity :pos :proClass :tan],
           :inflClass [:status :cliticEnv :rootClass :pdgmType],
           :otherClass []}
- :lexemes{:ḳtl {:lemma "ḳtl", :gloss "kill", :pos :Verb, :rootClass :CCC},
-          :pʿl {:lemma "pʿal", :gloss "do", :pos :Verb, :rootClass :CCC},
-          :ktb {:lemma "ktb", :gloss "write", :pos :Verb, :rootClass :CCC},
-          :mll {:lemma "mll", :gloss "speak", :pos :Verb, :rootClass :CCC},
-          :nhr {:lemma "nhr", :gloss "light", :pos :Verb, :rootClass :CCC}
-          :COP {:lemma "ˀit", :gloss "be", :pos :Verb, :rootClass :COP}}
+ :lexemes {
+:COP   {:pos :Verb, :lemma "ˀit", :gloss "be", :rootClass :COP},
+:ktb   {:pos :Verb, :lemma "ktb", :gloss "write", :rootClass :CCC},
+:mll   {:pos :Verb, :lemma "mll", :gloss "speak", :rootClass :CCC},
+:nhr   {:pos :Verb, :lemma "nhr", :gloss "light", :rootClass :CCC},
+:pʿl   {:pos :Verb, :lemma "pʿal", :gloss "do", :rootClass :CCC},
+:ḳtl   {:pos :Verb, :lemma "ḳtl", :gloss "kill", :rootClass :CCC},
+}
  :termclusters [
                 {:label "syriac-VCCCPrefix-ḳtl"
                  :note ""
