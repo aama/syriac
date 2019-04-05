@@ -2,40 +2,40 @@
  :lang :syriac
  :subfamily "Semitic Northwest Aramaic"
  :sgpref "syr"
- :datasource "Thackston1999"
+ :datasource "Thackston1999; abbrev. TH99"
  :geodemoURL "http://www.ethnologue.com/language/syc"
  :geodemoTXT "Classical Syriac, a member of the Aramaic branch of Semitic was the language of the early Christian communities in Syria and Northern Mesopotamia during the first millennium CE. It continued as a language of scholarship until the early modern period, and until today as a liturgical language of many branches of Eastern Christianity."
  :schemata { :case [:Accusative :Genitive :Object],
- :cliticEnv [:Env1 :Env2 :Env3 :Env4 :Env5 :Env6 :Env7 :Env8],
- :deixis [:Far :Near],
- :derivedStem [:B],
- :dervStem [:B :BT :D :DT :H :HT],
- :gender [:Common :Fem :Masc],
- :nominalForm [:Agent :Infinitive :ParticipleAct :ParticiplePass],
- :numHead [:HeadPlural :HeadSingular],
- :number [:Plural :Singular],
- :person [:Person1 :Person2 :Person3],
- :pos [:Pronoun :Verb],
- :proClass [:Demostrative :Independent :ObjCliticImprtv :ObjCliticPerf :PossClitic],
- :rootClass [:CCC :COP],
- :tam [:Imperative :Imperfect :PartPres :Perfect :Present],
- :vmorphClass [:DervStems :Finite :Nonfinite]
- }
+            :cliticEnv [:Env1 :Env2 :Env3 :Env4 :Env5 :Env6 :Env7 :Env8],
+            :deixis [:Far :Near],
+            :derivedStem [:B],
+            :dervStem [:B :BT :D :DT :H :HT],
+            :gender [:Common :Fem :Masc],
+            :nominalForm [:Agent :Infinitive :ParticipleAct :ParticiplePass],
+            :numHead [:HeadPlural :HeadSingular],
+            :number [:Plural :Singular],
+            :person [:Person1 :Person2 :Person3],
+            :pos [:Pronoun :Verb],
+            :proClass [:Demostrative :Independent :ObjCliticImprtv :ObjCliticPerf :PossClitic],
+            :rootClass [:CCC :COP],
+            :tam [:Imperative :Imperfect :PartPres :Perfect :Present],
+            :vmorphClass [:DervStems :Finite :Nonfinite]
+            }
  :pclass {:pngClass [:person :number :gender :numHead],
           :synsemClass [:case :deixis :derivedStem :polarity :pos :proClass :tan],
           :inflClass [:status :cliticEnv :rootClass :pdgmType],
           :otherClass []}
  :lexemes {
-:COP   {:pos :Verb, :lemma "ˀit", :gloss "be", :rootClass :COP},
-:ktb   {:pos :Verb, :lemma "ktb", :gloss "write", :rootClass :CCC},
-:mll   {:pos :Verb, :lemma "mll", :gloss "speak", :rootClass :CCC},
-:nhr   {:pos :Verb, :lemma "nhr", :gloss "light", :rootClass :CCC},
-:pʿl   {:pos :Verb, :lemma "pʿal", :gloss "do", :rootClass :CCC},
-:ḳtl   {:pos :Verb, :lemma "ḳtl", :gloss "kill", :rootClass :CCC},
-}
+           :COP   {:pos :Verb, :lemma "ˀit", :gloss "be", :rootClass :COP},
+           :ktb   {:pos :Verb, :lemma "ktb", :gloss "write", :rootClass :CCC},
+           :mll   {:pos :Verb, :lemma "mll", :gloss "speak", :rootClass :CCC},
+           :nhr   {:pos :Verb, :lemma "nhr", :gloss "light", :rootClass :CCC},
+           :pʿl   {:pos :Verb, :lemma "pʿal", :gloss "do", :rootClass :CCC},
+           :ḳtl   {:pos :Verb, :lemma "ḳtl", :gloss "kill", :rootClass :CCC},
+           }
  :termclusters [
                 {:label "syriac-VCCCPrefix-ḳtl"
-                 :note ""
+                 :note "Th99"
                  :common {:vmorphClass :Finite
                           :derivedStem :B,
                           :lexeme :ḳtl,
@@ -55,7 +55,7 @@
                          [:Plural :Person3 :Fem  "ne-ḳtl-ɔn"]]
                  }
                 {:label "syriac-VCCCPartPres-ḳtl"
-                 :note ""
+                 :note "Th99"
                  :common {:vmorphClass :Finite
                           :derivedStem :B,
                           :lexeme :ḳtl,
@@ -77,7 +77,7 @@
                          [:Plural :Person3 :Fem  "ḳɔtl-ɔn-⦰"]]
                  }
                 {:label "syriac-VCCCPres-COP"
-                 :note ""
+                 :note "Th99"
                  :common {:vmorphClass :Finite
                           :derivedStem :B,
                           :lexeme :COP,
@@ -97,7 +97,7 @@
                          [:Plural :Person3 :Fem  "ˀit_-ayhen"]]
                  }
                 {:label "syriac-VCCCBImprtv-ḳtl"
-                 :note ""
+                 :note "Th99"
                  :common {:vmorphClass :Finite
                           :derivedStem :B,
                           :lexeme :ḳtl,
@@ -112,7 +112,7 @@
                          [:Plural :Fem "ḳtol(y) ḳtolen"]]
                  }
                 {:label "syriac-VCCCBPerf-ḳtl"
-                 :note ""
+                 :note "Th99"
                  :common {:vmorphClass :Finite
                           :derivedStem :B,
                           :lexeme :ḳtl,
@@ -132,7 +132,7 @@
                          [:Plural :Person3 :Fem "ḳtal-(y)"]]
                  }
                 {:label "syriac-VCCCDervStems"
-                 :note ""
+                 :note "Th99"
                  :common {:vmorphClass :DervStems
                           :pos :Verb,
                           :rootClass :CCC,
@@ -155,7 +155,7 @@
                          [:nhr :HT  "ˀettanhar ‘he was enlightened’"]]
                  }
                 {:label "syriac-VCCCNominalForms-ḳtl"
-                 :note ""
+                 :note "Th99"
                  :common {:vmorphClass :Nonfinite
                           :lexeme :ḳtl,
                           :pos :Verb,
@@ -175,7 +175,7 @@
                          [:Agent :H "maḳtlɔnɔ"]]
                  }
                 {:label "syriac-PDem"
-                 :note "Thackston1999 pp. 29-30;Syriac has two sets of demonstratives,near and far,which serve both as adjectives and pronouns."
+                 :note "Th99pp.29-30 :: Syriac has two sets of demonstratives,near and far,which serve both as adjectives and pronouns."
                  :common {:pos :Pronoun,
                           :proClass :Demostrative}
                  :terms [[:deixis :number :gender :token],
@@ -189,7 +189,7 @@
                          [:Near :Plural :Fem "hālēn"]]
                  }
                 {:label "syriac-PInd"
-                 :note "Thackston1999,p. 28. Independent pronouns in Syriac are used as 1) sentence subjects of verbless sentences and for stressing the pronominal subject of a verb. Whereas Thackston does not indicate initial aleph,the following paradigm as included the aleph in transliteration."
+                 :note "Th99p.28 :: Independent pronouns in Syriac are used as 1) sentence subjects of verbless sentences and for stressing the pronominal subject of a verb. Whereas Thackston does not indicate initial aleph,the following paradigm as included the aleph in transliteration."
                  :common {:pos :Pronoun,
                           :proClass :Independent}
                  :terms [[:number :person :gender :token],
@@ -205,7 +205,7 @@
                          [:Plural :Person3 :Fem "hennēn"]]
                  }
                 {:label "syriac-PObjCliticImprtv"
-                 :note "Thackston1999 p. 89;Syriac uses the following set of pronominal enclitics on imperatives. The environments are as follows:ENV1 = General suffixes with Masculine Singular Imperative forms (added to the form qtol-);ENV2 = General suffixes with Feminine Singular Imperative forms (added to the form qtoli-);ENV3 = General suffixes with Masculine Plural Imperative forms (added to the form qutlu-);ENV4 = General suffixes with Feminine Plural Imperative forms (added to the form qtol-);ENV5 = CCY (III-weak) forms of imperatives:suffixes with Masculine Singular Imperative forms (added to the form qri-);ENV6 = CCY (III-weak) forms of imperatives:suffixes with Feminine Singular Imperative forms (added to the form qrāʾi-);ENV7 = CCY (III-weak) forms of imperatives:suffixes Masculine Plural Imperative forms (added to the form qraʾu-);ENV8 = CCY (III-weak) forms of imperatives:suffixes with Feminine Plural Imperative forms (added to the form qrāyen-);"
+                 :note "Th99p.89 :: Syriac uses the following set of pronominal enclitics on imperatives. The environments are as follows:ENV1 = General suffixes with Masculine Singular Imperative forms (added to the form qtol-);ENV2 = General suffixes with Feminine Singular Imperative forms (added to the form qtoli-);ENV3 = General suffixes with Masculine Plural Imperative forms (added to the form qutlu-);ENV4 = General suffixes with Feminine Plural Imperative forms (added to the form qtol-);ENV5 = CCY (III-weak) forms of imperatives:suffixes with Masculine Singular Imperative forms (added to the form qri-);ENV6 = CCY (III-weak) forms of imperatives:suffixes with Feminine Singular Imperative forms (added to the form qrāʾi-);ENV7 = CCY (III-weak) forms of imperatives:suffixes Masculine Plural Imperative forms (added to the form qraʾu-);ENV8 = CCY (III-weak) forms of imperatives:suffixes with Feminine Plural Imperative forms (added to the form qrāyen-);"
                  :common {:case :Accusative,
                           :pos :Pronoun,
                           :proClass :ObjCliticImprtv}
@@ -244,7 +244,7 @@
                          [:Env8 :Plural :Person1 :Common "-ān"]]
                  }
                 {:label "syriac-PObjCliticPerf"
-                 :note "Thackston1999 p. 34-35;Syriac uses 3 object suffixes for the perfective. The ENVironments are as follows:ENV1 = Used when the suffix is post-consonantal (3ms,3fs,and 1cs perfective forms;3 plural suffix forms use the enclitic pronouns above (-ennon and -ennēn) and are not attached directly to the verb);ENV2 = Used for 3mp perfect,the base of which becomes qatl- in the pǝʿal before the suffix (3 plural suffix forms use the enclitic pronouns above (-ennon and -ennēn) and are not attached directly to the verb);ENV3 = Used for the 3fp perfect,the base of which becomes qatl- in the pǝʿal before the suffix except for the 2 plural forms,where the base stays qtal- (3 plural suffix forms use the enclitic pronouns above (-ennon and -ennēn) and are not attached directly to the verb);ENV4 = Used for the the 2ms,the base of which becomes qtaltā- in the pǝʿal before the suffix (3 plural suffix forms use the enclitic pronouns above (-ennon and -ennēn) and are not attached directly to the verb);ENV5 = Used for the the 2fs,the base of which becomes qtalti- in the pǝʿal before the suffix (3 plural suffix forms use the enclitic pronouns above (-ennon and -ennēn) and are not attached directly to the verb);ENV6 = Used for the the 2mp and 2fp (3 plural suffix forms use the enclitic pronouns above (-ennon and -ennēn) and are not attached directly to the verb);"
+                 :note "Th99p.34-35 :: Syriac uses 3 object suffixes for the perfective. The ENVironments are as follows:ENV1 = Used when the suffix is post-consonantal (3ms,3fs,and 1cs perfective forms;3 plural suffix forms use the enclitic pronouns above (-ennon and -ennēn) and are not attached directly to the verb);ENV2 = Used for 3mp perfect,the base of which becomes qatl- in the pǝʿal before the suffix (3 plural suffix forms use the enclitic pronouns above (-ennon and -ennēn) and are not attached directly to the verb);ENV3 = Used for the 3fp perfect,the base of which becomes qatl- in the pǝʿal before the suffix except for the 2 plural forms,where the base stays qtal- (3 plural suffix forms use the enclitic pronouns above (-ennon and -ennēn) and are not attached directly to the verb);ENV4 = Used for the the 2ms,the base of which becomes qtaltā- in the pǝʿal before the suffix (3 plural suffix forms use the enclitic pronouns above (-ennon and -ennēn) and are not attached directly to the verb);ENV5 = Used for the the 2fs,the base of which becomes qtalti- in the pǝʿal before the suffix (3 plural suffix forms use the enclitic pronouns above (-ennon and -ennēn) and are not attached directly to the verb);ENV6 = Used for the the 2mp and 2fp (3 plural suffix forms use the enclitic pronouns above (-ennon and -ennēn) and are not attached directly to the verb);"
                  :common {:case :Object,
                           :pos :Pronoun,
                           :proClass :ObjCliticPerf}
@@ -299,7 +299,7 @@
                          [:Env6 :Plural :Person3 :Fem "⊤"]]
                  }
                 {:label "syriac-PPossClitic"
-                 :note "Thackston1999 p. 14;Syriac uses the following set of pronominal enclitics on 1) singular nouns and some prepositions,2) plural nouns and other prepositisions. The forms with singular nouns are also used as infintival objects,though the 1cs suffix becomes –an,the pǝʿal infinitive meqtal becomes meqtǝl- except for infinitives with the 2 plural suffixes which remain meqtal,and the III-weak where meḥzā becomes meḥzǝy- expect for infinitives with the 2 plural suffixes which remain meḥzā:"
+                 :note "Th99p.14 :: Syriac uses the following set of pronominal enclitics on 1) singular nouns and some prepositions,2) plural nouns and other prepositisions. The forms with singular nouns are also used as infintival objects,though the 1cs suffix becomes –an,the pǝʿal infinitive meqtal becomes meqtǝl- except for infinitives with the 2 plural suffixes which remain meqtal,and the III-weak where meḥzā becomes meḥzǝy- expect for infinitives with the 2 plural suffixes which remain meḥzā:"
                  :common {:case :Genitive,
                           :pos :Pronoun,
                           :proClass :PossClitic}
